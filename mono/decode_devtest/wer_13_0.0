@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp/mono/decode_devtest/scoring_kaldi/test_filt.txt ark,p:- 
+%WER 86.50 [ 487 / 563, 26 ins, 74 del, 387 sub ]
+%SER 100.00 [ 106 / 106 ]
+Scored 106 sentences, 0 not present in hyp.

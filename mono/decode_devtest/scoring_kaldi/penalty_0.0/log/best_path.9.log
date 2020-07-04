@@ -1,0 +1,224 @@
+# lattice-scale --inv-acoustic-scale=9 "ark:gunzip -c exp/mono/decode_devtest/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/mono/graph/words.txt ark:- ark,t:- | utils/int2sym.pl -f 2- exp/mono/graph/words.txt | cat > exp/mono/decode_devtest/scoring_kaldi/penalty_0.0/9.txt 
+# Started at Fri Jul  3 12:46:32 UTC 2020
+#
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+lattice-best-path --word-symbol-table=exp/mono/graph/words.txt ark:- ark,t:- 
+lattice-scale --inv-acoustic-scale=9 'ark:gunzip -c exp/mono/decode_devtest/lat.*.gz|' ark:- 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_301, best cost 31.4514 + 1901.39 = 1932.84 over 185 frames.
+10_recording_301 أجل مثل هذه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_302, best cost 57.6553 + 2652.67 = 2710.32 over 258 frames.
+10_recording_302 أحمق دور الدواء له 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_303, best cost 46.7003 + 2008.53 = 2055.23 over 199 frames.
+10_recording_303 الظرف لم يتحرك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_304, best cost 57.666 + 2556.23 = 2613.9 over 253 frames.
+10_recording_304 اغرب أعمالك البصيرة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_305, best cost 162.416 + 6078.18 = 6240.6 over 579 frames.
+10_recording_305 عقابا لك في غرب ذاك كلير يحكي أنت فخا انتفخ صوت مثل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_306, best cost 61.9688 + 2329.38 = 2391.35 over 240 frames.
+10_recording_306 الذي لا يعرف صقر يا شين 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_307, best cost 38.8555 + 1904.61 = 1943.47 over 189 frames.
+10_recording_307 الذي لا أفكارك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_308, best cost 37.456 + 1817.27 = 1854.73 over 175 frames.
+10_recording_308 أقصد تكف 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_309, best cost 37.5204 + 2626.75 = 2664.27 over 267 frames.
+10_recording_309 أو يفضح نفسه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_310, best cost 45.2372 + 1718.84 = 1764.07 over 171 frames.
+10_recording_310 باب النجاة مخطئة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_311, best cost 51.2511 + 2012.19 = 2063.44 over 199 frames.
+10_recording_311 باكر هو سلامة سارة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_312, best cost 70.0632 + 2870.04 = 2940.11 over 286 frames.
+10_recording_312 بإبادة ثم وسط ضحكات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_313, best cost 52.8807 + 2569.62 = 2622.5 over 258 frames.
+10_recording_313 تطلب أثرا لديه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_314, best cost 49.558 + 1986.65 = 2036.21 over 199 frames.
+10_recording_314 أجل تلمس برقص 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_315, best cost 42.5356 + 2319.14 = 2361.68 over 235 frames.
+10_recording_315 حفر يسخر مني 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_316, best cost 56.7333 + 2492.03 = 2548.76 over 249 frames.
+10_recording_316 حسب صادفك نقيض 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_317, best cost 57.9872 + 2781.12 = 2839.11 over 272 frames.
+10_recording_317 حظ في سحابة خطر 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_318, best cost 51.9992 + 2291.37 = 2343.37 over 235 frames.
+10_recording_318 كانت العجز دموعه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_319, best cost 59.284 + 2553.12 = 2612.4 over 249 frames.
+10_recording_319 البزار المسيح السادسة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_320, best cost 74.5706 + 3415.8 = 3490.37 over 323 frames.
+10_recording_320 ربما أراد الأحمق نفسك فمن فضلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_321, best cost 56.2059 + 3714.02 = 3770.22 over 379 frames.
+10_recording_321 كل بلدة صغيرة و يعني أنه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_322, best cost 34.1478 + 2210.02 = 2244.17 over 226 frames.
+10_recording_322 كانت مجازفة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_323, best cost 43.8042 + 2330.09 = 2373.9 over 235 frames.
+10_recording_323 فربما كان يزحف 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_324, best cost 64.9321 + 3339.82 = 3404.75 over 328 frames.
+10_recording_324 فصلت نفسي ولكن جادة في 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_325, best cost 64.5884 + 2557.4 = 2621.99 over 258 frames.
+10_recording_325 تبين مادونا سا وو على 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_326, best cost 43.5227 + 2477.4 = 2520.92 over 253 frames.
+10_recording_326 تم وليس الجنة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_327, best cost 31.7472 + 1989.72 = 2021.47 over 203 frames.
+10_recording_327 آنسة سي سي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_328, best cost 86.4428 + 3007.26 = 3093.7 over 305 frames.
+10_recording_328 غابة حب وجهي خفي حنين 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_329, best cost 42.7648 + 2592.29 = 2635.06 over 263 frames.
+10_recording_329 غضب و لطيفة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_330, best cost 81.9684 + 3387.64 = 3469.6 over 323 frames.
+10_recording_330 كلا لقد ركب ماذا لو قال لا تفسير 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_331, best cost 67.0173 + 3406.82 = 3473.83 over 342 frames.
+10_recording_331 في موقد النار الغير تظن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_332, best cost 57.0331 + 4086.55 = 4143.59 over 412 frames.
+10_recording_332 ألا ينبغي ذهابك قلعة الصخرة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_333, best cost 47.0664 + 2625.61 = 2672.68 over 263 frames.
+10_recording_333 كل حال ليس لون باين 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_334, best cost 50.9624 + 2461.16 = 2512.12 over 240 frames.
+10_recording_334 كم التميمة العنكبوت 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_335, best cost 52.6446 + 3171.66 = 3224.3 over 319 frames.
+10_recording_335 كنا صغار السن مطالبنا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_336, best cost 57.02 + 5025.41 = 5082.43 over 533 frames.
+10_recording_336 تطلب سير في عرين الأسد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_337, best cost 57.8771 + 2740.2 = 2798.07 over 267 frames.
+10_recording_337 كلما كثر الزبائن قتله 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_338, best cost 138.507 + 6043.01 = 6181.52 over 589 frames.
+10_recording_338 كنت تسخر مني و من بيتنا فلم ضرب الطفل نظرة وهو قادر على 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_339, best cost 65.8013 + 2660.99 = 2726.79 over 258 frames.
+10_recording_339 بطلة تشارلي و العلوي من 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_340, best cost 66.4909 + 2316.42 = 2382.91 over 221 frames.
+10_recording_340 لا مصيبة على أعظم من الجهد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_341, best cost 70.9514 + 2896.9 = 2967.85 over 286 frames.
+10_recording_341 لأن لمجدها قصير أنفه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_342, best cost 64.1567 + 2394.28 = 2458.44 over 235 frames.
+10_recording_342 إس الرجال مفتاح حتفه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_343, best cost 120.62 + 4737.54 = 4858.16 over 449 frames.
+10_recording_343 لكل داء النوم ليست تبدين لي حماقة أية من يدوية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_344, best cost 70.995 + 2513.57 = 2584.56 over 240 frames.
+10_recording_344 ليس حارس بزي في رزقه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_345, best cost 67.2499 + 3275.9 = 3343.15 over 323 frames.
+10_recording_345 لن تدخل في مكان لا قيمة لي هذه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_346, best cost 98.3115 + 3828.47 = 3926.78 over 384 frames.
+10_recording_346 آنج القدر نفسه كان لقد غيري أجده 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_347, best cost 38.2385 + 1970.82 = 2009.05 over 199 frames.
+10_recording_347 نم ساعة واحدة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_348, best cost 64.53 + 2407.43 = 2471.96 over 235 frames.
+10_recording_348 مازال بوتر غير ذي لسان 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_349, best cost 64.3012 + 2994.16 = 3058.46 over 295 frames.
+10_recording_349 هم التجول تخفي لديه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_350, best cost 148.37 + 6181.97 = 6330.34 over 607 frames.
+10_recording_350 لدي آلة نية على ليس فيبي و وجار المسيحي بدأ من بلا ريب 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_351, best cost 127.07 + 6281.9 = 6408.97 over 612 frames.
+10_recording_351 ومن أجل ضمان بارنز سيدي تصيب ترغب في من تتصيد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_352, best cost 65.8988 + 10757.1 = 10823 over 1215 frames.
+10_recording_352 إذن قسم هذا مناسب و 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_353, best cost 56.1967 + 2900.41 = 2956.61 over 300 frames.
+10_recording_353 أثمة شاب الناس رمضان 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_354, best cost 53.4375 + 2736.58 = 2790.01 over 277 frames.
+10_recording_354 يا دوم أنا و توم آسف 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_355, best cost 45.6395 + 3588.9 = 3634.54 over 365 frames.
+10_recording_355 إذن قارورة ثانية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_356, best cost 56.5197 + 3426.27 = 3482.79 over 347 frames.
+10_recording_356 انه توصل جمال ليس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_357, best cost 50.1696 + 3265.7 = 3315.87 over 328 frames.
+10_recording_357 آنسة سوليفان ولا بصمة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_358, best cost 92.5883 + 3408.97 = 3501.56 over 333 frames.
+10_recording_358 أي حب مع كل رهان و السمك لحوم 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_359, best cost 94.6018 + 3914.77 = 4009.37 over 384 frames.
+10_recording_359 أحمد بلغت سنة أن لا يحسن كلامه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_360, best cost 141.544 + 6601.71 = 6743.25 over 644 frames.
+10_recording_360 إذا تكلمت بكلمة ملاك تكون ذا لم تتكلم بها من ملكة ملكته 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_361, best cost 42.9025 + 2125.88 = 2168.79 over 208 frames.
+10_recording_361 السكوت علامة الرضى 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_362, best cost 101.399 + 4909.45 = 5010.85 over 482 frames.
+10_recording_362 أنت تعلم داني لم تقل أقدر من كلام بما قلته 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_363, best cost 83.5674 + 3485.31 = 3568.88 over 347 frames.
+10_recording_363 إياك وأن يرى ضرب لسانك عنقك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_364, best cost 66.7458 + 3156.83 = 3223.57 over 314 frames.
+10_recording_364 تكلم فقط كلام اليوم فإن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_365, best cost 66.7304 + 2473.63 = 2540.36 over 249 frames.
+10_recording_365 خير خلال حظ لسان 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_366, best cost 48.8463 + 2980.48 = 3029.33 over 314 frames.
+10_recording_366 خان كان قال واد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_367, best cost 64.7713 + 2763.37 = 2828.14 over 272 frames.
+10_recording_367 أبي سكوت أبلغ من كلام 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_368, best cost 50.4351 + 2419.38 = 2469.82 over 240 frames.
+10_recording_368 طبق من شاب مصور 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_369, best cost 50.4257 + 2346.49 = 2396.91 over 226 frames.
+10_recording_369 الرب كلام سراحه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_370, best cost 73.1873 + 2950.33 = 3023.52 over 281 frames.
+10_recording_370 وبكل ما تبقى نفسها بدن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_371, best cost 29.6413 + 2657.05 = 2686.69 over 277 frames.
+10_recording_371 سأترك اسمك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_372, best cost 61.998 + 2481.55 = 2543.55 over 244 frames.
+10_recording_372 سلمت لسنا في حالة سلس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_373, best cost 65.0768 + 2208.94 = 2274.02 over 213 frames.
+10_recording_373 فضلك اسأله سأصوم سارة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_374, best cost 73.1499 + 2467.23 = 2540.38 over 235 frames.
+10_recording_374 فضول أحرار قبول أسرار 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 10_recording_375, best cost 75.3904 + 3109.99 = 3185.38 over 300 frames.
+10_recording_375 أنت تقدمي تسمم عصبي لسنين 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_376, best cost 54.2374 + 3276.19 = 3330.43 over 319 frames.
+6_recording_376 كان على رؤوسنا طيار 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_377, best cost 60.2289 + 3719.21 = 3779.44 over 356 frames.
+6_recording_377 كل سنة الجوزاء من ساعة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_378, best cost 104.945 + 5779.95 = 5884.89 over 519 frames.
+6_recording_378 لا تتوقع مني إيبس أن ليس نعم مناورات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_379, best cost 50.5355 + 3346.85 = 3397.39 over 337 frames.
+6_recording_379 لا تعرف بما لا تعرف 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_380, best cost 131.065 + 6559.64 = 6690.7 over 603 frames.
+6_recording_380 ليس الفتاة أن القطار من ماتزال عقل ملئ هذا ليس عنه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_381, best cost 107.607 + 7027.64 = 7135.25 over 671 frames.
+6_recording_381 ليس هناك حصانك أن سانتوس عنك و أن نكون هناك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_382, best cost 72.6674 + 3930.95 = 4003.61 over 393 frames.
+6_recording_382 السكتة الحق الشيطان اخرس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_383, best cost 45.163 + 2978.36 = 3023.52 over 286 frames.
+6_recording_383 مقتل رجل بنفسك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_384, best cost 85.308 + 4179.52 = 4264.83 over 402 frames.
+6_recording_384 ملكت النفسي من لك تمنيك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_385, best cost 66.6386 + 3971.18 = 4037.82 over 375 frames.
+6_recording_385 من كتم سر كان الخيار بيدي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_386, best cost 117.036 + 7434.37 = 7551.4 over 709 frames.
+6_recording_386 أحب سنك لا تقل تتذكرين أن لديها كأنك المنطق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_387, best cost 50.6346 + 3098.94 = 3149.58 over 295 frames.
+6_recording_387 كل الحق يرغب في 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_388, best cost 70.6294 + 3274.47 = 3345.1 over 319 frames.
+6_recording_388 وجرح لسانك جرح لي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_389, best cost 140.264 + 9376.21 = 9516.48 over 858 frames.
+6_recording_389 حسنة ستعمل غبي أن من صحيفة يجلب المال أمنيتك لا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_390, best cost 107.541 + 6410.29 = 6517.83 over 584 frames.
+6_recording_390 أفضل زائفة سبيل لقد سلبت نعم كما يقول 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_391, best cost 122.463 + 7163.85 = 7286.31 over 671 frames.
+6_recording_391 ما لم يكن لساني كتوم قليلا في كشف نادم 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_392, best cost 93.4012 + 5394.55 = 5487.95 over 496 frames.
+6_recording_392 أن تمر من السهل يافعة سنة سكن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_393, best cost 148.423 + 7679.34 = 7827.76 over 709 frames.
+6_recording_393 إذا بلغ رأيك المشورة فستان حزين حسنا او نصيحة حازم 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_394, best cost 84.8119 + 4931.07 = 5015.89 over 468 frames.
+6_recording_394 إذا صدق راي قصة قاعة الشهرة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_395, best cost 49.5973 + 3149.49 = 3199.09 over 295 frames.
+6_recording_395 أراقب الشجاعة الشجاعة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_396, best cost 82.0954 + 5379.05 = 5461.15 over 523 frames.
+6_recording_396 الناس شيء عنه مستشار مؤتمن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_397, best cost 63.1795 + 4260.53 = 4323.71 over 435 frames.
+6_recording_397 المستنير اعلى طريق النجاح 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_398, best cost 75.0964 + 4438.59 = 4513.69 over 421 frames.
+6_recording_398 أنا شرط واحد لك كتاب لذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_399, best cost 53.3357 + 3629.18 = 3682.52 over 356 frames.
+6_recording_399 المشورة عن الإدارة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_400, best cost 56.6829 + 3155.15 = 3211.83 over 286 frames.
+6_recording_400 المشورة لقاح العقل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_401, best cost 53.7706 + 3027.76 = 3081.53 over 305 frames.
+6_recording_401 أول الحزن المشورة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_402, best cost 82.0783 + 6424.64 = 6506.71 over 589 frames.
+6_recording_402 لقد رأيت عدد الرجال قبل أن ينتهي الندم 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_403, best cost 64.684 + 4688.9 = 4753.59 over 440 frames.
+6_recording_403 من أجل ولكن الخبر اليقين 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_404, best cost 49.0423 + 3266.19 = 3315.23 over 314 frames.
+6_recording_404 خطر مناسبة نادرة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_405, best cost 92.1119 + 4627.7 = 4719.82 over 449 frames.
+6_recording_405 شول في أمريكا الذين يخشون هواة 
+LOG (lattice-scale[5.5.732~1-67db3]:main():lattice-scale.cc:107) Done 106 lattices.
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance 6_recording_406, best cost 62.467 + 4236.08 = 4298.54 over 421 frames.
+6_recording_406 شاو أبدا ولا تنسيه 
+LOG (lattice-add-penalty[5.5.732~1-67db3]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 106 lattices.
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:124) Overall cost per frame is 10.4202 = 0.196216 [graph] + 10.224 [acoustic] over 37702 frames.
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:128) Done 106 lattices, failed for 0
+# Accounting: time=3 threads=1
+# Ended (code 0) at Fri Jul  3 12:46:35 UTC 2020, elapsed time 3 seconds

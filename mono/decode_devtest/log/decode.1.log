@@ -1,0 +1,162 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/devtest/split2/1/utt2spk scp:data/devtest/split2/1/cmvn.scp scp:data/devtest/split2/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono/decode_devtest/lat.1.gz" 
+# Started at Fri Jul  3 12:44:29 UTC 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/devtest/split2/1/utt2spk scp:data/devtest/split2/1/cmvn.scp scp:data/devtest/split2/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono/decode_devtest/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/devtest/split2/1/utt2spk scp:data/devtest/split2/1/cmvn.scp scp:data/devtest/split2/1/feats.scp ark:- 
+10_recording_301 أجل مثل هذه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_301 is -7.87832 over 185 frames.
+10_recording_302 أحمق دور الدولة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_302 is -7.93124 over 258 frames.
+10_recording_303 أظرف لم يتحرك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_303 is -7.80442 over 199 frames.
+10_recording_304 اغرب أعمالك بسيطة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_304 is -7.8047 over 253 frames.
+10_recording_305 أقبلك في غرب هناك كلمة ريح كنت فرخا أنت شخص مخلص 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_305 is -8.14511 over 579 frames.
+10_recording_306 الذي لا يخاف الصقر أي شيء 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_306 is -7.53169 over 240 frames.
+10_recording_307 الذي لا لست كذلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_307 is -7.7606 over 189 frames.
+10_recording_308 أقصد الزفاف 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_308 is -7.99532 over 175 frames.
+10_recording_309 أو يفضح نفسه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_309 is -7.51901 over 267 frames.
+10_recording_310 باب المجاملة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_310 is -7.79586 over 171 frames.
+10_recording_311 باكر سلم الصالة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_311 is -7.83788 over 199 frames.
+10_recording_312 بإبادة ثم وسط ضحكات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_312 is -7.77128 over 286 frames.
+10_recording_313 تطلب أكثر متعة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_313 is -7.66842 over 258 frames.
+10_recording_314 أجل طلب السباق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_314 is -7.72102 over 199 frames.
+10_recording_315 حيث تسخر مني 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_315 is -7.58228 over 235 frames.
+10_recording_316 حسب صادفك النقيب 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_316 is -7.73252 over 249 frames.
+10_recording_317 حظ في سحابة خطر 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_317 is -7.88169 over 272 frames.
+10_recording_318 كانت المزيد منه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_318 is -7.52041 over 235 frames.
+10_recording_319 البزار المسيح السادسة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_319 is -7.92817 over 249 frames.
+10_recording_320 ربما أراد الأحمق نفسك فمن فضلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_320 is -8.16225 over 323 frames.
+10_recording_321 كل بلدة صغيرة و يعني أنه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_321 is -7.49791 over 379 frames.
+10_recording_322 كانت مجازفة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_322 is -7.48521 over 226 frames.
+10_recording_323 فربما كان يزحف 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_323 is -7.62283 over 235 frames.
+10_recording_324 فصلت نفسي ولكن جادة في 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_324 is -7.83472 over 328 frames.
+10_recording_325 تبين مادونا سا وو على 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_325 is -7.68463 over 258 frames.
+10_recording_326 تم وليس الجنة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_326 is -7.51606 over 253 frames.
+10_recording_327 آنسة سي سي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_327 is -7.50755 over 203 frames.
+10_recording_328 أحب حب وجهي يختفي حال 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_328 is -7.66293 over 305 frames.
+10_recording_329 غضب و لطيفة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_329 is -7.55504 over 263 frames.
+10_recording_330 كلا لقد ركب الخيل و قل لطفل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_330 is -8.11745 over 323 frames.
+10_recording_331 في مقدمة المركبة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_331 is -7.6518 over 342 frames.
+10_recording_332 ألا ينبغي ذهابك قلعة الصخرة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_332 is -7.57751 over 412 frames.
+10_recording_333 كل حال ليس لون باين 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_333 is -7.66642 over 263 frames.
+10_recording_334 كم التميمة العنكبوت 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_334 is -7.90342 over 240 frames.
+10_recording_335 تصل لسن قائدنا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_335 is -7.61889 over 319 frames.
+10_recording_336 أتعلم السير في عرين الأسد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_336 is -7.17773 over 533 frames.
+10_recording_337 كلما كثر الزبائن قتله 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_337 is -7.91392 over 267 frames.
+10_recording_338 كنت تسخر مني و من يخسر فلم ضرب الطفل نظرة وهو قادر على 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_338 is -7.92812 over 589 frames.
+10_recording_339 لا تقلق بشأني و العلوي من 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_339 is -7.98939 over 258 frames.
+10_recording_340 لا مصيبة على أعظم النجاحات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_340 is -8.15795 over 221 frames.
+10_recording_341 لأن الموجات القصيرة أنفه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_341 is -7.83534 over 286 frames.
+10_recording_342 إس الرجال مفتاح حتفه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_342 is -7.91429 over 235 frames.
+10_recording_343 لكل داء النوم ليست تبدين لي حماقة أية من دونه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_343 is -8.17913 over 449 frames.
+10_recording_344 ليس حارس بزيادة رزقه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_344 is -8.14791 over 240 frames.
+10_recording_345 لن تدخل في مكان للقيام الليلة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_345 is -7.81454 over 323 frames.
+10_recording_346 إن جاري قتل نفسه كان لقد غير جيد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_346 is -7.72199 over 384 frames.
+10_recording_347 من ساعة واحدة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_347 is -7.61174 over 199 frames.
+10_recording_348 مازال بوتر غير ذي لسان 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_348 is -7.95785 over 235 frames.
+10_recording_349 هم يتجولون تخفي لديه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_349 is -7.82797 over 295 frames.
+10_recording_350 أدى إلى تميمة على ليس فيبي وجار المسيحي بدأ من البناء 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_350 is -7.87927 over 607 frames.
+10_recording_351 ومن أجل ضمان بارنز سيدي السيد ترغب في مناطق الصيد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_351 is -7.90302 over 612 frames.
+10_recording_352 إذن قصة هذا مناسب و 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_352 is -6.69438 over 1215 frames.
+10_recording_353 ليس الشباب في رمضان 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_353 is -7.43731 over 300 frames.
+10_recording_354 يدعى نواة أبله 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_354 is -7.60074 over 277 frames.
+10_recording_355 إذن قارورة ثانية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_355 is -7.49946 over 365 frames.
+10_recording_356 انه توصل جمال ليس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_356 is -7.56833 over 347 frames.
+10_recording_357 آنسة سوليفان ولا بصمة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_357 is -7.62024 over 328 frames.
+10_recording_358 في حب مع كل رهان السمك لحوم 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_358 is -7.95226 over 333 frames.
+10_recording_359 أحمد بلغت سنة أن لا يحسن كلامه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_359 is -7.89237 over 384 frames.
+10_recording_360 إذا تكلمت بكلمة ملك تكون لم تتكلم بها من اللكمات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_360 is -7.90385 over 644 frames.
+10_recording_361 السكوت علامة الرضى 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_361 is -7.87168 over 208 frames.
+10_recording_362 أنت تعلم داني لم تقل أقدر من كلام بما قلته 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_362 is -7.84952 over 482 frames.
+10_recording_363 إياك و أن ينظروا لسانك عنقك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_363 is -7.76952 over 347 frames.
+10_recording_364 تكلم فقط كلمة مومس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_364 is -7.74615 over 314 frames.
+10_recording_365 خير في الحجز لسان 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_365 is -7.71384 over 249 frames.
+10_recording_366 هذا كان قال واد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_366 is -7.27302 over 314 frames.
+10_recording_367 ببساطة إنه مكان 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_367 is -7.84235 over 272 frames.
+LOG (apply-cmvn[5.5.732~1-67db3]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 75 utterances, errors on 0
+10_recording_368 طبق من شاب مصور 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_368 is -7.77069 over 240 frames.
+10_recording_369 الرب كلام سراحه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_369 is -8.01011 over 226 frames.
+10_recording_370 شبكات الطاقة نفسه أبدا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_370 is -8.1248 over 281 frames.
+10_recording_371 سأترك اسمك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_371 is -7.30115 over 277 frames.
+10_recording_372 سلمت لسنا في حالة سلس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_372 is -7.88179 over 244 frames.
+10_recording_373 فضلك اسأله سأصوم السجن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_373 is -8.08337 over 213 frames.
+10_recording_374 أنظر لحالك كل أسرار 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_374 is -8.18103 over 235 frames.
+10_recording_375 أنت تقدم تسمم عصبي لسنين 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 10_recording_375 is -8.02205 over 300 frames.
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:176) Time taken 120.744s: real-time factor assuming 100 frames/sec is 0.513848
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:179) Done 75 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.7269 over 23498 frames.
+# Accounting: time=122 threads=1
+# Ended (code 0) at Fri Jul  3 12:46:31 UTC 2020, elapsed time 122 seconds

@@ -1,0 +1,424 @@
+10_recording_301 ref  الجهل  موت  الأحياء
+10_recording_301 hyp   أجل   مثل    هذه  
+10_recording_301 op     S     S      S   
+10_recording_301 #csid 0 3 0 0
+10_recording_302 ref  الحُمْقُ   داء   ولا   دواء   له
+10_recording_302 hyp     ***    أحمق  داول  الدواء  له
+10_recording_302 op       D       S     S      S     C
+10_recording_302 #csid 1 3 0 1
+10_recording_303 ref  الضرب    في   الميت   حرام
+10_recording_303 hyp   ***   الظرف    لم   يتحرك
+10_recording_303 op     D      S      S      S  
+10_recording_303 #csid 0 3 0 1
+10_recording_304 ref  الغريب  أعمى   ولو    كان    بصيراً
+10_recording_304 hyp    ***    ***  اغرب  أعمالك  البصيرة
+10_recording_304 op      D      D     S      S       S   
+10_recording_304 #csid 0 3 0 2
+10_recording_305 ref  ألقاب  مملكة  في  غير  موضعها  كالهر  يحكي  ***  ***  انتفاخا  صولة  الأسد
+10_recording_305 hyp  عقابا    لك   في  غرب    ذاك    كلير  يحكي  أنت  فخا   انتفخ    صوت   مثل 
+10_recording_305 op     S      S     C   S      S      S      C    I    I      S       S     S  
+10_recording_305 #csid 2 8 2 0
+10_recording_306 ref  الذي  لا  يعرف  ***  الصقر  يشويه
+10_recording_306 hyp  الذي  لا  يعرف  صقر    يا    شين 
+10_recording_306 op     C    C    C    I     S      S  
+10_recording_306 #csid 3 2 1 0
+10_recording_307 ref  الذي  لا  يعرفك  يجهلك
+10_recording_307 hyp  الذي  لا  فكاهة    لك 
+10_recording_307 op     C    C    S      S  
+10_recording_307 #csid 2 2 0 0
+10_recording_308 ref  أول  القصيدة  كفر
+10_recording_308 hyp  ***    أقصد   تكف
+10_recording_308 op    D      S      S 
+10_recording_308 #csid 0 2 0 1
+10_recording_309 ref  أول  ما   شطح   نطح 
+10_recording_309 hyp  ***  أو  منشط  حانته
+10_recording_309 op    D    S    S     S  
+10_recording_309 #csid 0 3 0 1
+10_recording_310 ref  باب  النجار  مخَلَّع
+10_recording_310 hyp  باب  النجاة   مخطئة 
+10_recording_310 op    C      S       S   
+10_recording_310 #csid 1 2 0 0
+10_recording_311 ref  باع  كرمه  واشترى  معصرة
+10_recording_311 hyp  ***  باكر   مشتري   مصحة
+10_recording_311 op    D     S      S      S  
+10_recording_311 #csid 0 3 0 1
+10_recording_312 ref   بذات   فمه  يفتضح  الكذوب
+10_recording_312 hyp  بإبادة   ثم   وسط    ضحكات
+10_recording_312 op      S     S     S       S  
+10_recording_312 #csid 0 4 0 0
+10_recording_313 ref  تطلب  أثراً   بعد   عين
+10_recording_313 hyp  تطلب   ***   أثرا  لديه
+10_recording_313 op     C     D      S     S 
+10_recording_313 #csid 1 2 0 1
+10_recording_314 ref  جنت  على  نفسها  براقش
+10_recording_314 hyp  ***  أجل   تلمس   برقص
+10_recording_314 op    D    S     S      S  
+10_recording_314 #csid 0 3 0 1
+10_recording_315 ref  حافٍ  يسخر  بناعل
+10_recording_315 hyp   حفر  يسخر   بناء
+10_recording_315 op     S     C     S  
+10_recording_315 #csid 1 2 0 0
+10_recording_316 ref  حسبه  صيدا   فكان  قيدا
+10_recording_316 hyp   ***   حسب  صادفك  نقيض
+10_recording_316 op     D     S     S      S 
+10_recording_316 #csid 0 3 0 1
+10_recording_317 ref  حظ  في  السحاب  وعقل    في   التراب
+10_recording_317 hyp  حظ  في    ***    ***  سحابة    خطر 
+10_recording_317 op    C   C     D      D     S       S  
+10_recording_317 #csid 2 2 0 2
+10_recording_318 ref  حيلة  العاجز  دموعه
+10_recording_318 hyp  كانت   العجز  دموعه
+10_recording_318 op     S      S      C  
+10_recording_318 #csid 1 2 0 0
+10_recording_319 ref   رب  زارع   لنفسه   حاصد     سواه 
+10_recording_319 hyp  ***   ***  البزار  للمسيح  السادسة
+10_recording_319 op    D     D      S       S       S   
+10_recording_319 #csid 0 3 0 2
+10_recording_320 ref  ربما  أراد  الأحمق  ***  نفعك  فضرك
+10_recording_320 hyp  ربما  أراد  الأحمق  نفك  فضلك  فضلك
+10_recording_320 op     C     C      C     I     S     S 
+10_recording_320 #csid 3 2 1 0
+10_recording_321 ref  كالإبرة  تكسي  غيرها  وهي  عريانة
+10_recording_321 hyp     كل    بلدة  صغيرة   وي   عرينه
+10_recording_321 op      S       S     S     S      S  
+10_recording_321 #csid 0 5 0 0
+10_recording_322 ref  كالأطرش   في   الزَّفَّة
+10_recording_322 hyp    ***    كانت    مجازفة 
+10_recording_322 op      D       S       S    
+10_recording_322 #csid 0 2 0 1
+10_recording_323 ref   شر  البلية    ما   يضحك
+10_recording_323 hyp  ***    فرع   بالية  يزحف
+10_recording_323 op    D      S      S      S 
+10_recording_323 #csid 0 3 0 1
+10_recording_324 ref  شفيت  نفسي  ولكن  جدعت  أنفي
+10_recording_324 hyp  فصلت  نفسي  ولكن  جادة   في 
+10_recording_324 op     S     C     C     S     S 
+10_recording_324 #csid 2 3 0 0
+10_recording_325 ref   طبيب   يداوي  الناس  وهو  عليل
+10_recording_325 hyp  طبيبنا   دونا    سا    وو   على
+10_recording_325 op      S      S      S     S     S 
+10_recording_325 #csid 0 5 0 0
+10_recording_326 ref  طمع  إبليس   في   الجنة
+10_recording_326 hyp  ***    تم   وليس  الجنة
+10_recording_326 op    D     S      S     C  
+10_recording_326 #csid 1 2 0 1
+10_recording_327 ref   عنز  استتيست
+10_recording_327 hyp  عنزة   سياسة 
+10_recording_327 op     S      S   
+10_recording_327 #csid 0 2 0 0
+10_recording_328 ref   غاب  حولين  وجاء  بِخُفَّيْ  حنين
+10_recording_328 hyp  غابة    حب   وجهي     خفي     حنين
+10_recording_328 op     S     S      S       S        C 
+10_recording_328 #csid 1 4 0 0
+10_recording_329 ref  غضبه  على  طرف   أنفه
+10_recording_329 hyp   ***  غضب   و   لطيفة
+10_recording_329 op     D    S    S     S  
+10_recording_329 #csid 0 3 0 1
+10_recording_330 ref  فلان   قد  ركب   ***  الفيل  وقال  لا  تبصروني
+10_recording_330 hyp   كلا  لقد  ركب  ماذا    لو    قال  لا   تفسير 
+10_recording_330 op     S    S    C     I     S      S    C     S   
+10_recording_330 #csid 2 5 1 0
+10_recording_331 ref  فيا  موقدا   نارا  لغيرك  ضوؤها
+10_recording_331 hyp   في   موقد  النار  الغير   تظن 
+10_recording_331 op    S     S      S      S      S  
+10_recording_331 #csid 0 5 0 0
+10_recording_332 ref  قيل  للبغل    من    أبوك  قال  الفرس   خالي 
+10_recording_332 hyp  ***   كلا   لبعضنا  أبوك  ***   قلعة  الصخرة
+10_recording_332 op    D     S       S      C    D     S       S  
+10_recording_332 #csid 1 4 0 2
+10_recording_333 ref  ***  كالحادي  وليس   له  بعير
+10_recording_333 hyp   كم     حد     ليس  لون  باين
+10_recording_333 op    I      S       S    S     S 
+10_recording_333 #csid 0 4 1 0
+10_recording_334 ref  كالمحتمي    ببيت   العنكبوت
+10_recording_334 hyp     كم     التميمة  العنكبوت
+10_recording_334 op       S        S         C   
+10_recording_334 #csid 1 2 0 0
+10_recording_335 ref  كالمستجير   من   الرمضاء   بالنار
+10_recording_335 hyp      كم     صغير    السن   مطالبنا
+10_recording_335 op       S        S      S        S   
+10_recording_335 #csid 0 4 0 0
+10_recording_336 ref  كطالب  الصيد  في  عرين  الأسد
+10_recording_336 hyp   تطلب   سير   في  عرين  الأسد
+10_recording_336 op     S      S     C    C     C  
+10_recording_336 #csid 3 2 0 0
+10_recording_337 ref  كلما  كثر  الذباب    هان    قتله
+10_recording_337 hyp  كلما  كثر    ***   الزبائن  قتله
+10_recording_337 op     C    C      D       S       C 
+10_recording_337 #csid 3 1 0 1
+10_recording_338 ref  ***   ***  كناطح  صخرة  يوما  ليكسرها  فلم  ***   ***   يضرها   وأوهى  قرنه  الوعل
+10_recording_338 hyp  كنت  تسخر   مني     و    من    بيتنا   فلم  ضرب  الطفل   نظرة  وأوراق   تهم   وإلا
+10_recording_338 op    I     I     S      S     S      S      C    I     I      S       S      S     S  
+10_recording_338 #csid 1 8 4 0
+10_recording_339 ref   لا  طال   توت   الشام  ولا    عنب   اليمن
+10_recording_339 hyp  ***  ***  بطلة  تشارلي   و   العلوي    من 
+10_recording_339 op    D    D     S      S     S      S      S  
+10_recording_339 #csid 0 5 0 2
+10_recording_340 ref  لا  مصيبة   ***  أعظم  من  الجهل
+10_recording_340 hyp  لا  مصيبة  أعلى  أعظم  من  الجهد
+10_recording_340 op    C    C      I     C    C    S  
+10_recording_340 #csid 4 1 1 0
+10_recording_341 ref  لأمر   ما    جدع   قصير  أنفه
+10_recording_341 hyp   ***  لأن  لمجدها  قصير  أنفه
+10_recording_341 op     D    S      S      C     C 
+10_recording_341 #csid 2 2 0 1
+10_recording_342 ref  لسان  الجاهل  مفتاح  حتفه
+10_recording_342 hyp   إس   الرجال  مفتاح  حتفه
+10_recording_342 op     S      S      C      C 
+10_recording_342 #csid 2 2 0 0
+10_recording_343 ref  لكل  داء   دواء  يستطب    به   إلا  الحماقة  أعيت  من  يداويها
+10_recording_343 hyp  لكل  داء  النوم   ليست  تبدين   لا   حماقة    أية  من   يدوية 
+10_recording_343 op    C    C     S      S      S     S      S       S    C     S   
+10_recording_343 #csid 3 7 0 0
+10_recording_344 ref  ليس  الحريص  بزائد  في  رزقه
+10_recording_344 hyp  ليس   حارس    بزي   في  رزقه
+10_recording_344 op    C      S      S     C    C 
+10_recording_344 #csid 3 2 0 0
+10_recording_345 ref  من  تدخل  فيما  لا  يعنيه  لقي   ما   لا  يرضيه
+10_recording_345 hyp  من  تدخل  فيما  لا   ***   ***  نيل  قام  غيرته
+10_recording_345 op    C    C     C    C    D     D    S    S     S  
+10_recording_345 #csid 4 3 0 2
+10_recording_346 ref   من  جهل   قدر   نفسه  كان  بقدر  غيره  أجهل
+10_recording_346 hyp  ***  آنج  القدر  نفسه  كان   لقد  غيري  أجده
+10_recording_346 op    D    S     S      C    C     S     S     S 
+10_recording_346 #csid 2 5 0 1
+10_recording_347 ref  نام  ساعة  الرحيل
+10_recording_347 hyp   نم  ساعه   واحده
+10_recording_347 op    S     S      S  
+10_recording_347 #csid 0 3 0 0
+10_recording_348 ref   نزل   بواد  غير  ذي    زرع 
+10_recording_348 hyp  مازال  بوتر  غير  ذي  أنصارا
+10_recording_348 op     S      S    C    C     S  
+10_recording_348 #csid 2 3 0 0
+10_recording_349 ref  همه  لا  يتجاوز  طرفي  ردائه
+10_recording_349 hyp  ***  هم  التجول  تخفي  ردائه
+10_recording_349 op    D    S     S      S     C  
+10_recording_349 #csid 1 3 0 1
+10_recording_350 ref   ***  ***  وذى  علة  يأتي  عليلا  ليشتفي   به     وهو    جار  للمسيح   بن  مريم
+10_recording_350 hyp  الزي  آلة  نية  على   ليس   فيبي     و    وجار  المسيحي  بدأ    من    بلا   ريب
+10_recording_350 op     I    I    S    S     S     S       S      S      S      S      S     S     S 
+10_recording_350 #csid 0 11 2 0
+10_recording_351 ref  ومن  يجعل  ***  ***  الضرغام  بازا  لصيده  تَصَيَّدَهُ  الضرغام  فيما  تصيدا
+10_recording_351 hyp  ومن  يجعل  ضرر   من   بارنز   سيدي   تصيد      ترغب        في     من   تتصيد
+10_recording_351 op    C     C    I    I      S       S     S         S          S       S     S  
+10_recording_351 #csid 2 7 2 0
+10_recording_352 ref  ***  يبني  قصراً  ويهدم  مصراً
+10_recording_352 hyp  إذن   قصة   ماذا  مناسب    و  
+10_recording_352 op    I     S     S      S      S  
+10_recording_352 #csid 0 4 1 0
+10_recording_353 ref  يُدْخِلُ  شعبان    في   رمضان
+10_recording_353 hyp     إثر     شاب   الناس  رمضان
+10_recording_353 op       S       S      S      C  
+10_recording_353 #csid 1 3 0 0
+10_recording_354 ref  يدع   العين   ويطلب  الأثر
+10_recording_354 hyp  يضع  العداوة    و     نصف 
+10_recording_354 op    S      S       S      S  
+10_recording_354 #csid 0 4 0 0
+10_recording_355 ref  يدهن   من  قارورة  فارغة
+10_recording_355 hyp   ***  إذن  قارورة  فارغة
+10_recording_355 op     D    S      C      C  
+10_recording_355 #csid 2 1 0 1
+10_recording_356 ref  يذبح  الطاووس  لجمال  ريشه
+10_recording_356 hyp   انه    توصل    جبال   ريش
+10_recording_356 op     S      S       S      S 
+10_recording_356 #csid 0 4 0 0
+10_recording_357 ref  يصوم  يصوم  ويفطر  على  بصلة
+10_recording_357 hyp   ***   لص   وسواس  على  بصمة
+10_recording_357 op     D     S     S     C     S 
+10_recording_357 #csid 1 3 0 1
+10_recording_358 ref  ***  يَهُبُّ  مع  كل  ريح  ويسعى  مع    كل    قوم
+10_recording_358 hyp   أي     حب    مع  كل  ***   رهان   و  السمك  لحوم
+10_recording_358 op    I      S      C   C   D     S     S    S      S 
+10_recording_358 #csid 2 5 1 1
+10_recording_359 ref  أحمد  البلاغة  الصمت  حين  لا  يَحْسُنُ  الكلام
+10_recording_359 hyp  أحمد   بلاغات   صمته   أن  لا    يحسن     كلامه
+10_recording_359 op     C      S       S     S    C      S        S  
+10_recording_359 #csid 2 5 0 0
+10_recording_360 ref  إذا  تكلمت   ***   بالكلمة  ملكتك  وإذا  لم  تتكلم  بها  ***   ***  ملكتها
+10_recording_360 hyp  إذا  تكلمت  بكلمة    ملاك    تكون   ذا   لم  تتكلم  بها   من  ملكت   ملكته
+10_recording_360 op    C     C      I       S       S      S    C    C     C    I     I      S  
+10_recording_360 #csid 5 4 3 0
+10_recording_361 ref  السكوت  علامة  الرضا
+10_recording_361 hyp  السكوت  علامة  الرضى
+10_recording_361 op      C      C      S  
+10_recording_361 #csid 2 1 0 0
+10_recording_362 ref  أنت  على   رد   ما   لم  تقل  أقدر  منك  على   رد    ما   قلت
+10_recording_362 hyp  أنت  على  ***  ردنا  لم  تقل  أقدر  ***   من  كلام  بما  قلته
+10_recording_362 op    C    C    D     S    C   C     C    D    S     S    S     S 
+10_recording_362 #csid 5 5 0 2
+10_recording_363 ref  إياك  وأن  ***  يضرب  لسانك  عنقك
+10_recording_363 hyp  إياك  وأن  يرى   غرو  لسانك  عنقك
+10_recording_363 op     C    C    I     S     C      C 
+10_recording_363 #csid 4 1 1 0
+10_recording_364 ref  تكلم  فقد   كلم  الله  موسى
+10_recording_364 hyp  تكلم  فقط  كلام   لوم   صن 
+10_recording_364 op     C    S     S     S     S 
+10_recording_364 #csid 1 4 0 0
+10_recording_365 ref  خير  الخلال  حفظ  اللسان
+10_recording_365 hyp  خير   خلال    حظ   لسان 
+10_recording_365 op    C      S     S      S  
+10_recording_365 #csid 1 3 0 0
+10_recording_366 ref  خير  الكلام    ما    قل   ودل
+10_recording_366 hyp  ***    خاض   كلامي  نقل  ودمى
+10_recording_366 op    D      S      S     S     S 
+10_recording_366 #csid 0 4 0 1
+10_recording_367 ref   رب  سكوت  أبلغ  من  كلام
+10_recording_367 hyp  ربي  سكوت  أبلغ  من  كلام
+10_recording_367 op    S     C     C    C    C 
+10_recording_367 #csid 4 1 0 0
+10_recording_368 ref   رب  قول  أشد   من   صول
+10_recording_368 hyp  ***  طبق   من  شاب  مصور
+10_recording_368 op    D    S    S    S     S 
+10_recording_368 #csid 0 4 0 1
+10_recording_369 ref   رب   كلام  يثير  الحروب
+10_recording_369 hyp  الرب  كلام   ***   سراحه
+10_recording_369 op     S     C     D      S  
+10_recording_369 #csid 1 2 0 1
+10_recording_370 ref   رب  كلمة   قالت   لصاحبها  دعني
+10_recording_370 hyp  ***  وبكل  نتقاذف    صاحب    دم 
+10_recording_370 op    D     S      S       S       S 
+10_recording_370 #csid 0 4 0 1
+10_recording_371 ref   سرك  أسيرك
+10_recording_371 hyp  سارك   اسمك
+10_recording_371 op     S     S  
+10_recording_371 #csid 0 2 0 0
+10_recording_372 ref  سلامة  الإنسان  في  حلاوة  اللسان
+10_recording_372 hyp   سلمت    لسنا   في   حالة    سلس 
+10_recording_372 op     S       S      C    S       S  
+10_recording_372 #csid 1 4 0 0
+10_recording_373 ref   ***  صدرك   أوسع  لسرك
+10_recording_373 hyp  صبرك  صالة  سأصوم  سارة
+10_recording_373 op     I     S     S      S 
+10_recording_373 #csid 0 3 1 0
+10_recording_374 ref  صدور  الأحرار  قبور  الأسرار
+10_recording_374 hyp  فضول   أحرار   قبول   أسرار 
+10_recording_374 op     S      S       S      S   
+10_recording_374 #csid 0 4 0 0
+10_recording_375 ref  عثرة  القدم   أسلم   من   عثرة  اللسان
+10_recording_375 hyp   ***   أنت   تقدمي  تسمم  عصبي    لسن 
+10_recording_375 op     D     S      S      S     S      S  
+10_recording_375 #csid 0 5 0 1
+6_recording_376 ref  كأن  على  رءوسهم  الطير
+6_recording_376 hyp  كان  على  رؤوسنا   طيار
+6_recording_376 op    S    C      S      S  
+6_recording_376 #csid 1 3 0 0
+6_recording_377 ref  كل   سر    جاوز   الاثنين    شاع 
+6_recording_377 hyp  كل  سنة  الجوزاء     من    الشعبة
+6_recording_377 op    C   S      S        S        S  
+6_recording_377 #csid 1 4 0 0
+6_recording_378 ref   لا  تطلقن  القول  في  غير  بصر   إن   اللسان  غير  مأمون   الضرر 
+6_recording_378 hyp  ***   أنت    تحقق  في  ***  ***  إيبس    أن    ليس   نعم   مناورات
+6_recording_378 op    D     S      S     C   D    D     S      S     S     S       S   
+6_recording_378 #csid 1 7 0 3
+6_recording_379 ref  لا  تهرف  بما  لا  تعرف
+6_recording_379 hyp  لا  تعرف  بما  لا  تعرف
+6_recording_379 op    C    S    C    C    C 
+6_recording_379 #csid 4 1 0 0
+6_recording_380 ref  لسان  الفتى  عن  عقله  ترجمانه    متى    زل  عقل  المرء   زل  لسانه
+6_recording_380 hyp  لسان   فتاة  أن  عقله   تجمعني  ماتزال  عقل  ملئ   هذا   ليس   عنه 
+6_recording_380 op     C     S     S    C      S        S     S    S     S     S     S  
+6_recording_380 #csid 2 9 0 0
+6_recording_381 ref  لسانك  حصانك  إن   صنته   صانك  وإن  هنته  هانك
+6_recording_381 hyp  لسانك  حصانك  أن  سانتوس   عنك  وإن   كنت   أنك
+6_recording_381 op     C      C     S     S      S    C     S     S 
+6_recording_381 #csid 3 5 0 0
+6_recording_382 ref  الساكت    عن    الحق   شيطان   أخرس
+6_recording_382 hyp    ***   السكتة  الحق  الشيطان  اخرس
+6_recording_382 op      D       S      C      S       S 
+6_recording_382 #csid 1 3 0 1
+6_recording_383 ref  مقتل  الرجل  بين   فكيه
+6_recording_383 hyp  مقتل   ***   رجل  بنفسك
+6_recording_383 op     C     D     S     S  
+6_recording_383 #csid 1 2 0 1
+6_recording_384 ref  ملكت   نفسي   يوم  ملكت  منطقي
+6_recording_384 hyp  ملكت  النفسي   من   لك   تمنيك
+6_recording_384 op     C      S     S     S     S  
+6_recording_384 #csid 1 4 0 0
+6_recording_385 ref  من  كتم  سره  كان  الخيار  بيده
+6_recording_385 hyp  من  كتم   سر  كان  الخيار  بيدي
+6_recording_385 op    C   C    S    C      C      S 
+6_recording_385 #csid 4 2 0 0
+6_recording_386 ref  واحفظ  لسانك  لا  تقول   فتبتلى  إن  البلاء  موكل  بالمنطق
+6_recording_386 hyp   أحب    سنك   لا   تقل  تتذكرين  أن   لديها  كأنك   المنطق
+6_recording_386 op     S      S     C    S      S      S     S      S      S   
+6_recording_386 #csid 1 8 0 0
+6_recording_387 ref  وبعض  القول  يذهب  في  الرياح
+6_recording_387 hyp  وبعد   قول   يرغب  في    *** 
+6_recording_387 op     S     S      S    C     D  
+6_recording_387 #csid 1 3 0 1
+6_recording_388 ref  وَجُرْحُ  اللسان  كَجُرْحِ  اليد
+6_recording_388 hyp    وجرح     لسانك     جرح     لي 
+6_recording_388 op       S        S        S       S 
+6_recording_388 #csid 0 4 0 0
+6_recording_389 ref   وفي  الصمت  ستر  للغيّ  وإنما  صحيفة   لب   المرء    أن    يتكلما
+6_recording_389 hyp  حسنة  ستعمل  غبي    أن     من   صحيفة  يجلب  المال  أمنيتك    لك  
+6_recording_389 op     S     S     S     S      S      C      S     S       S       S  
+6_recording_389 #csid 1 9 0 0
+6_recording_390 ref  ولفظة  زائغة  سبيلها   قد  سلبت  نعمة  من  يقولها
+6_recording_390 hyp   ورفض  زائفة   سبيل   لقد  سلبت  نعمة  من   هؤلاء
+6_recording_390 op     S      S       S     S     C     C    C     S  
+6_recording_390 #csid 3 5 0 0
+6_recording_391 ref   من   لم   يكن  لسره  كتوما   فلا   يلم   في  كشفه  نديما
+6_recording_391 hyp  ***  مالم  يكن   ***  لساني  كتوم  قليلا  في   كشف   نادم
+6_recording_391 op    D     S    C     D     S      S     S     C    S     S  
+6_recording_391 #csid 2 6 0 2
+6_recording_392 ref  ***  أَتَأمُرُونَ  النَّاسَ  بِالبِرِّ  وَتَنسَونَ  أَنفُسَكُم
+6_recording_392 hyp  أتم       من         السهل     يافعة        سنة         سكن   
+6_recording_392 op    I         S           S         S           S           S    
+6_recording_392 #csid 0 5 1 0
+6_recording_393 ref  ***  إذا  بلغ  الرأي  المشورة  فاستعن  بحزم  ناصح  أو  نصيحة  حازم
+6_recording_393 hyp   و   إذا  بلغ   رأيك  المشورة   فستان  حزين  حسنا  او  نصيحة  حازم
+6_recording_393 op    I    C    C     S       C        S      S     S    S    C      C 
+6_recording_393 #csid 5 5 1 0
+6_recording_394 ref  إذا  ***  صدأ  الرأي  أصقلته  المشورة
+6_recording_394 hyp  إذا  صدق  راي   قصة    قاعة    الشهرة
+6_recording_394 op    C    I    S     S       S       S   
+6_recording_394 #csid 1 4 1 0
+6_recording_395 ref  الرأي   قبل    شجاعة   الشجعان
+6_recording_395 hyp   ***   أراقب  الشجاعة  الشجاعة
+6_recording_395 op     D      S       S        S   
+6_recording_395 #csid 0 3 0 1
+6_recording_396 ref   ***   المستشير  معان  والمستشار  مؤتمن
+6_recording_396 hyp  الناس     شي      عنة    مستشار   مؤتمن
+6_recording_396 op     I        S       S       S        C  
+6_recording_396 #csid 1 3 1 0
+6_recording_397 ref  المستنير   على  طريق  النجاح
+6_recording_397 hyp  المستنير  اعلى  طريق  النجاح
+6_recording_397 op       C       S     C      C  
+6_recording_397 #csid 3 1 0 0
+6_recording_398 ref  ***  المشورة  راحة  لك  وتعب  لغيرك
+6_recording_398 hyp   إن    شرط    واحد  لك  أتعب   لذلك
+6_recording_398 op    I      S       S    C    S     S  
+6_recording_398 #csid 1 4 1 0
+6_recording_399 ref  المشورة  عين  الهداية
+6_recording_399 hyp  المشورة   عن  الإدارة
+6_recording_399 op      C      S      S   
+6_recording_399 #csid 1 2 0 0
+6_recording_400 ref  المشورة  لقاح  العقول
+6_recording_400 hyp  المشورة  لقاح   العقل
+6_recording_400 op      C       C      S  
+6_recording_400 #csid 2 1 0 0
+6_recording_401 ref  أول  الحزم  المشورة
+6_recording_401 hyp  أول  الحزن  المشورة
+6_recording_401 op    C     S       C   
+6_recording_401 #csid 2 1 0 0
+6_recording_402 ref  بقدر  الرأي  تعتبر  الرجال  ***  وبالآمال  ينتظر  المآل
+6_recording_402 hyp   لقد   رأيت   الطب  الرجال   و      بأن    ينتهي  الندم
+6_recording_402 op     S     S      S       C     I       S       S      S  
+6_recording_402 #csid 1 6 1 0
+6_recording_403 ref   وعند   جهينة  الخبر  اليقين
+6_recording_403 hyp  عالجوا   يمكن   تخبر  اليقين
+6_recording_403 op      S      S      S       C  
+6_recording_403 #csid 1 3 0 0
+6_recording_404 ref  خاطر   من  استغنى  برأيه
+6_recording_404 hyp   ***  خطر  مناسبة  نادرة
+6_recording_404 op     D    S      S      S  
+6_recording_404 #csid 0 3 0 1
+6_recording_405 ref  شاور  في   أمرك   الذين  يخشون  الله
+6_recording_405 hyp   شول  في  أمريكا  الذين  يخشون  هواة
+6_recording_405 op     S    C     S      C      C      S 
+6_recording_405 #csid 3 3 0 0
+6_recording_406 ref  شاور  لبيباً  ولا  تعصه
+6_recording_406 hyp   شاو   أبدا   ولا   تسل
+6_recording_406 op     S      S     C     S 
+6_recording_406 #csid 1 3 0 0
