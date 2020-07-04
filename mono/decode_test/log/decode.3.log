@@ -1,0 +1,116 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/3/utt2spk scp:data/test/split4/3/cmvn.scp scp:data/test/split4/3/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono/decode_test/lat.3.gz" 
+# Started at Fri Jul  3 12:46:56 UTC 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/3/utt2spk scp:data/test/split4/3/cmvn.scp scp:data/test/split4/3/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono/decode_test/lat.3.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split4/3/utt2spk scp:data/test/split4/3/cmvn.scp scp:data/test/split4/3/feats.scp ark:- 
+mbt_0001 شكرا لك لمثل ستة أعوام 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0001 is -8.56654 over 399 frames.
+mbt_0002 من القاعة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0002 is -7.72657 over 257 frames.
+mbt_0003 أنت رئيس تنفيذي يجيد إصلاحه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0003 is -8.06914 over 683 frames.
+mbt_0004 وإذا صبيانية أعصابكم أن السائق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0004 is -8.1087 over 481 frames.
+mbt_0005 أنا دون مقابل ما قلته أنها بوزارة أصبحت أنحاء العالم 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0005 is -8.1457 over 817 frames.
+mbt_0006 أعتقد أن الميزانية التي تسربت اللعنة علي أن أذهب إلى الآن وتصلح المحرك القاحلة أو فتيات بنظرات ثابتة فصول 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0006 is -8.24411 over 1191 frames.
+mbt_0007 أنا بصراحه سيدي وزير الخارجية سأرد أصبح هو المفضل لدي سياسة خارج البلاد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0007 is -8.28547 over 814 frames.
+mbt_0008 و سيادة أن تبالي بوقت وفاة واحد مناسب جدا و تنسى تستحق كل هذا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0008 is -8.06378 over 1027 frames.
+mbt_0009 لحادث سير تملك القدرة على نسيان بزوجي بما فيهم تسرب السائل من دون أن يعلم 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0009 is -8.22653 over 1062 frames.
+mbt_0010 مثل الزوج السابق طلاب السنة القادمة سرقة ثلاث قطرات من دون أن حلم حياته 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0010 is -8.45563 over 869 frames.
+mbt_0011 و وصية لا تستطيع ان تنكر تؤكد لي أنك لا تزال تحفظ حياة الذي كنت أحدثك عن ملاحظة لأنه على ما يرام خارجية لا لا تعلم عن أي شيء 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0011 is -8.43244 over 1479 frames.
+mbt_0012 و ثم تم تعديل الأعمال الوطنية بتصوير حزب الله تنظيما إرهابيا من قبل وزير الداخلية سألقي نظرة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0012 is -8.37769 over 1117 frames.
+mbt_0013 و على قضية في وطني وهو زيادة الخارجية عامة تميل بارت 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0013 is -8.47307 over 707 frames.
+mbt_0014 كم عدد المصابات إسرائيل على بلادنا و الآن بعد أن تجلسين على بالرصاص أمام منزل هو شكل قلب الزوار 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0014 is -8.39004 over 1143 frames.
+mbt_0015 ولم نسمع صوت لا لا أنت ولا أي رئيس الجمهورية تقصدهم إذا أنا و أصدق بأنك كنت الآن الرئيس رحلت بدون ان 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0015 is -8.5036 over 1130 frames.
+mbt_0016 إنه دور بسيط وسيلة لم يتم الإعتداء على مقر منظمة التحرير الفلسطينية بعمل شئ 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0016 is -8.49051 over 761 frames.
+mbt_0017 ولكنك تقطع العلاقة مع أحد ستعمل القضية ضد قرار بين إسرائيل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0017 is -8.37124 over 864 frames.
+mbt_0018 أنا أنتمي إلى المقدمة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0018 is -8.20917 over 300 frames.
+mbt_0019 و أنا أيضا أحب مشاركتكم في فضيحة نسميه اجتماع وزراء الخارجية على هاتف نقال أقصى درجات الموت 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0019 is -8.41403 over 1175 frames.
+mbt_0020 أقصد أن أكون لإدانة صاروخي الآن سقطت الصخرة في مقابلة التكتم على قتل وتفتيش عالي من بأكمله 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0020 is -8.428 over 1196 frames.
+mbt_0021 أنا آسف من الأشياء أفضل مني و أنتم تتبادلون محدودة من قبل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0021 is -8.38303 over 825 frames.
+mbt_0022 ألم جماعة معادية سراحهم إلا أجل الحزب لا المرأة حامل البندقية وحش وجد في الصالون 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0022 is -8.46463 over 1044 frames.
+mbt_0023 سجل لندن بثيابه جامعة ببنت شفة عندما يتعلق الأمر ب تنظيم الأدلة التي أود أن لدينا العدد المناسب 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0023 is -8.51864 over 1167 frames.
+mbt_0024 على شاكلة طالبان وبائس وجدت النص وسط بشارة وجيش الحرب وغير عادية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0024 is -8.37341 over 825 frames.
+mbt_0025 زد على ذلك أجلكم ألا تزال لديك و عزلهم عن إعادة علاقتنا سرية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0025 is -8.36564 over 823 frames.
+mbt_0026 حيث أنه من الصواب و ما هو أسوأ من تتخذ أي أحد هنا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0026 is -8.36809 over 902 frames.
+mbt_0027 سيادة الوزير أن ليس مثل ملكة إسبانيا و حيث بدأ من جديد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0027 is -8.29579 over 778 frames.
+mbt_0028 وكل واحد وبريان مدنية و قائد جيش و أزمة الطاقة ما يصل جسدك أكثر 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0028 is -8.54209 over 899 frames.
+mbt_0029 وشبكة زي الذي دفع شهادة في كل الحالات العديده لن يكون جزءا من حالة صهيون القلائل الرجل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0029 is -8.39769 over 1238 frames.
+mbt_0030 يا ولد على أنه على المهزوم ومن يعلم على مصير السقوط و الهزيمة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0030 is -8.44662 over 898 frames.
+mbt_0031 هذا شئ عن الطبق في صمت الشعب الذي رفع سعر تشعري لتحرير فلسطين و شعر لوري من أجل من طبيعة ترشحه نصل إلى وزارة الخارجية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0031 is -8.50964 over 1407 frames.
+mbt_0032 بخصوص آسف لا أجدها به انا على يقين أن هذا التصميم جانبية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0032 is -8.18332 over 878 frames.
+mbt_0033 و السماح جمال على شئ من أجل أجل أجل ذلك وهذا الخدمة إلى مصالحة إلى صالون المتضرر في لندن المطعم العربي بوجود ولكن بصراحة مقاومة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0033 is -8.47235 over 1565 frames.
+mbt_0034 أ وإلتهاب حالة سيادة الوزير انت وزملائك الجميع العربية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0034 is -8.33859 over 599 frames.
+mbt_0035 لا لأننا لم أقدر على الأسئلة ولا لن تقدر عليه داش لن تقدر على عليه إنه وطني 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0035 is -8.45537 over 989 frames.
+mbt_0036 لقد قلت السنة الفائتة كان لدينا حالة ليس ما بعد حالة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0036 is -8.39977 over 698 frames.
+mbt_0037 لا و لا تريد أن تصل لسن المدينة وقريبا ستقفون تقضون وقتا طيبا يوم طويل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0037 is -8.31549 over 1099 frames.
+mbt_0038 ولا أحد الزملاء حالة انك ستريد ان علاقة مع السرية أقول له زميلي العزيز عندما يشير إلى أن بذلك نظام سابر 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0038 is -8.40714 over 1284 frames.
+mbt_0039 سيد الوزير كل مرة آتي بها لتسهيل وراء السور 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0039 is -7.82734 over 999 frames.
+mbt_0040 إن كنت معنى بمقاومة الفتاة الأخرى تسأل عنه في وإعادة الإعمار هنا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0040 is -8.56787 over 778 frames.
+mbt_0041 إن كنتم على نادلة تسعة و هناك إشاعة يصنعون عالم جديد إن كنتم مهتمين بذلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0041 is -8.37381 over 1059 frames.
+mbt_0042 وهنا تولد لعوبة من جديد إنه من الجميع على العميل الجبانة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0042 is -8.34267 over 837 frames.
+mbt_0043 سيدي وزير لديه أي علاقة وثيقة توماس كني و انسانية من وقت صعب 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0043 is -7.79049 over 1399 frames.
+mbt_0044 اذا اردت ان تجعل هذا مرة أولوية طلبه ودعك من التعامل معه لزيادة و تجار الرقيق لو المخدرة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0044 is -8.31659 over 1288 frames.
+mbt_0045 وتفعل ما أشعر به 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0045 is -8.36093 over 253 frames.
+mbt_0046 تحلق هجرة سرية والآن و تحسين الوضع الاقتصادي لمعرفة من عبر سياسة فارسي قوية و شجاعة و شجاعة بحل الأزمات فيه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0046 is -8.17489 over 1634 frames.
+mbt_0047 وإذا كنت جدي بأمر مستقبل المنطقة على إحداث الحياة لمشروعنا إلى وحدة الحرب العظيمة الكبيرة اه هوه كنت آمل المطبق أن تقتله 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0047 is -8.37627 over 1637 frames.
+mbt_0048 أنت يا سيادة الوزير في ميدان الساعة التاسعة بأن وتيرة مستقبل العالم 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0048 is -7.94506 over 1122 frames.
+mbt_0049 وتتمنى ان ترجع قليلا أن تتراجع وانت لن تدع تدع أي صلة بأي من هذه بداية القصة خادمة لسيدة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0049 is -8.12326 over 1518 frames.
+LOG (apply-cmvn[5.5.732~1-67db3]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 52 utterances, errors on 0
+mbt_0050 ونتقابل جميعنا في بلدنا و منطقة بأن مصلحة مس شعرة و مصلحة الأمة العربية السامية مع من يقوم بإدارة أبله و ليس الآن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0050 is -8.48674 over 1304 frames.
+mbt_0051 إذا نحن جزء من الشبان مضطهد اللعبة و المستقبل للقوانين 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0051 is -8.48559 over 735 frames.
+mbt_0052 وفاة أن غريبة مواجهة أقل تكلفة أجهزة المراقبة دون التدخل قلت شكرا لك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance mbt_0052 is -8.2414 over 1165 frames.
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:176) Time taken 591.884s: real-time factor assuming 100 frames/sec is 1.15788
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:179) Done 52 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -8.32475 over 51118 frames.
+# Accounting: time=594 threads=1
+# Ended (code 0) at Fri Jul  3 12:56:50 UTC 2020, elapsed time 594 seconds

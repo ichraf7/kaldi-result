@@ -1,0 +1,88 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/4/utt2spk scp:data/test/split4/4/cmvn.scp scp:data/test/split4/4/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono/decode_test/lat.4.gz" 
+# Started at Fri Jul  3 12:46:56 UTC 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/4/utt2spk scp:data/test/split4/4/cmvn.scp scp:data/test/split4/4/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono/decode_test/lat.4.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split4/4/utt2spk scp:data/test/split4/4/cmvn.scp scp:data/test/split4/4/feats.scp ark:- 
+srj_001 نعم نحن أن تسلم الشرائط يوم السبت 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_001 is -8.12525 over 557 frames.
+srj_002 <UNK> كنت على بعد خمس قطعة من قوة مرعبة حين تقوم بهذا دون وجود آخرين من دون التعرض له بعض الوقت لكن ليس لدينا أي فريق كرة القدم سبق لك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_002 is -8.24274 over 1992 frames.
+srj_003 أ يمكنني كل مكان آمن ليبقوا هنا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_003 is -8.39924 over 504 frames.
+srj_004 وحتى ألم نحن جميعا على تحدي اشرب 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_004 is -8.40806 over 505 frames.
+srj_005 اه كما تعلمون من جسدية ولم أحبه فى قياس شئ عظيم آمل أن نحل مؤلم من تاريخنا نعم 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_005 is -8.28561 over 1113 frames.
+srj_006 إن مع شعب بحر أعرف خطير لأزمات أنسان يقابل امة واحدة من طقوس الحال في المقابل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_006 is -8.35048 over 1135 frames.
+srj_007 وفوق هذا كله يتسلق على المكان تثق بالدولة به 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_007 is -8.20031 over 705 frames.
+srj_008 أتعرف مدى ثمانية لقطة وصولكم تفيدني معرفة أن أباه تربح 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_008 is -8.20322 over 964 frames.
+srj_009 ألا يزال إي يتذمر لذا لا أحد يعلم سيارة تصدر الاتحادية أن ننجح في ذلك دون أي شئ تقوله يمكن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_009 is -8.24555 over 1202 frames.
+srj_010 لكن مجرد دعوة أعلم أن لدينا مدرب تقل لي أنك خالفت جانب واحد كل شئ من هذا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_010 is -8.30133 over 1137 frames.
+srj_011 كيف نحن وبما أن هنالك تسلل تسبب التشتت يجب أن تأتي لي ذلك من قبل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_011 is -8.38611 over 940 frames.
+srj_012 في تلك اللعبة تقوم الشرطة كان يجب أن نصل نحن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_012 is -8.23613 over 585 frames.
+srj_013 هذا ما تبقى من الناس يقتل نفسه لدي القدرة على تحمل حزم غير رسمية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_013 is -8.38123 over 823 frames.
+srj_014 أريد فعله هو حماية المدنيين ولقد فزعت و رحلت من هنا لمدة واحد من الزجاج التى كان حال سقوطك مع الشاش من فضلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_014 is -8.38943 over 1317 frames.
+srj_015 لقد سمعت تقنيات واحدة فقط اقول انا متأسف على التأخير يسكن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_015 is -8.39519 over 805 frames.
+srj_016 وزارة المالية للمنظمات فقط ليس لدي صلاحية محملة بشأن مكافحة الإرهاب أقوم بعمل مستبعد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_016 is -8.38021 over 1098 frames.
+srj_017 لقد كنت في مشاركة نتحرك الآن وأنت بهذه الحالة دون أن محارب التنين بعد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_017 is -8.39421 over 853 frames.
+srj_018 إذا نتحدث عن الإدارة أم أنت لا تريد لعب يسمى واجب 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_018 is -8.25653 over 626 frames.
+srj_019 أنت تكره الحكومة إيماننا بأنه حان الوقت فأنا مستعد لدي كل سنة جعلته يخبئ مكان تقطن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_019 is -8.53547 over 984 frames.
+srj_020 لهذا السبب استجابة لقد كانت غرفة عمليات هنا نمسك أي تشابه وزير الدفاع 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_020 is -8.33952 over 806 frames.
+srj_021 لقد قال أنه سيصل بسرعة قبل عالج جيري ألق نظرة مباشرة من الولايات المتحدة الأمريكية لتجلب بعض المخدرات لعق القضيب لدى الرجال الذين سبقوك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_021 is -8.52425 over 1411 frames.
+srj_022 أطلق مباشرة خارج السياج لقيادة غرفة العمليات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_022 is -8.4896 over 522 frames.
+srj_023 قبل أن أقابل تقولها لي بعد حادث قارب واحد هذا ليست إحدى خسائر فادحة آنسة سرعة عالية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_023 is -8.29565 over 1116 frames.
+srj_024 بأنك تضع قطران داني أتعلم كم هم سنتجه ان تتقبل قرار حافظ الأرواح مقاتلة الشر 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_024 is -8.70299 over 962 frames.
+srj_025 لا أملك العمل لنصل إلى المنزل لمدة كنت أسأله عن هذه العملية و نتيجة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_025 is -8.56501 over 777 frames.
+srj_026 أيها النقيب لا يهم كم أود بهذه المناسبة لك لماذا أنشأ التعمير في المرحلة العاطفية عن زمني محدد و لم تتجاوز من طرف واحد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_026 is -8.45268 over 1299 frames.
+srj_027 ونحن طلبنا دعم جون تحدث دون عضلات الولايات المتحدة الأمريكية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_027 is -8.75474 over 605 frames.
+srj_028 وقال انه لم يكن هناك أي تواجد عسكري تلك العائلة أصدق سيتواجد نحتاج من الدعم الفني ليست فوق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_028 is -8.67074 over 985 frames.
+srj_029 أمك بنوبة قلبية اتضح لى دولارين كان أول محاولة بها قبل قليل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_029 is -8.50784 over 764 frames.
+srj_030 و لا يهمك كان يجب أن أقوم بطلب مباشرة مكان تقطن ولن يسمح لي بغلي قدر بجهات خارجية الرجال تحت مسمى حتى لو كان في طعامك تريد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_030 is -8.58184 over 1438 frames.
+srj_031 إنها ليست لهذا علينا أن نقول الشيء كيف نقوم بذلك نيابة عنك ذات واجهات بين كل الناس في بعض القبائل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_031 is -8.37525 over 1129 frames.
+srj_032 إنها تمر خلال مرحلة وقد علاقة بموت العديد من الخلف و الشيكات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_032 is -8.2231 over 745 frames.
+srj_033 ولذا وجب علي تريد وايضا عندما تغضب يواجه الغرب بمفرده وبه طعام 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_033 is -8.40776 over 752 frames.
+srj_034 إنه مجرد تخيل قضيب تريدون الذى تسبب مشاكل في هذه الحالة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_034 is -8.43418 over 679 frames.
+srj_035 ونحن لا نعرف أن تسمح لنا بعض كنت أحضر مصدر لا تهدد الأمن القومي دراجة اللعنة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_035 is -8.49272 over 846 frames.
+LOG (apply-cmvn[5.5.732~1-67db3]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 38 utterances, errors on 0
+srj_036 أخذ أتحمل على حق الشعب و كن الشفاء العاجل جرح نافذ حال فوق غرب شمال جنوب 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_036 is -8.39527 over 996 frames.
+srj_037 لدينا ست علب اللحم الخاص بك وليس في منزله القديم باردة في عمق على السلم 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_037 is -8.66486 over 797 frames.
+srj_038 اصغ أنا واثق من واجبي أن أصدق أن أحطم صفقات أول مرة كل مرة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance srj_038 is -8.74701 over 676 frames.
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:176) Time taken 592.877s: real-time factor assuming 100 frames/sec is 1.6867
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:179) Done 38 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -8.41022 over 35150 frames.
+# Accounting: time=595 threads=1
+# Ended (code 0) at Fri Jul  3 12:56:51 UTC 2020, elapsed time 595 seconds

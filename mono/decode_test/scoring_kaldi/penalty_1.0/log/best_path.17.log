@@ -1,0 +1,900 @@
+# lattice-scale --inv-acoustic-scale=17 "ark:gunzip -c exp/mono/decode_test/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/mono/graph/words.txt ark:- ark,t:- | utils/int2sym.pl -f 2- exp/mono/graph/words.txt | cat > exp/mono/decode_test/scoring_kaldi/penalty_1.0/17.txt 
+# Started at Fri Jul  3 13:20:28 UTC 2020
+#
+lattice-scale --inv-acoustic-scale=17 'ark:gunzip -c exp/mono/decode_test/lat.*.gz|' ark:- 
+lattice-best-path --word-symbol-table=exp/mono/graph/words.txt ark:- ark,t:- 
+lattice-add-penalty --word-ins-penalty=1.0 ark:- ark:- 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0001, best cost 143.397 + 4372.98 = 4516.38 over 775 frames.
+CLS_0001 الحمد لله رب العالمين العاقبة منطقي ولا بد أن ألعب دور من 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0002, best cost 112.584 + 4388.13 = 4500.71 over 798 frames.
+CLS_0002 تصل لأصل إلى صديقك من سيدنا محمد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0003, best cost 92.5866 + 2353.9 = 2446.49 over 425 frames.
+CLS_0003 بعثه الرب بحق بصيرة ونبيلة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0004, best cost 110.821 + 3492.75 = 3603.57 over 627 frames.
+CLS_0004 ربما تحبين نوم قمنا بحل منطقي الفتى 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0005, best cost 129.48 + 6266.63 = 6396.11 over 1179 frames.
+CLS_0005 حاول إعداد أن تعود إلى مدينة و سيرة ذاتية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0006, best cost 109.564 + 4722.42 = 4831.98 over 883 frames.
+CLS_0006 حول الأتفاق السياسي الذي ظهر قبل سيارة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0007, best cost 88.6588 + 3031.77 = 3120.43 over 548 frames.
+CLS_0007 وما أطباء أعلم أعلم من حديد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0008, best cost 99.6987 + 4274.07 = 4373.77 over 791 frames.
+CLS_0008 ومع الطاقم وسائل الإعلام و لدينا وقت 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0009, best cost 92.5339 + 2878.71 = 2971.24 over 496 frames.
+CLS_0009 ولدينا لم يوقع ولم يوافق على ذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0010, best cost 252.458 + 8788.43 = 9040.89 over 1561 frames.
+CLS_0010 والعالم ستعود أيضا بداية إلى المؤتمر الصحفي الذي أعتقده السيد كوب من الباب الأمامي يوم أمس لارس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0011, best cost 122.208 + 5284.86 = 5407.07 over 979 frames.
+CLS_0011 وسوف حول البلاد على النصف النصف هذه المدينة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0012, best cost 76.0343 + 3993.17 = 4069.21 over 741 frames.
+CLS_0012 بيني وبينك ليس بقدر المستطاع 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0013, best cost 132.614 + 5082.25 = 5214.87 over 914 frames.
+CLS_0013 لديه المواطنة السيادية ما يدور حوله الإتفاق مع الأسياد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0014, best cost 156.546 + 5866.83 = 6023.38 over 1052 frames.
+CLS_0014 وتقولين ومحاولة بعد لوصف أن يضع بعض أعضاء كل مكان 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0015, best cost 127.798 + 4491.03 = 4618.83 over 797 frames.
+CLS_0015 وبعد ساعة المجتمع لدي فكرة بأن معادية للثورة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0016, best cost 237.83 + 7367.77 = 7605.6 over 1298 frames.
+CLS_0016 و أنها لا تسعى إلى أصول لطيفا يخرج أحد بلدي الحبيب من الانقسام ومن الصعب و من المعاناة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0017, best cost 219.291 + 7847 = 8066.29 over 1404 frames.
+CLS_0017 ربما يحاول إبعاد أن يظهر بأنه أصغر و بأنه لديك وبأنه الحارس الوحيد على سحب الهدية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0018, best cost 145.437 + 4582.32 = 4727.76 over 805 frames.
+CLS_0018 وعندما يقوم بإدارة أم مجموعة أم حزب أم صالحة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0019, best cost 175.831 + 5962.95 = 6138.78 over 1034 frames.
+CLS_0019 أول من فكر في الثانية الدقة بأن استعادة واحد دون أي هو صواب 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0020, best cost 112.988 + 3804.72 = 3917.71 over 688 frames.
+CLS_0020 وهل أصبح و دون أن ينظر إلى المصلحة العامة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0021, best cost 135.605 + 5011.32 = 5146.92 over 889 frames.
+CLS_0021 أؤكد لك بعض بأننا جميعا الداخلية صورتي إيجابية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0022, best cost 174.966 + 6187.95 = 6362.92 over 1099 frames.
+CLS_0022 ولا يمكن لأحدنا من الأدلة اصبحت لدية رؤية إعلان زاوية خاصة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0023, best cost 142.937 + 6060.83 = 6203.76 over 1120 frames.
+CLS_0023 بداية في مطعم له السيد أنا متأكد من يوم أمس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0024, best cost 154.703 + 5835 = 5989.7 over 1041 frames.
+CLS_0024 وصل بأنك وصلت إلى بعد آخر لعبة العاصمة بأنها تقوم بالصيانة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0025, best cost 160.471 + 5693.49 = 5853.96 over 1006 frames.
+CLS_0025 وبمثل يقصد أن مجموعة مسلحة الخارج سمين و خارج المسؤولية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0026, best cost 204.8 + 7038.91 = 7243.71 over 1245 frames.
+CLS_0026 السؤال يقدم طلب أوقع إتفاق السيارات أمل معدوم يغادرون طرابلس المطاطية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0027, best cost 211.942 + 6345.47 = 6557.41 over 1085 frames.
+CLS_0027 و لكن عائلة عباسي مرافقها ومؤسسة و يتواصلون مع على أماكن خارج هذه المعادلة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0028, best cost 127.184 + 4391.12 = 4518.31 over 757 frames.
+CLS_0028 أعلم أن هناك ليس في مصلحة الجميع و خارج المسؤولية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0029, best cost 136.227 + 4707.65 = 4843.87 over 811 frames.
+CLS_0029 وصل غراب ايضا وعدسة آلة قدم للسيدة بوتر من فقط 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0030, best cost 146.93 + 5291.11 = 5438.04 over 925 frames.
+CLS_0030 طلبت الأمر عندما يكون النوم بل يتبع هيئه الأمم المتحدة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0031, best cost 152.383 + 4845.28 = 4997.66 over 839 frames.
+CLS_0031 وأنا لدى رئيس وزراء من لم تكن بتعليمات و يقاد إليه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0032, best cost 214.601 + 7680.65 = 7895.25 over 1372 frames.
+CLS_0032 أنا بدوري وعملت لديه شخصية التي تقدم رؤسائه وأن النوم حدث مؤسسة لديه الرئاسة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0033, best cost 171.624 + 5607.12 = 5778.74 over 962 frames.
+CLS_0033 وربما عدد الناس يقدمون لدينا لم يعد في ذلك بعين الاعتبار أن لديه رأس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0034, best cost 184.458 + 5888.5 = 6072.96 over 1010 frames.
+CLS_0034 إذا كان موقع ماب على يتبعون ملك الوطن علامة وطنية رئيس العمال 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0035, best cost 86.095 + 3300.96 = 3387.05 over 574 frames.
+CLS_0035 الحارس الأمين بالكامل على الدستور 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0036, best cost 272.868 + 7635.65 = 7908.51 over 1285 frames.
+CLS_0036 ولم يعد سيادة الوطن و عدم التدخل الأجنبي وعدم السماح لكي تدخل أجنبي للوطن و لتعليم لارا للمحكمة الدورية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0037, best cost 192.251 + 6510.03 = 6702.28 over 1121 frames.
+CLS_0037 ونتعرض طويل منذ أن وصلت سن بأس ومن أجل بعد أربعة ملايين السنين إس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0038, best cost 208.027 + 7543.63 = 7751.66 over 1309 frames.
+CLS_0038 جميع نعم أنا متوتر بشأن اليوم الثامن و باس أطلق على مجلس أولادها مازالوا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0039, best cost 294.128 + 8965.9 = 9260.03 over 1524 frames.
+CLS_0039 أوه بدأ في عملية اتخاذ مجلس النواب و في شهر يوليو عيد الميلاد بصفة نهائية النتائج النهائيه مجلس النواب كتاب ديمقراطي حال 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0040, best cost 148.613 + 5116.21 = 5264.82 over 871 frames.
+CLS_0040 وتم تحديد موعد مقاعد مجلس النواب و أعضاء من ألف لعبة إس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0041, best cost 243.878 + 8549.61 = 8793.49 over 1467 frames.
+CLS_0041 بحسب ما أفعله التاسعة النافذة بأن رئيس المؤتمر الوطني اللعين هو الذي يحدد موعد أمة الإسلام 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0042, best cost 187.346 + 6360.34 = 6547.69 over 1104 frames.
+CLS_0042 وما الذي حدث الوطواط على أربعة من سماع بعض أعضاء أصدر بيانا في ذلك اليوم 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0043, best cost 148.309 + 5105.02 = 5253.33 over 890 frames.
+CLS_0043 بعد أن أقود مجلس النواب بطرق كان انها قدم بطل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0044, best cost 136.732 + 4000.96 = 4137.69 over 670 frames.
+CLS_0044 لأنه لم يكن بزرع طرف ثالث على الدستوري بأزمة قلبية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0045, best cost 103.067 + 3715.5 = 3818.57 over 647 frames.
+CLS_0045 و ستكون من على أقصى حد توجه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0046, best cost 247.593 + 7976.21 = 8223.8 over 1366 frames.
+CLS_0046 مصدرك المحكمة الدورية ما لديك من انعدام مجلس النواب وكل مشاركة تلك السيارات أظن أنني عدت و وجدت 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0047, best cost 45.4022 + 1356.88 = 1402.28 over 230 frames.
+CLS_0047 الذي حدث بعد ذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0048, best cost 134.309 + 4165.23 = 4299.54 over 695 frames.
+CLS_0048 إن خطوط الطول و إنه من أجل بابلو يجب أن غلطته هو 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0049, best cost 146.067 + 4655.7 = 4801.77 over 806 frames.
+CLS_0049 والدي كان أساس القصة على أنه يجب أن يكون ليبي ليبي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0050, best cost 143.646 + 4010.84 = 4154.49 over 650 frames.
+CLS_0050 مكونة من ثلاث رجال على الأقل في ذلك الوقت ليستبدل تصل المخزون 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0051, best cost 208.86 + 6450.03 = 6658.89 over 1075 frames.
+CLS_0051 جميع طلبات وجلسات وبينك كان يطارد داني أعلم بأنك أن يكون الأول ليبي ليبي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0052, best cost 73.4501 + 2301.23 = 2374.68 over 401 frames.
+CLS_0052 وكان وفد من أجل مجلس النواب 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0053, best cost 205.432 + 6628.66 = 6834.09 over 1151 frames.
+CLS_0053 بل كان الأولاد إن صحت التجمع أفضل في ذلك الوقت أن يكون الأول خارج ليبيا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0054, best cost 137.455 + 4068.86 = 4206.31 over 674 frames.
+CLS_0054 وطلب مني بأن يكون الهواء الدافئ وكانت النتيجة بدأ الناس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0055, best cost 288.635 + 8465.63 = 8754.27 over 1423 frames.
+CLS_0055 وبعدها لم يتسن الأمور الى الأمام في الترتيب لاوري اجراءات امنية آنسة بي لتأمين البيت وعلى حسب الطلب سيد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0056, best cost 107.559 + 2947.67 = 3055.23 over 484 frames.
+CLS_0056 توافق على تكون سمعت أن أجد مكان السيارات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0057, best cost 250.758 + 7777.62 = 8028.38 over 1333 frames.
+CLS_0057 وسرعان ما عازم على يعتبرون أن الحل الوحيد الاستراتيجي وصولا إلى حوار بين السياسيين يريد توافق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0058, best cost 47.5699 + 1407.9 = 1455.47 over 241 frames.
+CLS_0058 وما الذي حدث بعد ذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0059, best cost 119.016 + 3821.12 = 3940.13 over 660 frames.
+CLS_0059 كانت لدينا المطالبات كان على مجلس النواب مطالب 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0060, best cost 94.3609 + 2953.75 = 3048.11 over 486 frames.
+CLS_0060 وأقول جميعا بان الحواسيب ليست القانون 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0061, best cost 164.851 + 4836.21 = 5001.06 over 803 frames.
+CLS_0061 لا تنصت الحال القانونية لكن المحكمة الدورية يمكن أن سيادتك الوطن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0062, best cost 116.217 + 3676.22 = 3792.44 over 587 frames.
+CLS_0062 والإنتقال إلى هناك مرة أولى قبل أن أتبول يجب على الجميع 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0063, best cost 88.1108 + 2533.92 = 2622.03 over 434 frames.
+CLS_0063 ولكن علينا أن ندخل في حال تأسيس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0064, best cost 188.712 + 5813.39 = 6002.1 over 978 frames.
+CLS_0064 وكانت بداية دائما بأنه ليس لدينا صورة ليس من المدينة لدي أي فرصة سياسي الآن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0065, best cost 161.883 + 5171.64 = 5333.52 over 855 frames.
+CLS_0065 ولكن إذا على الأطراف المشاركة أعني بأنه يكون متعة ولكن مجلس النواب 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0066, best cost 185.307 + 5764.32 = 5949.63 over 994 frames.
+CLS_0066 سأتكلم وتحدثنا على توازن التسجيل في الوصول إلى مكان لأذهب إلى الاتفاق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0067, best cost 105.151 + 3560.73 = 3665.89 over 624 frames.
+CLS_0067 ربما الآن كل ما لديك بمصيره الأوان 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0068, best cost 186.961 + 5393.08 = 5580.04 over 912 frames.
+CLS_0068 ونباتات الأمم المتحدة لم أعني بالبداية أستطيع أن أرى وتحديد على سؤاله عن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0069, best cost 109.045 + 3045.64 = 3154.68 over 519 frames.
+CLS_0069 انا إلى المسائل السياسية بين اثنين موجودين 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0070, best cost 247.02 + 7637.08 = 7884.1 over 1253 frames.
+CLS_0070 ليس ومازلت نادمة بدوري وانتي وانتي ولد أقرت المحكمة أيدت كوريا لا يمكن أن أسأل سؤال عن التوافق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0071, best cost 182.879 + 5295.33 = 5478.21 over 871 frames.
+CLS_0071 ولكن مازلت أدركت الأمم المتحدة بي سالب أصاب استدعاء ودعوتك المتعددة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0072, best cost 88.0055 + 2365 = 2453 over 397 frames.
+CLS_0072 لن أدع معي عن واضح على الإطلاق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0073, best cost 148.784 + 3985.63 = 4134.41 over 649 frames.
+CLS_0073 أحد أحيانا تتحدث عن الحرب و حين تتحدث عن قصة مجتمع مدني 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0074, best cost 210.08 + 6079 = 6289.08 over 1007 frames.
+CLS_0074 وأحيانا تتحدث عن عمد البلدية يتم اختيارها من البطاقة دون اللجوء إلى مكان أمن الوطن الآن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0075, best cost 99.9403 + 3509.07 = 3609.01 over 606 frames.
+CLS_0075 السيد أرى أي سيدة كبيرة في حديقة إد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0076, best cost 213.4 + 7351.45 = 7564.85 over 1277 frames.
+CLS_0076 اعتقدت بأن رائحة أن نحاول الأسبوع الماضي لإجراء مقابلة الأولى مثل لكن ليس لدي مقابلة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0077, best cost 92.9657 + 2693.48 = 2786.44 over 455 frames.
+CLS_0077 وتم إعداده منصب رئيس كومة الأنقاض 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0078, best cost 256.347 + 7891.32 = 8147.67 over 1369 frames.
+CLS_0078 وعد عادل المستندات التي الدي لم يحدث ذلك ولا يجب أن لا بد أن ساندتنا أن تساعدك مع المدعي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0079, best cost 212.418 + 6481.35 = 6693.76 over 1108 frames.
+CLS_0079 لدي الخطاب لكنت لديك الوصول فريق أمني برئاسة السيد قبل ساعة من العائلة على 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0080, best cost 138.585 + 4028.41 = 4166.99 over 676 frames.
+CLS_0080 وأطلب الإذن للتخلص ولكن لدي أيضا أن أذهب إلى أزمة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0081, best cost 121.239 + 3675.21 = 3796.45 over 625 frames.
+CLS_0081 و بازالة التماثيل أنا فقط أردت كاتم صوت على ذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0082, best cost 225.947 + 6962.67 = 7188.61 over 1176 frames.
+CLS_0082 بأن أي رسالة بعد عدة آلاف يتوجب أن الحكومة الأمريكية وصول على رسالة من بكثير الآن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0083, best cost 120.741 + 3426.83 = 3547.57 over 576 frames.
+CLS_0083 وكان ذلك في هذا اللقاء أبي هل آدم آدم ألا أفعل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0084, best cost 242.901 + 7049.22 = 7292.12 over 1154 frames.
+CLS_0084 و طلبت منه أن يعلمك هذه الأيدي وأن كنت في الجانب ليس الأسود الأمم المتحدة لتمارس معه بداخل التابوت 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0085, best cost 232.956 + 7166.33 = 7399.29 over 1177 frames.
+CLS_0085 ولكن أتيت إلى هنا الآن وتكرارا ليس أنا ليس لدي ليس لديه علاقه بي سي أس أس المسائية تعمل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0086, best cost 92.6077 + 2528.31 = 2620.91 over 419 frames.
+CLS_0086 عالم المقامرة اني لم يوقع على هذا الهاتف 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0087, best cost 154.365 + 4644.98 = 4799.34 over 765 frames.
+CLS_0087 وعندما نصل لتلك بمرح مثل الزنزانة وأبدأ بأنك آلاف الأميال 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0088, best cost 199.579 + 5809.46 = 6009.04 over 964 frames.
+CLS_0088 أولاد ستة براميل عندما نشعر بأننا وصلنا إلى حلم وفي عبارة عن ارادة لدينا الجميع 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0089, best cost 127.814 + 4141.87 = 4269.68 over 720 frames.
+CLS_0089 الذي يريد رؤية به اليوم أصعد إلى مدينة محطمة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0090, best cost 97.9364 + 3783.03 = 3880.97 over 677 frames.
+CLS_0090 بأن معيشة عن المؤتمر الوطني اللعين 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0091, best cost 174.468 + 5294.42 = 5468.89 over 889 frames.
+CLS_0091 بأنه على بعد أربعة أسابيع بل أعلم بأنك تلوم تسدد وهم عائدون للوطن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0092, best cost 111.466 + 3595.66 = 3707.12 over 608 frames.
+CLS_0092 نحن لازلنا نوصي نحن نهتم الحقيقة وبالواقع 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0093, best cost 243.167 + 6917.98 = 7161.15 over 1178 frames.
+CLS_0093 نحن نتبع بورن وتكرارا بعد الآن بأن العالم لديه وأنا لدينا جميعا عازم على الوصول لحل توافق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0094, best cost 124.725 + 3386.03 = 3510.75 over 567 frames.
+CLS_0094 ومنذ تسربت التي أرسلت لي مبروك كم من الصعب 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0095, best cost 86.0363 + 2614.83 = 2700.87 over 425 frames.
+CLS_0095 الأوزان للأمم المتحدة عضو مجلس الأمن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0096, best cost 245.966 + 7493.07 = 7739.03 over 1292 frames.
+CLS_0096 وطلب منهم في إثارة نزاع عائلتي بيتي و السيد رئيس مجلس الأمن ذلك الألم مثيل في تاريخ صعبة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0097, best cost 257.776 + 8911.16 = 9168.94 over 1544 frames.
+CLS_0097 أنا طلب مني وربما فحوى الرسالة أن أموت الوطني أكدت على فرصة واحدة أكيدة المضي قدما إنجاح الحوار 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0098, best cost 91.0603 + 2251.98 = 2343.04 over 370 frames.
+CLS_0098 وذلك من منطلق للواجب الوطني والقوات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0099, best cost 163.1 + 4818.94 = 4982.04 over 799 frames.
+CLS_0099 كم عدد مرارا وتكرارا أن يكون حول رياضي ومناصر لدينا متصل على بعض الهواء 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0100, best cost 182.95 + 5094.59 = 5277.54 over 829 frames.
+CLS_0100 وفي الوقت لدينا قبل فيلد المتواصل الأمم المتحدة ومن دون درعي لا اعرف لم تصر على ذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0101, best cost 249.157 + 7130.55 = 7379.71 over 1156 frames.
+CLS_0101 لا تزال بخبرتك الجنسية بنادي ليلي ألم تقل وأصابه أريد تمويلك بميناء دبلوماسي أريدك أن تعودي المتحدة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0102, best cost 87.2808 + 2615.2 = 2702.48 over 431 frames.
+CLS_0102 و أريد نقل تلك التفاصيل هذا أمر 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0103, best cost 247.16 + 9253.05 = 9500.21 over 1603 frames.
+CLS_0103 الذين هم في أداء الخصوص إنه إتفاق ما لم أعد أعمل بجد على أنه يعتبر إتلاف العظام تلك الحقيقة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0104, best cost 85.3484 + 2480.27 = 2565.62 over 417 frames.
+CLS_0104 ولا يمكن أن يعبر عن نتائج فائدة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0105, best cost 237.477 + 7303.16 = 7540.64 over 1197 frames.
+CLS_0105 خاصة الآن لطفا لدينا وقت هناك يجد نفسه من عمه الملك و أن العام لصاحب الولاية باعلان كرة القدم 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0106, best cost 106.611 + 2813.86 = 2920.47 over 470 frames.
+CLS_0106 ومن يمكنك مجلس النواب بالاعتراف الدولي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0107, best cost 179.327 + 5080.81 = 5260.14 over 850 frames.
+CLS_0107 لمن يقوم مفوض لي بتوقيع ولد ابق بالبيت أقصد لن يكون أنا كذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0108, best cost 103.54 + 2911.03 = 3014.57 over 469 frames.
+CLS_0108 وكذلك لدينا وقود مجلس النواب لن يكون كذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0109, best cost 161.657 + 4486.24 = 4647.9 over 742 frames.
+CLS_0109 ودليل على ذلك النسيج الزئبق الأخيرة أوه أنا مجلس النواب هناك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0110, best cost 154.806 + 5127.31 = 5282.12 over 841 frames.
+CLS_0110 التالية بالمواعدة حتى في من الصعب أن نصدق التي يدرسها لا يمكنه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0111, best cost 150.483 + 5776.97 = 5927.45 over 992 frames.
+CLS_0111 ولكن على الأقل يجب أن أعبر نعم إذا أردنا أن نصل إلى الحقيقة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0112, best cost 144.848 + 4233.53 = 4378.37 over 725 frames.
+CLS_0112 أحبك سيد الدكتور صالح مخزون أن بأن ليس الأمر كما 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0113, best cost 206.591 + 7019.07 = 7225.66 over 1221 frames.
+CLS_0113 نعم أحب بأنه قضى فترة معينة كان رائعا أليس مؤلف يقل عن تقدم الاستقالة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0114, best cost 142.469 + 4606.99 = 4749.45 over 759 frames.
+CLS_0114 وسئمت من أخذ الأسلحة التي بأنه كان علي أن أضع يدي سأموت 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0115, best cost 114.735 + 3206.56 = 3321.3 over 550 frames.
+CLS_0115 رسالة كنت بتاريخ ست سنين من هذه السياسة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0116, best cost 195.143 + 6554.1 = 6749.25 over 1132 frames.
+CLS_0116 قالته السيدة رايس المقرر أن تقلع تحياتي بعد أن تقبل استقالته من أسطول يفوت الأوان 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0117, best cost 234.792 + 6859.54 = 7094.33 over 1167 frames.
+CLS_0117 ألم المؤتمر الوطني عن وحدة التكييف تماما إدراك الناس قالته هذه لا تحتاج للعمل على مقابلة العمل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0118, best cost 236.393 + 7060.62 = 7297.02 over 1191 frames.
+CLS_0118 و الناس على نهاية غير قابلة للرجوع في الجانب سكرانة سلفا ان تفهم ان اسلم عليك نقل كل مرة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0119, best cost 98.4224 + 3122.28 = 3220.71 over 527 frames.
+CLS_0119 لتصبح محله من بأن هذا ليس بطولة العالم 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0120, best cost 238.974 + 7464.74 = 7703.71 over 1281 frames.
+CLS_0120 تم تأجيل جلب على رسالة بيتي كنت في الوقت الذي تمنيت أتمنى أن تذهبي لشخص أن تستمر في أداء مهام 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0121, best cost 160.197 + 4674.91 = 4835.1 over 793 frames.
+CLS_0121 وصلت للمحكمة بأكمله على نجاح وتفاني ولكن ذلك قد القبيل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0122, best cost 188.542 + 5525.35 = 5713.89 over 911 frames.
+CLS_0122 على موافقة على إفادته صالح مليئة طريق الحبوب التي بذلك وأتمنى لو كنت في 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0123, best cost 190.615 + 5436.8 = 5627.41 over 927 frames.
+CLS_0123 وفي نفس التاريخ صبي تصريح بخصوص استقالتك اصبح مخرج من هنا من أجل ذلك هو 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0124, best cost 110.421 + 3329.32 = 3439.74 over 560 frames.
+CLS_0124 صعب علي بعض الألعاب حزب العدالة مدينة لوس أنجلوس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0125, best cost 194.384 + 5760.74 = 5955.12 over 986 frames.
+CLS_0125 دعني أقدم لك دكتور صالح مخزون استقالتي من آسف بالفعل وكانت بناء على رقبته 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0126, best cost 282.811 + 7222.47 = 7505.28 over 1222 frames.
+CLS_0126 و بأن قيادة حزب العدالة وبين وجاءت بسبب عدم ترجمة دكتور مخزون مع توجهات استمر فيما يتعلق بي بعض الحلوى 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0127, best cost 164.523 + 5181.88 = 5346.4 over 917 frames.
+CLS_0127 لمدة عام و في نفس اليوم أيضا إلى مصدر هذه الرسالة موجهة ضد صاح 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0128, best cost 152.207 + 4676.34 = 4828.54 over 790 frames.
+CLS_0128 مع السيد المحترم من البداية ليس بطولة العالم لتصلح محمد أخذ 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0129, best cost 230.389 + 6823.17 = 7053.56 over 1187 frames.
+CLS_0129 تحياتي بعد بتأكيد سيكون تاريخ رجال تتوقف أتوقع أن نربح بنفسك ميد الدفاع عن الوطن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0130, best cost 123.751 + 3338.01 = 3461.76 over 570 frames.
+CLS_0130 وتفعيل على بمنزلة جدا و أنني أقول أفتح 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0131, best cost 151.816 + 4020.47 = 4172.28 over 670 frames.
+CLS_0131 بأنني لست من الصيادين بأن الرئيسة لهو أمر وطني إلى تعملين المكان 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0132, best cost 270.592 + 8277.97 = 8548.56 over 1379 frames.
+CLS_0132 سواء عندما كنت تقرر لمطاردة العام ونائب سان لويس عندما أصبحت رئيس المؤتمر الوطني نعم نحتفظ به بعد الآن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0133, best cost 168.87 + 5177.51 = 5346.38 over 911 frames.
+CLS_0133 مسيرة محفوفة بين الحين و الدروس الصعبة كانت بمثابة انتحار الشاق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0134, best cost 156.415 + 4130.85 = 4287.27 over 676 frames.
+CLS_0134 وعندما تصل ثبت كذب تصبح باسيفيك لو علمت لمقابلة العام 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0135, best cost 177.853 + 4963.2 = 5141.06 over 823 frames.
+CLS_0135 وقالوا تزيدان بأنه نجح في هذه المهمة بقدر وكأن السنة الأولى يمكن لشعب 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0136, best cost 153.561 + 4630.56 = 4784.13 over 769 frames.
+CLS_0136 الذي تراه على خير البلاد أنا أعرف حتى يعمل فتيل الحرب سياسيا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0137, best cost 86.1534 + 2857.8 = 2943.95 over 475 frames.
+CLS_0137 لقد تقابلت مع النساء اللاتي في فترة سابقة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0138, best cost 271.366 + 7864.73 = 8136.1 over 1310 frames.
+CLS_0138 وجدوا أنني كنت من لدينا حول بكل السبل بكل السبل لعقد نصب لعبة جاين والخليلة ملكية خاصة المجتمع المدني 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0139, best cost 116.639 + 3344.11 = 3460.75 over 549 frames.
+CLS_0139 ونحن سياسيه تقبل إقناعه بالعدول عن تلك الستارة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0140, best cost 224.833 + 6264.89 = 6489.72 over 1020 frames.
+CLS_0140 وفي عدد وبعد تسع وأربعون خلال كل دليل وجدت نفسي ولكن بعد الوادع بقبول إستقالتي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0141, best cost 113.499 + 3186.32 = 3299.82 over 522 frames.
+CLS_0141 عندما تركت وعدم أعتقد دائما للسرية أصدق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0142, best cost 244.962 + 6981.42 = 7226.38 over 1151 frames.
+CLS_0142 في سبيل أن تصل إلى لكمية كافية لجعل نحو بعد حادث وبين لتحطم ويل مهما كان ما زالوا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0143, best cost 322.881 + 8302.03 = 8624.91 over 1356 frames.
+CLS_0143 ولا أزال على ثقة بأن سيادتك سيكون عونا بكل خمس مئة سعر الوحده الوطن المواطنين وفقدت وعيي كما تعلمون القصة أسلم عليكم حكومة المملكة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0144, best cost 185.789 + 5498.91 = 5684.7 over 913 frames.
+CLS_0144 ولا أريد أن نعلق كثيرا على زميل و كان نائب لديك وطن ولكن بعد ذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0145, best cost 145.757 + 4746.28 = 4892.04 over 816 frames.
+CLS_0145 ربما يريد أتوجه ألتمس من الصعب متخصصين القانون الدستوري 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0146, best cost 186.752 + 5933.79 = 6120.54 over 990 frames.
+CLS_0146 يريدنا أن نعيده لشعب تصرفت لدينا أقل من بطولة ولندع مازالوا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0147, best cost 236.76 + 7595.29 = 7832.05 over 1278 frames.
+CLS_0147 من الأشخاص الذين وقع نيابة عن سبب موتك تقل من قصة لدينا أقصد بأن لا تعمل لنفسك الدور 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0148, best cost 219.299 + 6525.33 = 6744.63 over 1072 frames.
+CLS_0148 وليس لدي محكمه دوليه وكن جزءا من الميول السياسية بتملك الوطن على بعد أربعة من ضباط الصف 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0149, best cost 188.317 + 5858.64 = 6046.96 over 990 frames.
+CLS_0149 وخاصة بعد مالا العالم جميعا اعتراف قصير بمجلس النواب ولكن ممتعا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0150, best cost 116.028 + 3306.39 = 3422.41 over 534 frames.
+CLS_0150 إذا كنت طفلة على وتصرفات أن تقدم لك فتاة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0151, best cost 116.913 + 3779.79 = 3896.7 over 644 frames.
+CLS_0151 ما حدث في أي جزء من ونحن نمثل المصلحة العامة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0152, best cost 334.566 + 9515.33 = 9849.9 over 1533 frames.
+CLS_0152 ان سيارات ثقيلة وقطعوا بعد المطاف ومحاربين مسؤولية كل من سبب أتسبب وحدة الصيانة من أي منهم أربعة ملايين السنين تصل كتب التاريخ 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0153, best cost 101.15 + 2838.47 = 2939.62 over 462 frames.
+CLS_0153 مرحلة من قطعة واحدة من أصعب مرحلة الإطلاق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0154, best cost 119.425 + 3138.31 = 3257.73 over 511 frames.
+CLS_0154 ما حدث مدرب مدن كاملة بعد أن إلى أسفل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0155, best cost 245.683 + 6454.75 = 6700.44 over 1060 frames.
+CLS_0155 محطة البنزين محطة توقف محل الطبيب من الممكن أن يصف تدرك بأنك فقلت سياسي على في جميع الأطراف 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0156, best cost 211.619 + 7306.03 = 7517.65 over 1213 frames.
+CLS_0156 السؤال هو ما يصل بعد كل المتحدة الولايات المتحدة و مجلس الأمن بعد ألف ليلة بعد ليلة الدستورية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0157, best cost 127.863 + 4279.39 = 4407.26 over 708 frames.
+CLS_0157 وكبار تموت من أجل سيده يتعامل فقط مع مجموعة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0158, best cost 185.922 + 5639 = 5824.92 over 947 frames.
+CLS_0158 وفي لحظة ما يتم التعامل يتم التعامل مع أفراد من المؤتمر للمفوضية توقف توقف 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0159, best cost 136.95 + 3556.8 = 3693.75 over 583 frames.
+CLS_0159 وتم ابرام اتفاق أنت تبدو لي و المباركة من مجلس الأمن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0160, best cost 168.578 + 4538.41 = 4706.98 over 727 frames.
+CLS_0160 هذا ليس ما زلت على الدولة أن نقول مساء الغد لن تموت مازلت أن للدولة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0161, best cost 179.946 + 5530.84 = 5710.79 over 910 frames.
+CLS_0161 أنا مثلك تماما ولكن تركت له رسالة تصاعدت صالح وفائق التي بدأت دكتور 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0162, best cost 173.263 + 4845.89 = 5019.15 over 783 frames.
+CLS_0162 بأن ومن ثم عالمك وطن كان بسبب لمقعد مجلس النواب مقربة من مراقبة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0163, best cost 184.857 + 5839.27 = 6024.13 over 952 frames.
+CLS_0163 وربما كنت أكملت دوري ولكن بسبب انه وصل الى مستويات القسم تصدق تصبح نقطة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0164, best cost 211.949 + 6266.57 = 6478.52 over 1024 frames.
+CLS_0164 <UNK> وربما تذكرك متماثلين ولكن بسبب انه وصل الى مستويات القسم تسد تصبح نقطة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0165, best cost 249.939 + 7255.24 = 7505.18 over 1171 frames.
+CLS_0165 فإن الحديدية لابد أن يكون سياسى توافق ولكن أحد يقول الناس ليس يسمى مجال الأعمال بول التجسس سري 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0166, best cost 116.088 + 3307.82 = 3423.91 over 539 frames.
+CLS_0166 على مقياس لعبة عليكما الوصول لطوق على التفاصيل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0167, best cost 289.904 + 8998.21 = 9288.12 over 1477 frames.
+CLS_0167 كيف يمكن أن يسمع كل مواطن لمدة عام بموجب العالم كله و متطلبات أن يتنازل عن وظيفة تسألي سيد تاليس القبيل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0168, best cost 237.966 + 7265.78 = 7503.75 over 1187 frames.
+CLS_0168 لكن ليس استشعار يقول لي هذا ليس صعب مرتفعة ولديه و حصان لعبة الملاحقة لمدة سنة قادمة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0169, best cost 100.621 + 4224.66 = 4325.28 over 753 frames.
+CLS_0169 آمل بأن وخاصة بعض المتعة الجسدية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0170, best cost 180.339 + 5768.32 = 5948.66 over 981 frames.
+CLS_0170 ولدينا الولد قلت بأنهم وافق على اتفاق قصيرة بالسيارة الى المنزل آمنة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0171, best cost 269.602 + 8251.32 = 8520.92 over 1374 frames.
+CLS_0171 وافق على إن وافقت على اتفاقية عن بصوت عال مادة وافقت على بقعة المجلس السياسي صعب إعادة تشكيل آراء الحكومة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0172, best cost 215.997 + 6258.75 = 6474.75 over 1023 frames.
+CLS_0172 ولادة لدينا تتحدث وكل يقول المؤسسة العسكرية التي الأصوات حسنا نحن لا نريد أن يبقى حتى 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0173, best cost 127.948 + 4010.94 = 4138.89 over 678 frames.
+CLS_0173 ف ولكن لست العسكري يمكن أن تصل إلى بوابة أخرى 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0174, best cost 256.365 + 8778.79 = 9035.15 over 1469 frames.
+CLS_0174 لدي بأن تقدم أوراق بدأ العمل شخص يجب أن ندبر ليس قبل أن يولد بلحية القائد الأعلى الجديد للتطوير من المتوقع 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0175, best cost 123.769 + 3280.92 = 3404.68 over 554 frames.
+CLS_0175 ف أن يحدث من يوم الغد لن يكون أمام محكمة عادلة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0176, best cost 223.298 + 6026.13 = 6249.43 over 989 frames.
+CLS_0176 ف و لم يقبل في بلدك من مجلس النواب يقول السيد بيب بيب على اساس وبقعة الاعلى للجيش الهندي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0177, best cost 179.908 + 5158.51 = 5338.41 over 854 frames.
+CLS_0177 وسط المدينة باربي تتحرج ودمرت ولد وتعلم أن ممتلكات واحد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0178, best cost 102.189 + 2731.97 = 2834.16 over 442 frames.
+CLS_0178 فائدة من يوم الغد يقدمون إلى محاكمة عادلة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0179, best cost 211.385 + 6359.24 = 6570.62 over 1037 frames.
+CLS_0179 ف و لشخصية أبوية أثق يتحدثون عن خط آمن آمن نتحدث عن صنع حبل أنا ياسمين 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0180, best cost 89.154 + 2223.75 = 2312.91 over 369 frames.
+CLS_0180 لابد من قدم جميعنا لمحت إلى المحكمة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0181, best cost 208.368 + 6579.03 = 6787.39 over 1116 frames.
+CLS_0181 لماذا لم أصل بتاريخ اليوم وأقول وبشدة وطلب في جلسة أريد سماع كلمة كلمة كلمة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0182, best cost 178.009 + 5054.79 = 5232.8 over 811 frames.
+CLS_0182 ف وعندما القينا بدلة لعبي لعبة شخص يعبر عن لعب لعب لعبة البطولة العام 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0183, best cost 224.466 + 6765.11 = 6989.58 over 1124 frames.
+CLS_0183 يجب أن نكون مستعدين كل من علم بمكانه الآن وكل من عمل بمجلس النواب وكل العاملون على الحكومة الآن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0184, best cost 295.018 + 8448.28 = 8743.29 over 1393 frames.
+CLS_0184 وكل من عمل و أعمل للحكومة أن تقوم بصنع واحد الحكومة السابقة من يوم الغد لقب جواز سفره إلى النائب العام والمدعي العام العسكري 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0185, best cost 177.736 + 4982.26 = 5160 over 825 frames.
+CLS_0185 للتحقق من عدم وجود أي دعوة عدد تتعلق الحق الآن وتدع لوحة الخاص 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0186, best cost 84.4787 + 2907.38 = 2991.85 over 489 frames.
+CLS_0186 ألم تعدنا لذا فمن يعلم مباشرة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0187, best cost 130.934 + 3857.48 = 3988.41 over 660 frames.
+CLS_0187 طلبت من السيد وزير المالية أن يتحقق من وجود مثل قانوني 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0188, best cost 238.97 + 7803.32 = 8042.29 over 1273 frames.
+CLS_0188 التي تظن أنه قبل مغادرتي ألم تكن ليس للأبد و الأعين المجنونة وهراء الحكومة الحالية ولكن تصديقه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0189, best cost 197.438 + 6098.57 = 6296.01 over 1041 frames.
+CLS_0189 أن يقدم على تقديم فقرة من قبل كان من الواجب أقدام قادرة على قتل تتبعت سو 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0190, best cost 184.588 + 4956.4 = 5140.98 over 808 frames.
+CLS_0190 لقد نحن نملك موطن أقرب من لي العودة حاكم بلاد تدعى الوطن منذ البداية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0191, best cost 115.506 + 3353.42 = 3468.93 over 559 frames.
+CLS_0191 أجل جميعنا قدمنا ابدا انني وعدت أن تكون قادمة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0192, best cost 262.462 + 7902.42 = 8164.88 over 1311 frames.
+CLS_0192 الآن عمتك تطعم المدينة اندمج المؤسسة العسكرية الأمر ولدينا خيول أيضا بأن المسكن مدنية و عسكرية أول عمل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0193, best cost 132.982 + 3754.37 = 3887.35 over 619 frames.
+CLS_0193 و الذين يرغبون بمخاطرة أسئلة المصلحة التي كانت تحت السرير 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0194, best cost 96.11 + 2668.16 = 2764.27 over 444 frames.
+CLS_0194 لابد على الجميع أن يقدم قام ببناء عملي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0195, best cost 192.559 + 5884.16 = 6076.72 over 998 frames.
+CLS_0195 ولا والقادمة من أجمل من أن جميع وأيضا يجب أن نحدد المسئولية فيما حدث ثانية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0196, best cost 194.799 + 5356.91 = 5551.71 over 883 frames.
+CLS_0196 لدينا عن تحت مظلة من الطعام المزروع أتحكم بلاط جديد لابد من تحديد المسؤوليات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0197, best cost 241.109 + 7374.01 = 7615.11 over 1204 frames.
+CLS_0197 ولا بد من وجود قائد عسكري مقربة من هواة وقائد يكون لك و طمع وليست مكالمة العاصفة قادمة من جديد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0198, best cost 94.9301 + 2671.7 = 2766.63 over 419 frames.
+CLS_0198 وعندما تموت نعم بصفتي مقابلة عمل جيد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0199, best cost 230.369 + 6076.38 = 6306.75 over 965 frames.
+CLS_0199 وعلى مجلس النواب المطر بدون أمل وبدون أي أخطاء قد أعلنت وليس للصيد عدا نبات أقدر على جيد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0200, best cost 222.397 + 6927.56 = 7149.96 over 1098 frames.
+CLS_0200 وكل الأصول مجلس النواب <UNK> أو إساءة أم بعد أن يكون من الصعب مقابلة عمل عن ستة سبعة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0201, best cost 182.011 + 5402.81 = 5584.82 over 894 frames.
+CLS_0201 أوه لذلك أنا أم بالمناطق العسكرية لابد أن يكون مستعدين لا تقبل للمساعدة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0202, best cost 183.307 + 4224.54 = 4407.85 over 680 frames.
+CLS_0202 وبمعرفة حجم بعد لتلحق بجميع المدن و الجميع مواطنين من جميع الممتلكات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0203, best cost 174.342 + 4684.92 = 4859.26 over 746 frames.
+CLS_0203 وعندما تحدث أمتلك طيب ولكن لا تدع ممتلكات خاصة مثل نوع من ممتلكات عامة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0204, best cost 250.348 + 7515.81 = 7766.16 over 1224 frames.
+CLS_0204 لدي أنا آسف أنا آسفة أنا لست مصابة بصداع أوه توفى جدي أوه أنا أعرف ذلك العام الأول ليس بالضبط 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0205, best cost 226.527 + 6754.91 = 6981.43 over 1088 frames.
+CLS_0205 فإن آسفة آسفة مكافحة الإرهاب تكون مسؤولة على ممتلكات يستولوا علي ممتلكات خاصة أعني آمل ذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0206, best cost 153.094 + 4767.05 = 4920.14 over 760 frames.
+CLS_0206 فلابد أن يكون مستعد لتقديم المحاكمة ليكون صوت لأجل بلاده اتفاقيات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0207, best cost 167.93 + 4629.02 = 4796.95 over 751 frames.
+CLS_0207 كما قلت أنا قمت بتقصي السياسة من من الناس لمن تصمم قبل بداية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0208, best cost 330.132 + 8573.36 = 8903.49 over 1356 frames.
+CLS_0208 ف ولايه بي الأصل من العبقرية من كفاءة من يستطيع ندخلكم قادمة ومن الصعب أن يدخل أجل تسليم أحد وليس أنت قادم و أعتقد أن أقابله 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0209, best cost 126.999 + 3557.9 = 3684.9 over 581 frames.
+CLS_0209 وبالتالي أربعمائة الوطن وأن بصفتك رسالة الوطن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0210, best cost 149.309 + 5087.25 = 5236.56 over 848 frames.
+CLS_0210 لقد قلت نعم كنت على استعداد تام أعلم لكن على عكس أي من جسده 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0211, best cost 249.787 + 6822.88 = 7072.67 over 1090 frames.
+CLS_0211 وجدت السلام ربما هناك أي أساس معلومات سبق وأن تغلب هناك الجنود وربما تكون محاكمة عادلة منطقة ثقب الباب 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0212, best cost 339.229 + 9537.17 = 9876.39 over 1532 frames.
+CLS_0212 فنحن كل من تعامل مع المجتمع الدولي و معلومات لي لماذا أنتي حتى تكون محكمه دوليه خاصه لكل المساجين الذين قد أفلت من أي منزل انتقال الى عادل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0213, best cost 218.764 + 5599.18 = 5817.94 over 921 frames.
+CLS_0213 في أي بلد جميعا بالباتين حياة عبر جميع بأن تثبت سبعين تمطر على استعداد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0214, best cost 222.679 + 6558.42 = 6781.1 over 1039 frames.
+CLS_0214 فكرت أن عمود وتمت على توقيع مكانك و تلبس بدلة ولا تزال تملك الحرية والعدالة وليس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0215, best cost 103.463 + 3218.37 = 3321.84 over 527 frames.
+CLS_0215 فلا يمكن الخروج من ذلك إلى أدلة على السرية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0216, best cost 127.428 + 3669.27 = 3796.7 over 595 frames.
+CLS_0216 في الأساس عملت كثيرا وصعب على مقابلة يعرفون ذلك جيدا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0217, best cost 156.179 + 4678.52 = 4834.69 over 774 frames.
+CLS_0217 فأنت تعلم الذي جعل اتفاق بانه لايمكن ملاحقة أي من الطرفين 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0218, best cost 226.375 + 6239.1 = 6465.47 over 1000 frames.
+CLS_0218 في ملاحقة الجنائي أنت مثل أخيل من الأطباء فى خلال من تجارب على الكلام للوصول إلى قسيس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0219, best cost 181.198 + 4997.39 = 5178.58 over 823 frames.
+CLS_0219 فلا يمكنك قبول ذلك من لدي تحمل مثل هذه الأرواح من بلدي تحمل مسؤولية لدي أدنى 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0220, best cost 110.821 + 2869.78 = 2980.6 over 464 frames.
+CLS_0220 ف من لن يتحمل مسؤولية يتم العمل وتكرارا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0221, best cost 86.3092 + 2497.95 = 2584.26 over 402 frames.
+CLS_0221 من الذي تحمل مثل تجمد الندى 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0222, best cost 234.982 + 6862.78 = 7097.76 over 1131 frames.
+CLS_0222 <UNK> بحاجة لبعض الناس خمسة اربعة ماس تتم حد كبير بين محبة بي أنا و بعد سبع ساعات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0223, best cost 219.244 + 5652 = 5871.24 over 891 frames.
+CLS_0223 ف منذ تسعة لمدة ألف سنة قد أكون سبب أي مسؤول من سبب مثل موجود بدون لي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0224, best cost 188.67 + 5787.21 = 5975.88 over 915 frames.
+CLS_0224 فهو من يقوم للخارج بني يجب أن أعود للطابق الذي يجب لأحد أن تصدق يعمل معنا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0225, best cost 165.613 + 5285.59 = 5451.2 over 824 frames.
+CLS_0225 في الواقع كنت اعمل مقالة على أمور قبل الإتحاد الأمريكي ومواقيت بريطانيا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0226, best cost 183.56 + 4855.99 = 5039.55 over 767 frames.
+CLS_0226 ف نحت احرف تتبعي أسلوب ونحترم بعض الأماكن العامة البلدة مطالبون مكلف 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0227, best cost 216.289 + 6359.7 = 6575.99 over 996 frames.
+CLS_0227 في مكان يسمح لي بأن يقوم مسيره صعبه لم يحب الطعام ولم يحدث لي ولم نجد واحدة لكل واحد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0228, best cost 191.786 + 5593.96 = 5785.74 over 905 frames.
+CLS_0228 فأنت لديك حلم واحد التفاصيل عنيدا وكان على نمط محدد على السيد عازب أليس كذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0229, best cost 184.011 + 5770.65 = 5954.66 over 954 frames.
+CLS_0229 في مكان فرصة رائعة بمناسبة لي ذات مرة ولكن أبعد من الناس عن عدم بسلام 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0230, best cost 85.4227 + 2297.9 = 2383.32 over 359 frames.
+CLS_0230 ف من الناس على نسخة من ألف دولار 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0231, best cost 105.351 + 3219.29 = 3324.64 over 513 frames.
+CLS_0231 لدي مقابلة لستين لدية كان والدي تمت بعد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0232, best cost 124.905 + 3241.43 = 3366.34 over 517 frames.
+CLS_0232 ف واثق من أنها مصنوعة من البلوط إذا تكلمت مع بطل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0233, best cost 136.072 + 3743.94 = 3880.01 over 584 frames.
+CLS_0233 فقد انا لم اكن موجود رجل كان موجود الوقت كان وزير الدفاع 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0234, best cost 227.743 + 6336.11 = 6563.85 over 1001 frames.
+CLS_0234 فعلت صورة وزير الداخلية صراحة كان لدى المخابرات جيدة صعبة الإستخبارات العسكرية أكل من مطعم الأطباق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0235, best cost 165.944 + 4968.37 = 5134.31 over 795 frames.
+CLS_0235 ف لماذا محاولة العالم تتوقعين بأنه ليس من عملك تماما أنه ربما 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0236, best cost 274.016 + 7450.75 = 7724.77 over 1213 frames.
+CLS_0236 فإن على الجدران من على المتطرفون أن كم عدد المدنيون لم يعالج إذا كانت عملية ولماذا لم يقدر على مادة يتعلق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0237, best cost 117.523 + 3610.97 = 3728.49 over 618 frames.
+CLS_0237 إد آل دولي و على ويندي ليس بمكان 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0238, best cost 97.513 + 2930.19 = 3027.7 over 481 frames.
+CLS_0238 ف اننا لم تكن تصغي لما يزيد عن الساعة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0239, best cost 319.27 + 8397.55 = 8716.82 over 1348 frames.
+CLS_0239 فاحرص على طقس حصلت عليها من قبل مصاصي الدماء ومن ثم غيرها لكي يشعر السيد من ورطة محل والي مهارته دون عقاب ودون حسنا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0240, best cost 81.2274 + 2275.34 = 2356.57 over 382 frames.
+CLS_0240 يجب أن ترى جميع من الحليب حبيبي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0241, best cost 85.389 + 2607.25 = 2692.64 over 429 frames.
+CLS_0241 أنا لدي نقود إيجابية و حسب 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0242, best cost 295.337 + 8061.71 = 8357.04 over 1304 frames.
+CLS_0242 فقد وجدت جبينك هي محاصرة المبنى و لو وجدت إيجابية حول البلاد لديك من دون منذ البداية وتحققت بعد من محل الألعاب النارية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0243, best cost 90.0057 + 2545.29 = 2635.3 over 429 frames.
+CLS_0243 فهناك أخي في وسط المجتمع المدني 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0244, best cost 202.294 + 5406.17 = 5608.46 over 864 frames.
+CLS_0244 ليست مصممة و منظمة مجتمع مدني ومازالت الأحيان مزلزلة كما ومؤمنة الوفاة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0245, best cost 244.671 + 7371.46 = 7616.13 over 1184 frames.
+CLS_0245 أنا قدمت يد بشرية ونهر سياسية وأخي ومعظم أفراد لأحد بأن وينك أقام علاقة مع الموجودة على مشاكل كثيرة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0246, best cost 80.3671 + 2640.85 = 2721.22 over 442 frames.
+CLS_0246 أنا أقوم بواجبي عنك ويعمل لأجل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0247, best cost 172.989 + 6397.58 = 6570.57 over 1114 frames.
+CLS_0247 ولا يوجد لدى دليل بأن من انا متفق سياسيا واحد سيكون في و 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0248, best cost 267.629 + 7910.93 = 8178.56 over 1291 frames.
+CLS_0248 من هو في طريقة لنعلم حتى من مكانتك لتكون آمنة وسلوك الوطني يعمل في مجلس النواب و نقطة التمسك تكون عندنا مدرسة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0249, best cost 276.163 + 7829.83 = 8105.99 over 1242 frames.
+CLS_0249 نحن لديك مثل سلاسل مربوطة من لمحات أن يتلصص في العيد ومن ثم نعود من فيلمه وطنك لكي يكون عدواني متسلط 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0250, best cost 281.97 + 7952.84 = 8234.81 over 1272 frames.
+CLS_0250 ف ربما لتلمس شخص أثق بتلك الطوبة ولكن عندما قال لي أن ألقي نظرة الأمم المتحدة أعمدة كنت قد عملت فوق بوابات طيبة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0251, best cost 90.2119 + 2779.79 = 2870 over 445 frames.
+CLS_0251 فقط عندما أكون مثلك و مثلي لا يمكن سحبة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0252, best cost 212.943 + 6130.1 = 6343.04 over 983 frames.
+CLS_0252 لأننا نحن نملك لقب و به أقسم اليمين نحن في قضية مقابل فعل عمل يجب أن يكون من الصعب جدا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0253, best cost 199.861 + 5607.52 = 5807.38 over 915 frames.
+CLS_0253 أي واحد منا يمكن سحب جميع وكذلك يقع على عاتق السبب أعضاء مجلس النواب على تحمل المزيد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0254, best cost 275.24 + 8630.25 = 8905.49 over 1425 frames.
+CLS_0254 مفاجأة أن بعض أعضاء مجلس النواب إما أن أتكلم مصابون بالرصاص يتغيبون عن الجسم لمدة خمس و يقولون أنه قتل من المقاتلين 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0255, best cost 190.476 + 5245.44 = 5435.91 over 832 frames.
+CLS_0255 لن يكون إلى قبول باكرا كنت مجلس النواب واجب وقتك المعدن وجعل حياة طبيعية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0256, best cost 276.18 + 7560.64 = 7836.82 over 1184 frames.
+CLS_0256 في من كل قسم العدالة ربما لدي جلسة منزل والدي سنبدل ببعض من عقد مصنوع من العقاب الصحيح أو على الأقل وقت 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0257, best cost 248.27 + 7846.27 = 8094.54 over 1251 frames.
+CLS_0257 <UNK> ولكن عندما يصل الأمر ألطف سياسي وشركة أحد مثلي وإلا تم القيام بعدة الأمم المتحدة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0258, best cost 198.442 + 5349.24 = 5547.68 over 858 frames.
+CLS_0258 في حين أن وأذهب إلى طبقة واقية من بعثة لويس و يبارك ذلك سيكون وبعد كل ليلة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0259, best cost 244.062 + 7302.64 = 7546.7 over 1181 frames.
+CLS_0259 ف ليس بقانون الذين يصنعون الدواء له عقد ومتخصص الحكومة حددت يوافق على ترك لكن علي الذهاب 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0260, best cost 175.025 + 4885.83 = 5060.86 over 783 frames.
+CLS_0260 يخرج من إنسان متخصص بالأطفال أي أحد تقلبات أريد أي علاقة دولية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0261, best cost 159.949 + 4748.63 = 4908.58 over 753 frames.
+CLS_0261 ولكن ما يرام الآن طبيعته بدأت المتحدة وشبكة للوصول الإطلاق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0262, best cost 190.659 + 4752.27 = 4942.93 over 754 frames.
+CLS_0262 ولعب السيدة كل دائما بأن الأطراف أود أن أقترح ربحنا أو عدد ألسنا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0263, best cost 116.947 + 3180.26 = 3297.21 over 492 frames.
+CLS_0263 أنا أقدم جلست على مباشرة وصلت التي تدين به 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0264, best cost 325.014 + 9088.33 = 9413.35 over 1429 frames.
+CLS_0264 في خلال لعب لعبة رباعية ويقولان على اتصال لي بعد أربعة أيام قليلة وبقي أن تسدد لطيفة لطيفة لا يمكن أن تفوت عدد الأصابع اليد الواحدة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0265, best cost 197.623 + 5579.19 = 5776.82 over 864 frames.
+CLS_0265 اتعلم آملت على موافقة المجلس العلمي الحكومة تنفق أموالك على ماجستير إدارة وافق على مجلس الدولة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0266, best cost 136.323 + 4621.59 = 4757.91 over 733 frames.
+CLS_0266 فقط الجميع موافقون على مجلس الدولة ولكن نتيجتها أفضل بكثير 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0267, best cost 241.025 + 7626.51 = 7867.53 over 1221 frames.
+CLS_0267 لم التفكير في وضع الترتيبات مليون دولار طلبت منه أن أذهب الآن لكن مقر تطابق أنت بطل أفلام 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0268, best cost 106.776 + 3595.32 = 3702.09 over 571 frames.
+CLS_0268 هل يمكن أن تجد قطع قطع لقد كتبت العديد من الناس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0269, best cost 273.742 + 7554.59 = 7828.33 over 1217 frames.
+CLS_0269 لماذا لم العالم الطلب مازالوا ومازلت وبين سيدة لقد عملت بجد و ممثل عسكرية والرتب نعم لكنك مثل كل أسئلتك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0270, best cost 284.053 + 8095.21 = 8379.26 over 1308 frames.
+CLS_0270 فأنت عباس التي حمام السباحة مع دعمك الوطن ليس من العدل ان نسلم لتطلب يد إنه منزل أبي وتحت حماية الزنزانات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0271, best cost 199.847 + 5867.46 = 6067.3 over 946 frames.
+CLS_0271 <UNK> ونصف وانا لدي أدوية بعيد عن وبكل تبجح أن تسرق ملابسنا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0272, best cost 262.033 + 7726.69 = 7988.72 over 1214 frames.
+CLS_0272 وأن نقدم بطاطس على وظائف وثقب في مطاردة وسيد مستقرة عصبية وسيبك مدخرات سيد التجريبية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0273, best cost 192.688 + 5834.34 = 6027.03 over 918 frames.
+CLS_0273 في الأحداث ترك الأمر يا صاح سيد و سيدة يدخله الطلبة تم تربية طفل دواء 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0274, best cost 137.531 + 4022.96 = 4160.49 over 643 frames.
+CLS_0274 يجب أن أكون من أحد يدعي بأنه ليس هناك بدل ان ابعد القطة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0275, best cost 277.878 + 7348.95 = 7626.83 over 1173 frames.
+CLS_0275 في قصر كل يوم أمس من قبل أن أكتفي الإتيان مخطط من مدرس موقوف عن العمل طلب منى عبد الله نصل لمليون ونصف 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0276, best cost 144.023 + 3784.73 = 3928.76 over 612 frames.
+CLS_0276 فإن عدد الذين يحتاجون إلى مع بداية مليون عدد السكان بأن سترى 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0277, best cost 264.601 + 7936.24 = 8200.84 over 1274 frames.
+CLS_0277 في المرة القادمة كنت مكانه من صدمة الخارجية لصالة الأسبق بداخله يقولون عدد الناس أن لديك أناس مليون دمية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0278, best cost 256.358 + 7384.15 = 7640.51 over 1182 frames.
+CLS_0278 في أول تسلية وطنية من قصة وليس لداخل جانب ذلك السلاح مقابل للنجاة فيجب ان انزل من أين لك بالمعلومات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0279, best cost 291.861 + 7939.6 = 8231.46 over 1267 frames.
+CLS_0279 ف ولكن والدتك يظهرون بالأرقام لكي النار على مكافأة مازال يحاول دعم بدون وتحصل على خلال تتعلم بعد أحصل على ترقية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0280, best cost 124.469 + 3516.46 = 3640.93 over 536 frames.
+CLS_0280 في التدخل الأولي وأبوس صوت و الأدوات أطلق اللصوص 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0281, best cost 223.058 + 6737.78 = 6960.84 over 1084 frames.
+CLS_0281 في ميدان كبش الفداء لي الطبيب ولكن لدي الآن رجل بعد وصولك هنا لا مزيد من الأدلة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0282, best cost 323.865 + 8745.28 = 9069.14 over 1388 frames.
+CLS_0282 في محطة ما حدث بعد أخذ ليس الكرسي ويقول كم عدد أبطال دخلت في ثلاث مئة ألف نسمة في الخمسين ألف سنة ثم تأتي فقط من خارج المعادلة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0283, best cost 142.569 + 3924.74 = 4067.31 over 633 frames.
+CLS_0283 ويعالج على بالك بمرة وترك خارجية ولد صالح ولديه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0284, best cost 291.355 + 7319.84 = 7611.19 over 1171 frames.
+CLS_0284 وكانت تسكن تعرف أنا ليس على قبل مشكلة دخلت إلى بدراسة لا وفي أحد خطبك يقول بنفس لا تنس خاصة لا بأس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0285, best cost 242.268 + 6754.15 = 6996.42 over 1077 frames.
+CLS_0285 وكل ما تم قد على كتاب صورة أم أنت لا زلت لا أفهم لماذا لا تدخل بنفسها و كنت انا فقط وبعدها نسيتها 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0286, best cost 221.99 + 6676.52 = 6898.51 over 1035 frames.
+CLS_0286 فلقد عالجت بداخل كل واحد يقول من أحد أجزاء من الثانية و المخدرات و استخباراتي كنت انتظر النبض 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0287, best cost 90.9669 + 2558.81 = 2649.78 over 407 frames.
+CLS_0287 وطلب مني متأكد أن يقدم لنا دليلا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0288, best cost 218.204 + 7274.55 = 7492.76 over 1201 frames.
+CLS_0288 ف طلب مني أن يكون مسؤول الأمن أرسل لنا أحد في التاسعة أثمة خبر من يقوم بذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0289, best cost 275.996 + 25169.5 = 25445.4 over 4222 frames.
+CLS_0289 يجب أن أحدهم لديه لا أريد أن أعطيك العلاج وهذا ليس من بالمزايدة والخوف ف 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0290, best cost 131.998 + 6242.97 = 6374.97 over 1111 frames.
+CLS_0290 أننا لن نحصل على التحرك على مطعم بداية كل أسبوع 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0291, best cost 100.856 + 3920.61 = 4021.47 over 680 frames.
+CLS_0291 ونصعد المجتمع المدني لدينا مع بين 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0292, best cost 197.655 + 6699.18 = 6896.83 over 1136 frames.
+CLS_0292 بأمانة بأنك لم يكن بلوتو الوطن من قبل أي شيء يمشي شيء يسمى وصية الوطن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0293, best cost 240.155 + 8503.65 = 8743.81 over 1422 frames.
+CLS_0293 لابأس بأن الملاحظة التي تمسك لدية المقدرة على كل ذلك هو أسوأ من قبول الاتفاق غير محددة واضحة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0294, best cost 102.005 + 3392.16 = 3494.16 over 587 frames.
+CLS_0294 وربما أخادع لما آلت الأمور إلى ما وصلت إليه الآن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0295, best cost 129.542 + 4922.2 = 5051.75 over 837 frames.
+CLS_0295 ملاحظة انها ليست مثل أمس حين إلى الحدث عبر الشارع 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0296, best cost 76.8857 + 2363.82 = 2440.7 over 400 frames.
+CLS_0296 ولكن أنا فعلا أن ندع بالإستقرار 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0297, best cost 230.07 + 7001.44 = 7231.5 over 1161 frames.
+CLS_0297 لو كنا نبحث المؤتمر الوطني عند المصب لقب مباشرة الذهاب إلى مجلس الدولة يتم طلب مني لمدة سنة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0298, best cost 179.152 + 6293.89 = 6473.04 over 1065 frames.
+CLS_0298 ونحن مرارا وتكرارا أنهم يجب علينا أن أعمل لديه وخلال أحد أسرته 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0299, best cost 155.835 + 5721.38 = 5877.22 over 960 frames.
+CLS_0299 وكذلك من الواجب علينا تسليح عد عد الى خزان الوقود واحدة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0300, best cost 92.4553 + 2702.58 = 2795.04 over 441 frames.
+CLS_0300 بل كانت منزعجة بسبب عدم موافقة على ذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0301, best cost 187.819 + 6133.28 = 6321.1 over 1019 frames.
+CLS_0301 جمع بيانات جميع بيانات ببطولة العالم وقتل أخذ بخصوص رجال العلاقات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0302, best cost 158.426 + 5512.93 = 5671.36 over 934 frames.
+CLS_0302 ألم تعلم عبأت المتحدة في مرحلة حتى الموت صعب أولاد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0303, best cost 154.248 + 5688.94 = 5843.19 over 960 frames.
+CLS_0303 وطوال أمسك بي لا تبدو لي المعلومات لها من الفن وليس 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0304, best cost 87.6381 + 2481.71 = 2569.35 over 427 frames.
+CLS_0304 و تيس للقاء المطاف المتحولة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0305, best cost 199.391 + 7278.34 = 7477.73 over 1225 frames.
+CLS_0305 الآن ومعك بأن لحل للوصول الحكومة توافق على عمل بطولي الخروج من المنزل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0306, best cost 189.188 + 5516.13 = 5705.32 over 889 frames.
+CLS_0306 سواء كانت تجمع إيجابية محبة هو تحت رعاية أحد أجاب يتمتع طلاب السنة الأولى 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0307, best cost 209.328 + 5581.06 = 5790.39 over 892 frames.
+CLS_0307 في ولادة حدث منذ البداية ولم أكن لأقل من جانب وجود الذي تبدو منظمة أسد المجتمع المدني 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0308, best cost 214.155 + 6501.21 = 6715.37 over 1058 frames.
+CLS_0308 ومن سلالة كما وعدت الشعب ملتفتة خيار الآن ولن نعلم بأن تكون سأصل لحل عزيزي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0309, best cost 144.846 + 4834.83 = 4979.68 over 797 frames.
+CLS_0309 ولا أي أحد أن يكون بعض الدول الدفاع ومدن و الآن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0310, best cost 224.448 + 7348.56 = 7573.01 over 1220 frames.
+CLS_0310 لكن تقيدهم وإطلاق العفو الدولية قطع تحت سيادة القانون أحكم على عقد وعدم السماح لي تدخل السجن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0311, best cost 120.419 + 4015.55 = 4135.97 over 682 frames.
+CLS_0311 إذا نجم واحد لا يملك أحد رصاصة في يدك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0312, best cost 237.935 + 7247.72 = 7485.66 over 1212 frames.
+CLS_0312 نحن نتفهم لا حاجة طريقة للعيش التنين ونحن أن تمنع مستعجلة ورحل أجل مزيد من الداخل والخارج 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0313, best cost 229.626 + 7639.09 = 7868.72 over 1242 frames.
+CLS_0313 نحن نتمنى أن أكون أخرجت المسدس يصل قابيل الى الوطن الأن أن نتحقق من أود أن أصير إليه الآن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0314, best cost 137.818 + 4365.83 = 4503.65 over 719 frames.
+CLS_0314 من أجل أن نصل إلى جميع يائسة الهواتف السياسي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0315, best cost 204.046 + 5794.8 = 5998.85 over 957 frames.
+CLS_0315 مدينة بولاية على لترجمة يا دكتور الشرف لي الكثير مؤسسة الأمامي و العسكرية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0316, best cost 200.939 + 6203.58 = 6404.52 over 1004 frames.
+CLS_0316 ولكن إلى بناء دولة الحديد و بمكافحة الأرهاب التطرف بكافة أنواعها و سالي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0317, best cost 162.056 + 4782.32 = 4944.37 over 777 frames.
+CLS_0317 فقد التركيز على السرير اتصل بالإدارة والأنفاق لا تعتقدين بعد دولة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0318, best cost 211.706 + 6399.67 = 6611.37 over 1045 frames.
+CLS_0318 فتاة صغيرة في حين أن تقول أن عملية ومحاسبة كل من ساهم في الخفاء دولار واحد دين واحد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0319, best cost 145.32 + 4501.52 = 4646.84 over 728 frames.
+CLS_0319 فلست العطلة مع بعض بسبب ما تعرضت له و من قائمتي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0320, best cost 179.824 + 5742.17 = 5921.99 over 954 frames.
+CLS_0320 أريد أن أكون غبية من عندما يقولون أنه دانى بذلك طبيعية و دفاعا عن عمد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0321, best cost 242.459 + 6872.49 = 7114.95 over 1127 frames.
+CLS_0321 ف و لا سلكية ولاسلكية شخص نحن مواطن عادي الجنائية لهذه المهمة وسنرجع الى اي نبيذ سبحانه وتعالى 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0322, best cost 207.252 + 6657.79 = 6865.04 over 1114 frames.
+CLS_0322 فيكي لقب بطل في موقع أقل احترام لأجيال قادمة وهذا يدل على قطعناها على أنفسنا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0323, best cost 167.149 + 4645.52 = 4812.67 over 767 frames.
+CLS_0323 ف و أطرح من يجب أن ألعب معه وأنت حياة بسحر في كل مكان 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0324, best cost 112.181 + 3375.27 = 3487.45 over 549 frames.
+CLS_0324 واصل التحرك علي أن يجعل الشباب الثملين جميعا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0325, best cost 81.3693 + 2246.65 = 2328.02 over 376 frames.
+CLS_0325 فربما لا تعرفين أن تينا أقوم 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0326, best cost 234.652 + 6912 = 7146.65 over 1117 frames.
+CLS_0326 فرد واحد على ليس كمحام تعلمين من قبل أن ربيع وتحمل مرة تقاتلنا بها وضعنا نفسنا من الحمل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance CLS_0327, best cost 129.446 + 3986.87 = 4116.31 over 658 frames.
+CLS_0327 فانتبه لنفسك على أمك في حين كنت السمع مقابل ذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_001, best cost 100.945 + 2947.69 = 3048.64 over 501 frames.
+LFI_001 <UNK> الله الرحمن الرحيم لدي هدية من أجل السلام 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_002, best cost 156.904 + 4833.72 = 4990.62 over 796 frames.
+LFI_002 نحن ليس لدينا دائما بسلام وعلى وسام سلاح من أجل بناء دولة الديمقراطية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_003, best cost 81.6502 + 2601.21 = 2682.86 over 430 frames.
+LFI_003 أنت تعرف ستار في الجوار الوطني 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_004, best cost 230.352 + 6589.07 = 6819.43 over 1083 frames.
+LFI_004 في توزيع ما لديه والدي والعالم أتي إلى هنا يا كبار الملاذ الأخير للخروج بدل الأزمة وصولي إلى ثلاثة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_005, best cost 128.84 + 4114.08 = 4242.92 over 688 frames.
+LFI_005 وتشعر من الخطر الذي يهدد حياتنا وأن يعطيني الموهبة ثروته 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_006, best cost 167.63 + 4513.21 = 4680.84 over 750 frames.
+LFI_006 أمامنا الدور الذي لعبته النسائية دور صبرت صبر الرؤساء مبادئه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_007, best cost 193.417 + 5224.35 = 5417.77 over 858 frames.
+LFI_007 التأكيد على أن نزاع مسلح إنه أكبر أتعلم ليس تشيب ونزولا وترى جياع وعراة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_008, best cost 263.561 + 7140.92 = 7404.48 over 1171 frames.
+LFI_008 و تلقي اللوم دائما أن الشرطة آنسة بورك مسيرة سلام و بالدولة الديمقراطية دمرت المؤسسات القانونية والتر عن حقوق الإنسان 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_009, best cost 214.915 + 7000.67 = 7215.58 over 1180 frames.
+LFI_009 على بناء على طلب مقابلة أول وقف إطلاق عدة آلاف السنين عملية السلام لتحصين وضع الإنسان 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_010, best cost 272.545 + 7579.96 = 7852.5 over 1260 frames.
+LFI_010 أني وصلت لقرار مختلف الاحترام قواعد قواعد انسان يخطف اللعنة وحماية بقايا نزاع مسلح و قصة نساء وأطفال 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_011, best cost 175.951 + 5760.64 = 5936.59 over 972 frames.
+LFI_011 لكن المساهمات السياسية في لباس تدابير انتقلت توصلت إلى الجولة الأولى لي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_012, best cost 113.682 + 3381.57 = 3495.25 over 561 frames.
+LFI_012 وبالثانية اللازم والدراجات في على كافة المستويات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_013, best cost 218.536 + 6203.42 = 6421.95 over 1031 frames.
+LFI_013 رابعا إلتزام الأطراف المشاركة إشراك الأطفال و ليس للمزاح و إعادة بناء الفتيات أعلى و بعدها 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_014, best cost 262.679 + 8752.49 = 9015.17 over 1456 frames.
+LFI_014 و بين أعضاء مجلس الأمن الأشخاص شيء المؤسسين مباشرة من المؤسسات من الصعب عزيزي أقل سلاسة أي أحد عشر اثنا عشر 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_015, best cost 183.43 + 4997.27 = 5180.7 over 828 frames.
+LFI_015 <UNK> القاضي بأن النساء في جميع سوية مقر إدارة حل النزاعات وحمايتهما 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_016, best cost 217.096 + 6887.08 = 7104.18 over 1149 frames.
+LFI_016 وتبين أن نشاطات المجتمع المدني لغرض رفع وبالسلام التمييز بين العديد من إطلاق المتفق عليه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_017, best cost 188.804 + 5332.35 = 5521.15 over 906 frames.
+LFI_017 خامسا تسهيل عودة جميع المراجعات و المهاجرين تخرج والنزيف و نزيف داخلي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_018, best cost 197.072 + 5024.28 = 5221.35 over 834 frames.
+LFI_018 <UNK> وتكسب المعتقلات والمتقلب شكل أي شيء واحد من التدابير اللازمة يا أماندا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_019, best cost 148.971 + 4546.74 = 4695.71 over 757 frames.
+LFI_019 سادة السباق على اتخاذ التدابير اللازمة لبدأ عملية العدالة لقاتل إليا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_020, best cost 174.577 + 4612.64 = 4787.21 over 753 frames.
+LFI_020 لتعزيز المصالحة وإحلال السلام الأشياء والحفاظ على بعض من المشاركة الكاملة للنساء 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_021, best cost 189.79 + 5796.17 = 5985.96 over 967 frames.
+LFI_021 سأرى إن أبلغك أحد الأم وديان المعتادين نظام مشاركة ليس عدل أفضل المصالح 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_022, best cost 258.747 + 7513.94 = 7772.69 over 1225 frames.
+LFI_022 والدتك لن أتسامح واحد الوطني واحد فقط وتعزيز بالقضاء على الأنف قبالة ودوريات ليس الآن اشرب هذا هو 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_023, best cost 266.571 + 7830.64 = 8097.21 over 1300 frames.
+LFI_023 من أجل الجميع العربية يا سادة بعض من اللازم وفعل للدعم الفوري طبيب والدي عن مشاركة ليس لديها تلك المرحلة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_024, best cost 231.943 + 6515.42 = 6747.36 over 1063 frames.
+LFI_024 <UNK> بالدولة وإحلال السلام وتخليص أدركت أن وجودك هنا لدعم الشرطة قصة عن العدالة لقاتل إليا والمصالحة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_025, best cost 202.975 + 6365.2 = 6568.17 over 1062 frames.
+LFI_025 اسمع طالبت مجلس سلامة وأمن الاتحاد الافريقي بمساعدة إعادة البناء وتأسيس لاتيني وتعني مجموعة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_026, best cost 196.215 + 6034.15 = 6230.36 over 1005 frames.
+LFI_026 عشر مكالمات ترد على بعض الدعم ووصلنا في بناء على المبادئ بعض السلام ولنقل بعد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance LFI_027, best cost 124.456 + 3562.32 = 3686.77 over 586 frames.
+LFI_027 <UNK> تدل على الجمهورية الروسية قبل عشرين ألف فرسخ 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0001, best cost 67.7159 + 2368.48 = 2436.2 over 399 frames.
+mbt_0001 شكرا لك لمثل ستة أعوام 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0002, best cost 25.7417 + 1385.72 = 1411.46 over 257 frames.
+mbt_0002 من الآن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0003, best cost 72.1745 + 3842.87 = 3915.05 over 683 frames.
+mbt_0003 أنت رئيس تنفيذي يجيد إصلاحه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0004, best cost 74.1032 + 2707.02 = 2781.13 over 481 frames.
+mbt_0004 انسى أعصابه من السباق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0005, best cost 129.216 + 4615.13 = 4744.35 over 817 frames.
+mbt_0005 أنا دون مقابل ما قلته ان ذلك وزارة الصحة أنحاء العالم 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0006, best cost 212.139 + 6795.07 = 7007.21 over 1191 frames.
+mbt_0006 أعتقد أن الميزانية التي تسربت كلمة علي أن أذهب إلى الآن وتصلح المحرك القاحلة أو فتيات بنظرات ثابتة فصول 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0007, best cost 141.629 + 4669.75 = 4811.38 over 814 frames.
+mbt_0007 أنا بصراحة السيد ستارك صعد أصبحوا مصدر سياسة خارج البلاد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0008, best cost 149.4 + 5751.06 = 5900.46 over 1027 frames.
+mbt_0008 وسيكون أن تبالي بوقت وفاة واحد مناسب جدا وأنا سأسحق من هذا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0009, best cost 162.354 + 6068.91 = 6231.27 over 1062 frames.
+mbt_0009 لقد كنت تملك القدرة على نسيان مزاجي مثل تسرب السائل دون أن يعلم 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0010, best cost 156.696 + 5086.34 = 5243.03 over 869 frames.
+mbt_0010 مثل الزوج السابق طلاب السنة القادمة سرقة ثلاث قطرات من دون علمي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0011, best cost 270.889 + 8633.48 = 8904.37 over 1479 frames.
+mbt_0011 و وصية لا تستطيع ان تنكر تؤكد لي أنك لا تزال تحفظ الذي كنت أحدثك عن ملاحظة لأنهن لم يكن خارجية أنت لا تعلم عنه شيئا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0012, best cost 199.336 + 6477.44 = 6676.77 over 1117 frames.
+mbt_0012 ثم تم تعديل الأعمال الوطنية بتصوير حزب الله تنظيما إرهابيا من قبل وزارة الداخلية سألقي نظرة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0013, best cost 153.239 + 4127.93 = 4281.17 over 707 frames.
+mbt_0013 على قضية في وطني وهو زيادة الخارجية عامة تميل بارت 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0014, best cost 200.267 + 6642.83 = 6843.1 over 1143 frames.
+mbt_0014 كم عدد المسدسات العائلات والآن بعد أن تجلسين على بالرصاص أمام منزل تشين طلب زواج 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0015, best cost 200.002 + 6662.03 = 6862.04 over 1130 frames.
+mbt_0015 ولم نسمع صوت الله أوه الله رئيس الجمهورية أصبحت الآن أن أصدق بأنك كنت آمل أن أصرح بذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0016, best cost 147.149 + 4467.33 = 4614.48 over 761 frames.
+mbt_0016 أود أن السيد الوزير لم يتم الإعتداء على مقر منظمة التحرير الفلسطينية مباشرة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0017, best cost 135.761 + 5021.54 = 5157.3 over 864 frames.
+mbt_0017 ولكنك تقطع العلاقة مع أنا ستعمل تبادل لاطلاق النار بين إسرائيل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0018, best cost 42.1674 + 1711.48 = 1753.65 over 300 frames.
+mbt_0018 أنا أنتمي إلى المقدمة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0019, best cost 207.29 + 6845.4 = 7052.69 over 1175 frames.
+mbt_0019 أنا أيضا أحب مشاركتكم في فضيحة نسميه اجتماع وزراء الخارجية على هاتف نقال أقصى درجات الموت 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0020, best cost 205.341 + 6984.62 = 7189.96 over 1196 frames.
+mbt_0020 أقصد أن أكون لإدانة صاروخي الآن سقطت الصخرة المقابلة لكلمة عاهرة وتفتيش عالي من المال 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0021, best cost 124.888 + 4802.04 = 4926.93 over 825 frames.
+mbt_0021 أنا آسف من أجل الأطفال من وأنتم تتكلمون مع الدولة كاملة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0022, best cost 199.851 + 6107.99 = 6307.84 over 1044 frames.
+mbt_0022 ألم جماعة معادية سراحهم إلا أجل البلاد المرأة حامل البندقية وحش وجد في الصالون 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0023, best cost 209.336 + 6886.49 = 7095.83 over 1167 frames.
+mbt_0023 رجال لندن بثيابه جامعة ببنت شفة عندما يتعلق الأمر ب تنظيم الحياة التي أريد أن ألعب المزيد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0024, best cost 150.549 + 4783.59 = 4934.13 over 825 frames.
+mbt_0024 على شكل الأداة وظائف وجدت ألماسة وجدت الشاحنة مجازفة غير عادية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0025, best cost 133.446 + 4777.41 = 4910.85 over 823 frames.
+mbt_0025 ابعد هذا من أجلكم لازال لدينا عجز عن إعادة علاقتنا سوية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0026, best cost 130.599 + 5245.02 = 5375.62 over 902 frames.
+mbt_0026 حيث أنه من الصواب و ما هو أسوأ من تتخذ أي أحد هنا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0027, best cost 134.639 + 4469.94 = 4604.58 over 778 frames.
+mbt_0027 سيادة الوزير إنه ليس مثل ملكة إسبانيا و حيث بدأ من جديد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0028, best cost 170.628 + 5312.51 = 5483.13 over 899 frames.
+mbt_0028 و الآن وعملي الليلة و قائد جيش و أزمة الطاقة ما يصل جسدك أكثر 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0029, best cost 219.658 + 7195.57 = 7415.23 over 1238 frames.
+mbt_0029 وشبكة زي الذي دفع شهادة في كل الحالات العديده لن يكون جزءا من حالة صهيون القلائل الرجل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0030, best cost 173.673 + 5241.39 = 5415.06 over 898 frames.
+mbt_0030 يا ولد الحانة على المهزوم ومن يعلم الله مصير السقوط و الهزيمة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0031, best cost 262.92 + 8286.34 = 8549.26 over 1407 frames.
+mbt_0031 هذا الشعر طبق الأصل الشعب الذي وضع الشعر شعره لتحرير فلسطين أشعل ضوء الشمال طبيعة البشر نصل إلى وزارة الخارجية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0032, best cost 143.87 + 4978.74 = 5122.61 over 878 frames.
+mbt_0032 بخصوص آسف لا أجدها به انا على يقين أن تتصلي جانبية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0033, best cost 277.725 + 9190.12 = 9467.84 over 1565 frames.
+mbt_0033 و السماح الجميع بشأن ذلك لأجل ثانية واحدة من أفضل المصالح إلى صالون المتضررة من الآمن القول الحادية عشر والنصف المقاومة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0034, best cost 116.558 + 3450.41 = 3566.97 over 599 frames.
+mbt_0034 ولكن الحالة سيادة الوزير أنا وزملائي جميع العربية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0035, best cost 176.462 + 5790.57 = 5967.04 over 989 frames.
+mbt_0035 لا لأننا لم أقدر على الأسئلة ولا أقدر على العيش لن تقدر على كراهية والده 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0036, best cost 115.836 + 4065.43 = 4181.27 over 698 frames.
+mbt_0036 لقد قلت سنفعل كل ما الحالة ليس لدي حالة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0037, best cost 178.052 + 6337.26 = 6515.31 over 1099 frames.
+mbt_0037 إن كنت تريد أن تصل لسن المدينة القريبة ستقفون تقضون وقتا طيبا يوم طويل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0038, best cost 220.242 + 7482.26 = 7702.51 over 1284 frames.
+mbt_0038 ولا أحد الزملاء في حالة انك ستريد أن علاقتنا سرية أقول له زميلي العزيز عندما يشير إلى بداية الموسم 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0039, best cost 108.294 + 5448.2 = 5556.49 over 999 frames.
+mbt_0039 سيد الوزير كل ملفاتها وتوصيل ومال بسهولة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0040, best cost 133.681 + 4622.1 = 4755.78 over 778 frames.
+mbt_0040 إن كنت مكاني لمقاومة الأمراض العصبية لزراعة الرز وإعادة الإعمار هنا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0041, best cost 165.017 + 6156.04 = 6321.05 over 1059 frames.
+mbt_0041 إن كنتم على مدار الساعة وهناك أشياء يصنعون عالم جديد إن كنتم مهتمين بذلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0042, best cost 122.543 + 4851.13 = 4973.67 over 837 frames.
+mbt_0042 وهنا تولد من جديد إنه من الجميع على أعلى الجدار 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0043, best cost 162.379 + 7589.18 = 7751.56 over 1399 frames.
+mbt_0043 سيدي وزير لديه أي علاقة وثيقة توماس كليا وليس لديك وقت سابق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0044, best cost 189.237 + 7444.43 = 7633.67 over 1288 frames.
+mbt_0044 اذا اردت ان تجعل هذا من أولويات طلقة واضحة من التعامل معه لزيادة و تزال على قيد الحياة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0045, best cost 36.4603 + 1471.85 = 1508.31 over 253 frames.
+mbt_0045 وتحاول مساعدته 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0046, best cost 264.618 + 9259.73 = 9524.35 over 1634 frames.
+mbt_0046 حالة جسدية و أنا و تحسين الوضع الاقتصادي لمعرفة من على سياسة خارج قوية و شجاعة و شجاعة بحل الأزمات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0047, best cost 274.324 + 9504.14 = 9778.46 over 1637 frames.
+mbt_0047 وإذا كنت جدي بأمر مستقبل المنطقة على إحداث حياة المشهورين لوحده أربعة الكبير هو الأمر المطبق بمنطقة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0048, best cost 154.126 + 6193.41 = 6347.53 over 1122 frames.
+mbt_0048 أنت يا سيادة الوزير في ميدان الصحراء صدمة وسيلة مستقبل العالم 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0049, best cost 220.631 + 8563.96 = 8784.59 over 1518 frames.
+mbt_0049 وتتمنى ان ترجع قليلا أن أتراجع واصلت آدي تدع أي صلة بأي من هذه بداية القصة خادمة لسيدة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0050, best cost 241.251 + 7660.02 = 7901.27 over 1304 frames.
+mbt_0050 ونتقابل جميعنا في بلدي منطقة أن مصلحة الشجاعة و مصلحة الأمة العربية زميل عمل يقوم بإدارة قبالة واستخدامه 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0051, best cost 127.818 + 4319.87 = 4447.69 over 735 frames.
+mbt_0051 إنه جزء من الشبان مستعدون للعبة و المستقبل للقوانين 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance mbt_0052, best cost 160.651 + 6674.1 = 6834.75 over 1165 frames.
+mbt_0052 وفاة النظرية الموجهة أقل تكلفة أجهزة المراقبة دون التدخل في شكرا لك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_001, best cost 77.9536 + 3144.67 = 3222.62 over 557 frames.
+srj_001 نعم نعم أن تسلم الشرائط يوم السبت 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_002, best cost 289.979 + 11411.1 = 11701 over 1992 frames.
+srj_002 <UNK> كنت على بعد خمس دقائق من قوة مرعبة الطفل لكن يفضل ان نكون واثقين من دون التعرض له بعض الوقت لكن ليس من المفترض أن تغلق باب القبو 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_003, best cost 81.458 + 2935.6 = 3017.06 over 504 frames.
+srj_003 أ يمكنني كل مكان آمن ليبقوا هنا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_004, best cost 88.6532 + 2939.6 = 3028.25 over 505 frames.
+srj_004 وحتى ألم نحن جميعا على تحدي اشرب 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_005, best cost 153.729 + 6420.5 = 6574.23 over 1113 frames.
+srj_005 كما تعلمون من و المرحلة الثانية شئ عظيم آمل أن يحكم المملكة ملك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_006, best cost 177.509 + 6578.07 = 6755.58 over 1135 frames.
+srj_006 لنلعب لعبة بخ أعرف خطير لأزمات سيقتلونني أحد الطقوس خلال أيام قليلة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_007, best cost 98.8776 + 4022.42 = 4121.29 over 705 frames.
+srj_007 كنت أعلم أنك ستعمل هل يمكنك فعل ذلك به 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_008, best cost 137.941 + 5493.26 = 5631.2 over 964 frames.
+srj_008 أتعرف مدى فهمنا لقد وصلتم تفيدني معرفة أن أباه توفي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_009, best cost 211.17 + 6863.13 = 7074.29 over 1202 frames.
+srj_009 ألا يزال إي يتذمر هذا الأحمق وضع سيء أقصد الاتحادية أن ننجح في ذلك دون أن تترك يمكن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_010, best cost 175.225 + 6551.99 = 6727.22 over 1137 frames.
+srj_010 لكن مجرد دعوة أعلم أن لدينا مدرب للقتال من أجل أجل واحد كل شئ من هذا 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_011, best cost 150.218 + 5471.47 = 5621.69 over 940 frames.
+srj_011 كيف نحن ولكن هنالك تسلل تسبب التشتت و كانت لديك أمنية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_012, best cost 96.7429 + 3339.78 = 3436.52 over 585 frames.
+srj_012 في تلك اللعبة تقوم الشرطة كان يجب أن مصير 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_013, best cost 140.456 + 4780.59 = 4921.05 over 823 frames.
+srj_013 لذلك من الناس يقتل نفسه لدي القدرة على تحمل حزم غير رسمي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_014, best cost 211.962 + 7669.98 = 7881.95 over 1317 frames.
+srj_014 أريد فعله هو حماية المدنيين ولقد فاز واحد من كل واحد من الزجاج التى ترفع صوتك مع الشاش من فضلك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_015, best cost 127.939 + 4690.02 = 4817.96 over 805 frames.
+srj_015 لقد سمعت دقيقة واحدة فقط اقول انا متأسف على التأخير يا سادة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_016, best cost 166.9 + 6391.34 = 6558.24 over 1098 frames.
+srj_016 وزارة من المعدات الثقيلة صلاحية محملة بجنود البحرية أقوم بعمل المساعدة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_017, best cost 147.184 + 4961.08 = 5108.27 over 853 frames.
+srj_017 لقد كنت في المشاركة نتحرك الآن وأنت بهذه الحالة دور محارب التنين بعد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_018, best cost 100.092 + 3587.99 = 3688.08 over 626 frames.
+srj_018 إذا نتحدث عن الإدارة أم عن التدريب على سبيل المثال 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_019, best cost 166.184 + 5826.07 = 5992.25 over 984 frames.
+srj_019 لديك الحق بأن أرى أنه حان الوقت فأنا مستعد لدي واجبات جديده مكان تقطن 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_020, best cost 151.561 + 4647.28 = 4798.84 over 806 frames.
+srj_020 لهذا السبب استجابة لقد كانت غرفة عمليات المسؤول وتشعر وزير الدفاع 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_021, best cost 235.046 + 8344.23 = 8579.28 over 1411 frames.
+srj_021 لقد قاموا بتسمية بصفتي قائدا على الجانب القذر من شمال الولايات المتحدة الأمريكية لتجلب بعض المخدرات لعق قضيب بعد عشر سنوات 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_022, best cost 80.5653 + 3078.62 = 3159.18 over 522 frames.
+srj_022 كل مباشرة الرجال القيامة فعله 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_023, best cost 183.353 + 6417.87 = 6601.23 over 1116 frames.
+srj_023 مباشرة قبل كل هذا بعد حادث قارب واحد هذا ليست إحدى خسائر فادحة آنسة سرعة عالية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_024, best cost 185.622 + 5789.53 = 5975.15 over 962 frames.
+srj_024 بأنك تضع قطران داني أتعلم كم مرة يجب أن تتقبل قرار حافظ الأرواح مقاتلة الشر 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_025, best cost 128.885 + 4619.83 = 4748.71 over 777 frames.
+srj_025 لكن كل ما يصل الى المنزل لمدة طويلة عن هذه العملية التي 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_026, best cost 234.56 + 7601.02 = 7835.58 over 1299 frames.
+srj_026 ألم يكن ليتمكن أحد بهذه المناسبة لك لماذا أنشأ التعمير في المرحلة العاطفية زمني محدد ولن تتزوج من السلوك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_027, best cost 113.809 + 3666.9 = 3780.71 over 605 frames.
+srj_027 ونحن طلبنا دعم جوي أحضر دهن العلامات الولايات المتحدة الأمريكية 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_028, best cost 184.145 + 5914.87 = 6099.01 over 985 frames.
+srj_028 وقال انه لم يكن هناك أي تواجد عسكري تضيع وقتي توجد الحاجة من الدلافين ينشق 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_029, best cost 127.856 + 4507.58 = 4635.44 over 764 frames.
+srj_029 انا قلق من أنك لن تدخل يدوية أو محاولة بهذه الطريقة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_030, best cost 262.061 + 8547.85 = 8809.91 over 1438 frames.
+srj_030 ومع ذلك كان يجب أن أقوم بطلبية عاجلة تمت رؤيتك ولن يسمح لي بغلي قدر بجهات خارجية الرجال تحت مسمى حتى لو كنت مكانك تريد 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_031, best cost 191.036 + 6558.49 = 6749.53 over 1129 frames.
+srj_031 إنها ليست لهذا عندما يقول الناس كيف نقوم بذلك نيابة عنك لا توجد قضية انت في بعض القبائل 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_032, best cost 128.779 + 4243.96 = 4372.74 over 745 frames.
+srj_032 إنها تمر خلال مرحلة وقع القديمة على نسخة من وجدته 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_033, best cost 132.209 + 4382.33 = 4514.54 over 752 frames.
+srj_033 لذا يجب أن أرد على التوالي يواجه الغرب بمفرده وبه طعام 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_034, best cost 105.958 + 3978.35 = 4084.31 over 679 frames.
+srj_034 إنه مجرد تخيلات تريد الإتصال بشرطة في هذه الحالة 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_035, best cost 161.056 + 4971.66 = 5132.71 over 846 frames.
+srj_035 ونحن نعلم أن تتحمل ذنب وكنت أحاول مساعدتها تهدد الأمن القومي درجه الحراره 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_036, best cost 182.771 + 5787.09 = 5969.86 over 996 frames.
+srj_036 أخذ تحمل عواقب شهادة و كن الشفاء العاجل حدث حال فقد شمال جنوب 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_037, best cost 157.965 + 4776.58 = 4934.55 over 797 frames.
+srj_037 لدينا ست علب اللحم الخاص بك وليس في منزله القديم بالحديث عن المقاطعه يسمى 
+LOG (lattice-scale[5.5.732~1-67db3]:main():lattice-scale.cc:107) Done 444 lattices.
+LOG (lattice-add-penalty[5.5.732~1-67db3]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 444 lattices.
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:99) For utterance srj_038, best cost 127.409 + 4095.62 = 4223.03 over 676 frames.
+srj_038 أفكر في أنه جميل صديقك محاكمتك أول مرة قابلتك 
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:124) Overall cost per frame is 6.15203 = 0.189869 [graph] + 5.96216 [acoustic] over 407734 frames.
+LOG (lattice-best-path[5.5.732~1-67db3]:main():lattice-best-path.cc:128) Done 444 lattices, failed for 0
+# Accounting: time=12 threads=1
+# Ended (code 0) at Fri Jul  3 13:20:40 UTC 2020, elapsed time 12 seconds

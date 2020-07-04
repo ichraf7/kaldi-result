@@ -1,0 +1,668 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/1/utt2spk scp:data/test/split4/1/cmvn.scp scp:data/test/split4/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono/decode_test/lat.1.gz" 
+# Started at Fri Jul  3 12:46:56 UTC 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/1/utt2spk scp:data/test/split4/1/cmvn.scp scp:data/test/split4/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono/decode_test/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split4/1/utt2spk scp:data/test/split4/1/cmvn.scp scp:data/test/split4/1/feats.scp ark:- 
+CLS_0001 الحمد لله رب العالمين العاقبة منطقي ولا بد و أن ألعب دور من 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0001 is -8.16263 over 775 frames.
+CLS_0002 تصل لأصل إلى سباق قادم سيدنا محمد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0002 is -7.91986 over 798 frames.
+CLS_0003 بعثه الرب بحق بصيرة ونبيلة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0003 is -8.05239 over 425 frames.
+CLS_0004 أبي نفتح بيننا و بين أؤمن بالحب و أنت غير الفتى 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0004 is -8.04857 over 627 frames.
+CLS_0005 أحاول إعادة دهان أن تعود لي أنه بي و سيرة ذاتية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0005 is -7.62995 over 1179 frames.
+CLS_0006 حول اتفاق السياسي الذي ظهر قبل سيارة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0006 is -7.69265 over 883 frames.
+CLS_0007 وما أطباء أعلم أعلم من حديد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0007 is -7.98842 over 548 frames.
+CLS_0008 وما تتناقله وسائل الإعلام ولد وقع 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0008 is -7.76634 over 791 frames.
+CLS_0009 ولدينا لم يوقع ولم يوافق على هذا الإتفاق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0009 is -8.38814 over 496 frames.
+CLS_0010 والعالم ستعود أيضا بداية إلى المؤتمر الصحفي الذي أقوم به السيد كوب من الباب الأمامي يوم أمس لارس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0010 is -8.12593 over 1561 frames.
+CLS_0011 وسوف حول نبيلة على النصف النصف هذه المدينة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0011 is -7.76303 over 979 frames.
+CLS_0012 لديك أية و آبي و ليس بقدر المستطاع 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0012 is -7.72939 over 741 frames.
+CLS_0013 لكي أرى المواطنة السيادية ما يدور حول عدالة فقد مضى السياسي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0013 is -8.0029 over 914 frames.
+CLS_0014 ومن تقولين و من محاولة بعد لوصف أن يضع بعض أعضاء كل مكان 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0014 is -8.03644 over 1052 frames.
+CLS_0015 و بعد سبع المجتمع لديه فكرة بان عم عائلة للهواء 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0015 is -8.12873 over 797 frames.
+CLS_0016 و أنها لا تسعى لديه أصول لطيفا يهز أحد بلدي الحبيب من الانقسام ومن الصعب و من المعاناة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0016 is -8.20965 over 1298 frames.
+CLS_0017 ربما يحاول أن بعد أن يظهر بأنه أصغر و بأن و ذكى و بأنه الحارس الوحيد على مساحة لدية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0017 is -8.0582 over 1404 frames.
+CLS_0018 وعندما يقوم بإدارة أم مجموعة أو من حزب أم صالح 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0018 is -8.23279 over 805 frames.
+CLS_0019 أوه من تريد في الصينية الدقة بأن استعادة هو واحد دون ريب هو صواب 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0019 is -8.32426 over 1034 frames.
+CLS_0020 وهل أصبح و دون أن ينظر إلى المصلحة العامة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0020 is -7.98545 over 688 frames.
+CLS_0021 كل هدا الأطباء بأننا جميعا الداخلية صورتي إيجابية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0021 is -8.1288 over 889 frames.
+CLS_0022 ولا يمكن لأحد ما أن من الأدلة مصلحة لدية رؤية إعلان زاوية خاصة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0022 is -8.12239 over 1099 frames.
+CLS_0023 بداية في ما تعرض له السيد أن بد أن له من يوم أمس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0023 is -7.77864 over 1120 frames.
+CLS_0024 وصل بأن وصفي إلى بعد آخر لعبة العاصمة بأنها تحكم ميليشيا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0024 is -8.07498 over 1041 frames.
+CLS_0025 و بمواصلة يقصد أن مجموعة مسلحة خارج سريع و خارج المسؤولية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0025 is -8.16586 over 1006 frames.
+CLS_0026 السؤال دين قدم طلب أوقع إتفاق السيارات أمل معدوم يغادرون طرابلس من مطاطية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0026 is -8.16291 over 1245 frames.
+CLS_0027 و لكن عائلة عباسي مرافقها ومؤسسة عن و يتواصلون مع آلهة أم أنه من خارج هذه المعادلة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0027 is -8.46438 over 1085 frames.
+CLS_0028 أعلم أنه يتم بصلة مصلحة خارج سريع و خارج المسؤولية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0028 is -8.36491 over 757 frames.
+CLS_0029 وصل غراب ايضا و بسؤال ليس مقدم للسيد المدعو تلومني فقط 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0029 is -8.37288 over 811 frames.
+CLS_0030 طلب تلومني عندما يكون النوم بل يتبع هيئه الأمم المتحدة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0030 is -8.24984 over 925 frames.
+CLS_0031 وأنا لدي ليس هو منزل آمن لم تكن بتعليمات و يقاد إليه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0031 is -8.34828 over 839 frames.
+CLS_0032 أنا بدوري و حين تجده الشخصية التي تقدم رؤسائه وأن عن عمد في مؤسسة لديه الرئاسة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0032 is -8.07396 over 1372 frames.
+CLS_0033 وربما عدد الناس مقدر لي لدينا لم يعد في ذلك بعين الاعتبار أن لديهم هوس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0033 is -8.41777 over 962 frames.
+CLS_0034 إذا كان من موقع ماب على يتبعون ملك الوطن علامة وطنية رئيس العمال 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0034 is -8.42896 over 1010 frames.
+CLS_0035 الحياة مليئة من بالكامل الآن الدستور 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0035 is -8.28397 over 574 frames.
+CLS_0036 ولم يعد سيادة الوطن و عدم التدخل الأجنبي وعدم السماح لأي تدخل أجنبي للوطن و لتعليم لارا للمحكمة دستورية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0036 is -8.61355 over 1285 frames.
+CLS_0037 وما تعرض طويل منذ كنت أصاب بنوبة إس وما نتج بعد أربعة من أثر بي إس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0037 is -8.38114 over 1121 frames.
+CLS_0038 جميعنا يعلم أن متوطن في شهر يونيو الثامن و باس أطلق على مجلس أولادها مازالوا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0038 is -8.30847 over 1309 frames.
+CLS_0039 أوه بدأ في عملية اتخاذ مجلس النواب و في شهر يوليو عيد وطلبت بصفة نهائية النتائج النهائيه مجلس النواب كتاب ديمقراطي حال 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0039 is -8.51174 over 1524 frames.
+CLS_0040 وتم تحديد موعد مقاعد مجلس النواب لي أربعة من ألف لعبة إس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0040 is -8.47546 over 871 frames.
+CLS_0041 بحسب ما تنص عليه التاسعة النافذة بأن رئيس المؤتمر الوطني اللعين هو الذي يحدد موعد و مكان الإجتماع 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0041 is -8.40696 over 1467 frames.
+CLS_0042 و ما الذي حدث العطل وطني أربعة من أن تسمع بعض أعضاء أصدر بيانا في ذلك اليوم 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0042 is -8.31489 over 1104 frames.
+CLS_0043 وضع أن أن أقعد مجلس النواب بطرق كان انها قدم بطل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0043 is -8.27797 over 890 frames.
+CLS_0044 لأنه لم يلتزم بزراعة المنصوص عليه فعلا الدستوري بأزمة قلبية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0044 is -8.64092 over 670 frames.
+CLS_0045 و ترك كل من مقعد فوق سيارة إعادة توجيه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0045 is -8.27915 over 647 frames.
+CLS_0046 مصدر حكم المحكمة الدورية ما لديك من انعدام مجلس النواب وكل من شركة ايفا السيارات أيضا أنني عدت و وجدت 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0046 is -8.43746 over 1366 frames.
+CLS_0047 ثم الذي حدث بعد ذلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0047 is -8.52468 over 230 frames.
+CLS_0048 إن خرطوم تمطر وأنه من أجل بابلو يجب أن غلطته هو 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0048 is -8.66324 over 695 frames.
+CLS_0049 والدي كان أساس القصة على أنا أعني يجب أن يكون ليبي ليبي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0049 is -8.34823 over 806 frames.
+CLS_0050 وكان من خلال فريق الحوار المكلف ذلك الوقت ليستبدل تصل المخزون 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0050 is -8.94198 over 650 frames.
+CLS_0051 في جميع طلبات وجلسات وبينك كان يطارد داني أعلم بأنك أن يكون الحوار ليبي ليبي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0051 is -8.67799 over 1075 frames.
+CLS_0052 وكان وفد من جانب مجلس النواب 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0052 is -8.2956 over 401 frames.
+CLS_0053 بل كان الأولاد إن صحت تجمع أثبت في ذلك الوقت أن يكون الأول خارج ليبيا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0053 is -8.32376 over 1151 frames.
+CLS_0054 وطلب مني بأن يكون الهواء الدافئ و كانت هناك جثة باردة أمس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0054 is -8.74065 over 674 frames.
+CLS_0055 وبعدها لم يتسن الأمور الى الأمام في الترتيب أبوس لا أدري اجراءات امنية آنسة بي لتأمين البيت وعلى حسب الطلب سيد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0055 is -8.61548 over 1423 frames.
+CLS_0056 توافق على تكون سمعت أن أجد مكان بسيارات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0056 is -8.83142 over 484 frames.
+CLS_0057 وسرعان ما نوع عزمنا يعتبرون أن الحل الوحيد الاستراتيجي وصولا إلى حوار يا دين سياسي وددت توافق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0057 is -8.43973 over 1333 frames.
+CLS_0058 ومن بلدي حدث بعد ذلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0058 is -8.44681 over 241 frames.
+CLS_0059 كانت لدينا المطالبات كان على مجلس النواب مطالبة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0059 is -8.36853 over 660 frames.
+CLS_0060 وأقول أن جميعا بان الحواسيب ليست حالة قانوني 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0060 is -8.78228 over 486 frames.
+CLS_0061 لا تنصت الحال القانونية لكن المحكمة الدورية يمكن أن سيادتك الوطن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0061 is -8.72367 over 803 frames.
+CLS_0062 والإنتقال إلى حكم المحكمة و لقب يعتبر الواجب على أجلي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0062 is -9.04306 over 587 frames.
+CLS_0063 ولكن علينا أن ندخل في حال تأسيس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0063 is -8.45811 over 434 frames.
+CLS_0064 وكانت بدعوتنا دائما بأنه ليس لدينا صورة ليس أمر المؤتمر الوطني أي فرصة سياسي قادم 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0064 is -8.59588 over 978 frames.
+CLS_0065 ولكن إذا ما على الأطراف المشاركة لا يعني بأنه يكون مكانه ويكون مجلس النواب 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0065 is -8.74059 over 855 frames.
+CLS_0066 سأتكلم وتحدثنا على توازن إتصل بي الوصول إلى مكان لأذهب إلى الاتفاق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0066 is -8.38953 over 994 frames.
+CLS_0067 ربما الآن كل ما لديك بمصيره الأوان 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0067 is -8.2412 over 624 frames.
+CLS_0068 و النباتات الأمم المتحدة لم أعني بالبداية أستطيع الآلية وتحديد على سؤاله عن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0068 is -8.56732 over 912 frames.
+CLS_0069 انا إيذاء المسائل السياسية بين اثنين موجودين 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0069 is -8.50715 over 519 frames.
+CLS_0070 ليس و ومازلت نادمة بدوري و المؤتمر الوطني ولد أقرت المحكمة أيدت كوريا لا يمكن أن أسأل سؤال عن التوافق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0070 is -8.81138 over 1253 frames.
+CLS_0071 ولكن هزة أدركت الأمم المتحدة برئاسة مبروك أصاب استدعاء ودعوة أطراف المتعددة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0071 is -8.80317 over 871 frames.
+CLS_0072 لن أدع معي عن واضح الأولى المطاف 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0072 is -8.63844 over 397 frames.
+CLS_0073 أحد أحيانا تتحدث عن الأحزاب و حين تتحدث عن قصة سمع المدني 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0073 is -8.90526 over 649 frames.
+CLS_0074 وأحيانا تتحدث عن عمد البلدية يتم اختيارها من البكاء فقط دون اللجوء إلى مكان أمن الوطن انا العام 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0074 is -8.73849 over 1007 frames.
+CLS_0075 السيد أرى أي سيدة كبيرة في حديقة إد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0075 is -8.35495 over 606 frames.
+CLS_0076 أتحدث بأن رائحة أن أنه حاول الأسبوع الماضي اه إجراء مقابلة أو للوصول إلى الطعام ليس لدي مقابلة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0076 is -8.3058 over 1277 frames.
+CLS_0077 وتم إعداده من السيد الرئيس كومة الأنقاض 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0077 is -8.57411 over 455 frames.
+CLS_0078 وعد عادل المستندات التي الدي لن يحدث قبل ولا يوجد ما لا بد وأن ساندتنا أن تصمد أمام دعوة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0078 is -8.33582 over 1369 frames.
+CLS_0079 لدي الخطاب لكنت لديك ل وصول فريق أمني برئاسة السيد بولوك ساعة الجنرال إلى أعلى 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0079 is -8.46285 over 1108 frames.
+CLS_0080 و أطلب القبول تعبث ولكن لدي أيضا أن أذهب إلى أي أزمة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0080 is -8.62833 over 676 frames.
+CLS_0081 و بازالة التماثيل أنا فقط أردت فترة صعبه على ذلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0081 is -8.50594 over 625 frames.
+CLS_0082 بأن أي رسالة بعد عدة الخصوص يتوجب أن الحكومة التنفيذي وصول على الرئيس مضطر لتفويت الآلية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0082 is -8.55944 over 1176 frames.
+CLS_0083 وكان ذلك في هذا اللقاء أبي هل آدم آدم ألا أقاطع بأس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0083 is -8.6181 over 576 frames.
+CLS_0084 و طلبت منه أن يطعم كلابه الآلي وعي كنت تريد من جانب لتيسير أسود أتت الأمم المتحدة لتمارس معه بداخل التابوت 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0084 is -8.83699 over 1154 frames.
+CLS_0085 ولكن أتيت إلى هنا الآن وتكرارا ليس أنا ليس لدي لا ليس لديه علاقه بي سي أس أس المجلس بأسره متواز 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0085 is -8.80241 over 1177 frames.
+CLS_0086 على من بطولة إن لم يوقع على هذا ألطف 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0086 is -8.74775 over 419 frames.
+CLS_0087 وعندما نصل لتلك بمرح مثل الزنزانة وأبدأ بأن يمكن أن الفريق الأمني 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0087 is -8.78289 over 765 frames.
+CLS_0088 أو يدخل الستة التالية عندما نشعر بأننا وصلنا إلى حكومة توافقية عبارة عن ارادة لدينا ماء جميعا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0088 is -8.72193 over 964 frames.
+CLS_0089 الذي ولدوا نحيط به اليوم أصب إلى المدينة ومواطنة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0089 is -8.31162 over 720 frames.
+CLS_0090 بأن معيشة عن المؤتمر الوطني العام 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0090 is -8.05109 over 677 frames.
+CLS_0091 بأنه أو بعد أربعه حسن يعبر أعلم بأنه اقتلعوا متشددة وهم عائدون إلى أعلى 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0091 is -8.61111 over 889 frames.
+CLS_0092 نحن لازلنا نوصي نحن نهتم الحقيقة وبالواقع 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0092 is -8.54982 over 608 frames.
+CLS_0093 نحن نتبع بورن وتكرارا بعد الحمل بناء على مر به و أن لدينا جميعا عازم على الوصول لحل توافق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0093 is -8.50867 over 1178 frames.
+CLS_0094 ومنذ تسربت التي أرسلت لي مبروك لو مني أن أصدق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0094 is -8.66283 over 567 frames.
+CLS_0095 ان توجهنا إلى الأمم المتحدة و إلى مجلس الأمن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0095 is -8.89384 over 425 frames.
+CLS_0096 وطلب مني آمن في أي رسالة موجهة إلى سيبر دين و السيد رئيس مجلس الأمن ذلك الألم مثيل في تاريخ صعبة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0096 is -8.38768 over 1292 frames.
+CLS_0097 أنت أن طلب مني وربما أو فحوى الرسالة أن أموت للوطن أكد على حسان وابنتها أكيدة المضي قدما لإنجاح الجوع 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0097 is -8.32704 over 1544 frames.
+CLS_0098 وذلك من منطلق للواجب الوطني و الأخلاق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0098 is -8.85107 over 370 frames.
+CLS_0099 كم عدد مرارا وتكرارا أن يكون الحوار ليبي ليبي ومباشرة لدينا متصل على بعض الهواء 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0099 is -8.72647 over 799 frames.
+CLS_0100 وفي وقت لدى مقدم فيلد المتواصل الأمم المتحدة ومن دون درعي لا أعرف نصف ما يمر به 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0100 is -8.90082 over 829 frames.
+CLS_0101 لا تزال بخبر تعين سيد المدينة دون ألم تقل و إسبارطة أريد أن أؤذيك يا بنيتي متي الدبلوماسية لدى دولة متعب المتحدة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0101 is -8.93132 over 1156 frames.
+CLS_0102 ولا أريد أن أدخل تلك التفاصيل هذا أمر 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0102 is -8.77554 over 431 frames.
+CLS_0103 الدي أم في أداء الخصوص إنه إتفاق ما لم أعد أعمل لدى الجميع لديه إنه يعتبر إتلاف العظام تلك الحقيقة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0103 is -8.31814 over 1603 frames.
+CLS_0104 ولا يمكن أن يعبر عن نتائج فائدة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0104 is -8.61402 over 417 frames.
+CLS_0105 خاصة الآن لطفا لدينا وقت هناك يجد نفسه من عمه الملك و أن العام لصاحب الولاية بالإعلان سلب لقد سرية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0105 is -8.8229 over 1197 frames.
+CLS_0106 ومن يمكنك مجلس النواب بالاعتراف الدول 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0106 is -8.69533 over 470 frames.
+CLS_0107 لمن يقوم مفوض لي بتوقيع ولد نوقع ب ابي الطفل قصيرة لن يكون أنا كذلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0107 is -8.65962 over 850 frames.
+CLS_0108 وكذلك لدينا وقود مجلس النواب لن يكون كذلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0108 is -8.99677 over 469 frames.
+CLS_0109 ودليل على ذلك النسيج الزئبق الأخيرة أوه أنا مجلس النواب بطرق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0109 is -8.76403 over 742 frames.
+CLS_0110 التالية بالمواعدة حتى في من الصعب أن نصدق لديك يد السيارات لا يمكنه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0110 is -8.80173 over 841 frames.
+CLS_0111 هناك مدينة رائعة أخرى يجب أن نعبر لا أعلم إذا ما أردنا أن نصل إلى عين الحقيقة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0111 is -8.37853 over 992 frames.
+CLS_0112 أحب تصيد الدكتور صالح مخزون أن بأن ليس الأمر كما 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0112 is -8.45681 over 725 frames.
+CLS_0113 نعم عبر بأنه أتى فترة معينة كان رائعا أليس مؤلف يقل عن وقدم الاستقالة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0113 is -8.29845 over 1221 frames.
+CLS_0114 وسئمت من أخذ الأسلحة التي بأنه كان علي أن أضع أي رئيس أمامكم 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0114 is -8.77029 over 759 frames.
+CLS_0115 رسالة كنت بتاريخ ست سنين من أثر أس أس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0115 is -8.4499 over 550 frames.
+CLS_0116 قال في الصيد ليس المؤتمر الوطني عن تحياتي بعد أن تقبل استقالته من أصل كل يفوت الأوان 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0116 is -8.35697 over 1132 frames.
+CLS_0117 ألم المؤتمر الوطني عن وفاة أن تقفي أمام إدراك الناس قالته هذه لا تحتاج يلعب على مقابلة العمل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0117 is -8.51132 over 1167 frames.
+CLS_0118 و الناس على نهاية لها قبل اللجوء في الجانب سكرانة سلفا كل تفهم كم وصلوا على كل حال كل مباراة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0118 is -8.57671 over 1191 frames.
+CLS_0119 لتصبح من حل لغز من قبل أن هذا ليس بطولة العالم 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0119 is -8.56174 over 527 frames.
+CLS_0120 تم تأجيل جلب على رسالة في بيتي كنت في الوقت الذي تمنيت أتمنى أن تذهبي لشخص أن تستمر في أداء مهام 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0120 is -8.42584 over 1281 frames.
+CLS_0121 وصلت للمحكمة بأكمله على نجاح وتفاني ولكن ذلك قد القبيل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0121 is -8.54092 over 793 frames.
+CLS_0122 على موافقة على إفادته صالح من أصل طريق الحبوب التي بفريق و أتمنى لو كنت في 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0122 is -8.77774 over 911 frames.
+CLS_0123 و في نفس التاريخ صبي تصريح بخصوص استقالة دكتور صالح مخزون مني أن أرسل فريق هو 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0123 is -8.49179 over 927 frames.
+CLS_0124 صعب علي بعض الألعاب حزب العدالة مدينة لوس أنجلوس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0124 is -8.60347 over 560 frames.
+CLS_0125 دعني أقدم لك دكتور صالح مخزون إستقالتهم رئاسة فريق الحوار وكانت بناء على رقبته 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0125 is -8.45868 over 986 frames.
+CLS_0126 و بأن قيادة حزب العدالة و بين وجاءت بسبب عدم ترجمة دكتور مخزون مع توجهات أستلم الأمور فيما يتعلق بي بعض الحلوى 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0126 is -8.58689 over 1222 frames.
+CLS_0127 مما دعاني و في نفس اليوم أيضا إلى مصدر هذه الرسالة موزع بدأت صاح 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0127 is -8.16449 over 917 frames.
+CLS_0128 مع لسيد محترم النائب تعني لي اي سلوك الوطني عن لتصلح محمد أخذ 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0128 is -8.55881 over 790 frames.
+CLS_0129 تحياتي وبعد بتأكيد سيكون تاريخ رجال فطور موقف أتوقع أن نربح بنفسك ميد الدفاع عن الوطن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0129 is -8.32089 over 1187 frames.
+CLS_0130 وتفعيل على بمنزلة تعد وأنني وقوع أفتح 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0130 is -8.49679 over 570 frames.
+CLS_0131 بأنني لمست من السيد نائب أني الرئيسة لهو أمر وطني طيلة عملنا المتقن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0131 is -8.70525 over 670 frames.
+CLS_0132 سواء عندما كنت ملقى على علامة كاملة العام ونائب سان لويس عندما أصبحت رئيس المؤتمر الوطني نعم نحتفظ به بعد الآن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0132 is -8.68565 over 1379 frames.
+CLS_0133 مسيرة محفوفة بين الحين و الدروس الصعبة كانت بمثابة انتحار الشاق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0133 is -8.22465 over 911 frames.
+CLS_0134 وعندما تصرفت بتكلفة بك تصبح باسيفيك لو علمت الآن كل مرة العام 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0134 is -8.87058 over 676 frames.
+CLS_0135 وقالوا تزداد لي بأنه نجح في هذه المهمة بقدر وكان صوت لو لا يمكن لشعب به 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0135 is -8.7346 over 823 frames.
+CLS_0136 الآن بخطر الحوار خيار الا بغطاء الحوار حتى يعمل فتيل الحرب سياسي بي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0136 is -8.70575 over 769 frames.
+CLS_0137 لقد تقدم سيد عدت استقاله في فترة سابقة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0137 is -8.68394 over 475 frames.
+CLS_0138 وجدوا أنني كنت من لدينا حول بكل السبل بكل السبل مع اخر مرة صب لعبة جمال وآخرين ملكية خاصة المجتمع المدني 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0138 is -8.69574 over 1310 frames.
+CLS_0139 ونحن سياسيه تقبل إقناعه بالعدول عن تلك الستارة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0139 is -8.82715 over 549 frames.
+CLS_0140 وفي عدد وبعد تسع واحدة معك خلال كل دليل وجدت نفسي ولكن بعد الوادع بقبول إستقالتي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0140 is -8.90577 over 1020 frames.
+CLS_0141 عندما تركت هو عدم أعتقد دائما من الصينية الصادقة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0141 is -8.84725 over 522 frames.
+CLS_0142 في سبيل رائع تصل لي ان كنيتي تكن تسعنا نحو بعد حادث وبين لتحطم ويل مهما كان ما زالوا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0142 is -8.78609 over 1151 frames.
+CLS_0143 ولا أزال على ثقة بأن سيادتك سيكون عونا بكل مخلص يسعى إلى وحدة الوطن المواطنين و فقط نوع نكن نعلم من القصة أسلم عليك محاولة وبركاته 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0143 is -8.88707 over 1356 frames.
+CLS_0144 ولا أريد أن نعلق كثيرا على زميل وأخي كان نائب لدي مكان الوطن وتكون على ذلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0144 is -8.71518 over 913 frames.
+CLS_0145 ربما يريد أتوجه ألتمس من الصعب متخصصين القانون الدستوري 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0145 is -8.40764 over 816 frames.
+CLS_0146 يريدنا أن نعيده لشعبة تصرفت الذين وقع من أعظم قوة ومن بعد ما زال ساموا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0146 is -8.66611 over 990 frames.
+CLS_0147 و من الأشخاص الذين وقع نيابة عن سبب موتك تقل من قصة لدينا أقصى اليمين لدعم لا ليس ذلك الدور 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0147 is -8.58698 over 1278 frames.
+CLS_0148 وليس للأكل محكمه دوليه وكن جزءا من الميول السياسية باسم الملك الوطن على بعد أربعة من ضباط إس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0148 is -8.80948 over 1072 frames.
+CLS_0149 وخاصة بعد مالا العالم جميعا اعتراف قصير بمجلس النواب ولكن ممتعا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0149 is -8.56265 over 990 frames.
+CLS_0150 لديك أنت تفعلين وتصرفاته أن تقام على طفلة صغيرة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0150 is -8.96923 over 534 frames.
+CLS_0151 ما حدث في بيئة لا يجوز لنا و نحن لم نصل إلى مصالحة تامة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0151 is -8.46999 over 644 frames.
+CLS_0152 ان سيارات ثقيلة وقطعوا بعد المطاف ومحاربين مسؤولية كل من سبب أتسبب واحدة الشعر من أي من الأربعة أي آثار أن تصل كتب التاريخ 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0152 is -8.99439 over 1533 frames.
+CLS_0153 مرحلة من أجل قاعة محكمة أصبح محبة منك أن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0153 is -8.90507 over 462 frames.
+CLS_0154 ما حدث مدرب مدن كاملة من غاز تي إلى وسفن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0154 is -8.90621 over 511 frames.
+CLS_0155 محبة بجانب ما حدث بقصة محل الطبيب من الممكن أن يصف تدرك بأنك فقلت سياسي على في جميع الأطراف 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0155 is -8.83728 over 1060 frames.
+CLS_0156 السؤال عمن معي لصيد نبيل المتحدة الولايات المتحدة و مجلس الأمن بعد حفيد بلدي أداة كلمة الدستورية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0156 is -8.68853 over 1213 frames.
+CLS_0157 وطبعا المكان وإلى أعز صديق دولة يتعامل فقط مع مجلس النواب 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0157 is -8.72562 over 708 frames.
+CLS_0158 وفي لحظة ما يتم التعامل يتم التعامل مع أفراد من المؤتمر هذا ما تودين توقيع أوقفه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0158 is -8.61362 over 947 frames.
+CLS_0159 ويتم ابرام اتفاق لقدس تبدو لي و المباركة من مجلس الأمن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0159 is -8.8573 over 583 frames.
+CLS_0160 إد ليس ما زلت على الدولة أن ننقل مجلس على الدولة أن هناك ما زلت أن للدولة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0160 is -9.04964 over 727 frames.
+CLS_0161 أم مثلك تماما و ليس مثل تايلر هو الكلب تصاعدت صالح وفائق لدي دواء صورة عن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0161 is -8.78564 over 910 frames.
+CLS_0162 بأن ومن ثم عالمك وطن كان بسبب لمقعد مجلس النواب إلى أبعد من أن رقابة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0162 is -8.9708 over 783 frames.
+CLS_0163 وعدم تذكرك مثل دمية ولكن بسبب العمل نصل لمستوى لعدم الاتصال تسد تصبح وقتا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0163 is -8.86067 over 952 frames.
+CLS_0164 <UNK> وعدم تذكرك متماثلين ولكن بسبب العمل نصل لمستوى عالي من الاتصال تسد تصبح نقطة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0164 is -8.85734 over 1024 frames.
+CLS_0165 فإن الحديدية لابد أن يكون سياسى توافق ولكن أحد يعقل أن ينسى جسر بمسمى المجلس الأعلى لدولة التجسس سري 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0165 is -8.96992 over 1171 frames.
+CLS_0166 على مقياس لعبة عليكما الوصول لطوق على تدفق سياسي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0166 is -8.89085 over 539 frames.
+CLS_0167 كيف يمكن أن يسمح كله معطل منتخب عام بموجب لا ليس كل ومنتخب من دائرة أن يتنازل عن وظيفة السرية سيادية تأسيس القبيل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0167 is -8.80663 over 1477 frames.
+CLS_0168 لكن ليس استشعار يقل مزايا هذا ليس صعب مرتفعة ولديه و حصان لعبة الملاحقة لمدة سنة قادمة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0168 is -8.85728 over 1187 frames.
+CLS_0169 آمل بأن وخاصة بعض المتعة الجسدية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0169 is -8.07374 over 753 frames.
+CLS_0170 و لدينا مال أول لقاء في بأنهم وافق على اتفاق صياغة رسالة إلغاء المادة آمنة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0170 is -8.49742 over 981 frames.
+CLS_0171 وافق على إن وافقت على اتفاقية عن بصوت عال مادة من وافقت على بقعة المجلس الآس بصوت إعادة تشكيل رأي أن الحكومة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0171 is -8.68704 over 1374 frames.
+CLS_0172 و مادة لدينا تتحدث وكل يقول المؤسسة العسكرية التي أسوأ حتى نحن لا نريد أن يبقى حتى 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0172 is -8.86038 over 1023 frames.
+CLS_0173 ف و لكن المؤسس العسكري يمكن أن تصل إلى بوابة مرة أخرى 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0173 is -8.54875 over 678 frames.
+CLS_0174 من بين بأن تقدم أوراق بدأ العمل و شخص يجب أن ندبر ليس مثل وطني ولد حادثة القائد الاعلى ليس لديك طلب مني مقاومة الآن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0174 is -8.6186 over 1469 frames.
+CLS_0175 ف أن أحد نص من يوم الغد لن يكون أمام محكمة عادلة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0175 is -8.59187 over 554 frames.
+CLS_0176 ف و من يقبل في بلدك من مجلس النواب يقول السيد بيب بيب على اساس وبقعة الاعلى للجيش الهندي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0176 is -8.83789 over 989 frames.
+CLS_0177 و فتلك لعبة باربي تتحرج ودمرتها مدى وطأة عرض أن ممتلكات أو واحد من 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0177 is -8.74743 over 854 frames.
+CLS_0178 في بنك من يوم الغد يقدمون إلى محاكمة عادلة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0178 is -8.96415 over 442 frames.
+CLS_0179 ف ليس شخصية جدا يتأخر يتحدثون عن خط آمن آمن نتحدث عن صنع حبل أو عن أي أسماء أخرى 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0179 is -8.8659 over 1037 frames.
+CLS_0180 لابد من قدم جميعنا لمحت إلى المحاكمة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0180 is -8.75982 over 369 frames.
+CLS_0181 لماذا لم أصل من تاريخ اليوم و أقوله وبشدة و طلبت في جلسة أريد سماع كلمة ألم ترى الوطن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0181 is -8.51543 over 1116 frames.
+CLS_0182 ف و عندما أقول أقول بشدة لو عبرنا العادة السرية و أعبر عن ألعب لعبة مع بعضكم الوطني عن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0182 is -9.02048 over 811 frames.
+CLS_0183 يجب أن نكون مستعدين كل من على بين كل مكان عن وكل من عمل بمجلس النواب وكل العاملون على الحكومة الآن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0183 is -8.70932 over 1124 frames.
+CLS_0184 وكل من عمل و أعمل للحكومة من تقع مجلس النواب و إذا الحكومة السابقة من يوم الغد لقب جواز سفر إلى النائب العام و إلى المدعي العام العسكري 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0184 is -8.78032 over 1393 frames.
+CLS_0185 للتحقق من عدم وجود أي دعوى مرفوعة بدأت تتعلق الحق الآن وتدع لوحة الخاص 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0185 is -8.75242 over 825 frames.
+CLS_0186 أنا تعب من أن تسمع يعلم ومبسطة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0186 is -8.57618 over 489 frames.
+CLS_0187 طلبت من السيد وزير المالية أن يتحقق من وجود مثل قانوني 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0187 is -8.46162 over 660 frames.
+CLS_0188 التي تظن أنه قبل مغادرتي ألم تموت من الجسم الغريب والآن وعيه بدأ مجلس النواب و يعد للحكومة الحالية ولكن تصديقه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0188 is -8.85102 over 1273 frames.
+CLS_0189 أن يقدم على تقديم أي قرارات من بل كان من الواجب أقدام قرارات على كنت لتطلب تشو 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0189 is -8.4675 over 1041 frames.
+CLS_0190 لم نقدم نحن بل مت مرتان أقرب دمار مالي إلى عندك حق لا يمكن أن الوطن منذ البداية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0190 is -8.88919 over 808 frames.
+CLS_0191 فيجب أن الجميع نقدم قالب من مالي و وعدت أن تكون قادمة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0191 is -8.68014 over 559 frames.
+CLS_0192 أيضا عمتك تطعم المدينة اندمج بالوسط العسكري الأمر ولدينا خيول أيضا بأن أجل مصلحة المال مدنية و عسكرية أول عمل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0192 is -8.72299 over 1311 frames.
+CLS_0193 و الذين يرغبون بمغادرة أسئلة المصلحة ولكن كان تحت السرير 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0193 is -8.7877 over 619 frames.
+CLS_0194 لابد على الجميع أن أقدم القرع إمدادنا بالمال 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0194 is -8.71101 over 444 frames.
+CLS_0195 انا و القادمة من هي أجمل من أن جميع وأيضا يجب أن نحدد المسئولية فيما حدث ثانية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0195 is -8.52979 over 998 frames.
+CLS_0196 لدينا عن تحت مظلة أمان تام المزعومة أو تحت مدى لطافة جانبي لا بد من تحديد المسؤوليات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0196 is -8.79584 over 883 frames.
+CLS_0197 ولا بد من وجود قائد عسكري مقربة من هو على مقعد يكون لكم وطن عن وليس مقابلة العاصفة يقدم على الجليد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0197 is -8.85643 over 1204 frames.
+CLS_0198 وعدم تموت من عام بصفتي من قبل على لسانه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0198 is -9.23251 over 419 frames.
+CLS_0199 و أعضاء مجلس النواب المطر بدون عندك بعض أي أخطاء قد أعلنت وليس للصيد عدا نبات أقدر على جيد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0199 is -9.13609 over 965 frames.
+CLS_0200 وكلا لم يصب مجلس النواب ستة أعد ألعب ألعاب أو إساءة أو ربما لكمت وكل من الصابون تموت من عن بصفتنا سكان 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0200 is -9.11751 over 1098 frames.
+CLS_0201 أوه قبالتنا أم بالمناطق العسكرية لابد أن يكون مستعدين لا تقبل لا للمساعدة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0201 is -8.74641 over 894 frames.
+CLS_0202 ف و لمعرفة حجم بعض لتلحق بجميع المدن و الجميع مواطنين وبجميع الممتلكات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0202 is -9.04689 over 680 frames.
+CLS_0203 وعندما تحدث من ترك طيب ولكن لا تدع ممتلكات خاصة مثل نوع من ممتلكات عامة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0203 is -9.11096 over 746 frames.
+CLS_0204 لدي أي أستاذ أنا آسفة أنا آسفة وصلت السبعين أو هو توفى جدي أوه أنا أعرف ذلك العام الأول ليس بالضبط 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0204 is -8.88599 over 1224 frames.
+CLS_0205 فأبي آسفة آسفة مكافحة الإرهاب قطرة وسط على ممتلكات يستولوا علي ممتلكات خاصة أو عام أو منقولات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0205 is -8.98299 over 1088 frames.
+CLS_0206 فلابد أن يكون مستعد لتقديم المحاكمة ليكون صوت الأيدي الدخول اتفاقيات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0206 is -9.07269 over 760 frames.
+CLS_0207 أن نقول أن يدخل الطفل قصيرة أليس أنت من من الناس لمن تصمم قبل بداية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0207 is -8.93396 over 751 frames.
+CLS_0208 ف ولايه بي الأصل من العبقرية من كفاءة من يستطيع ندخلكم قادمة ومن الصعب أن يدخل أجل تسريع قادم و جيسي أنت قادم و أعتقد أن أقابله 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0208 is -9.18092 over 1356 frames.
+CLS_0209 وبالتالي أربع مدن الوطن وأن بصفتك أسأله الوطن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0209 is -8.87886 over 581 frames.
+CLS_0210 لقد قلت نعم كنت على استعداد تام أعلم لكن على عكس أي من جسده 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0210 is -8.65828 over 848 frames.
+CLS_0211 وجدت السلام لعبة ممتعة أن أساس معلومات سبق وأن تغلب هناك جنود و ربما لا تكون حكم عادل على ثقة ثقب الباب 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0211 is -9.07431 over 1090 frames.
+CLS_0212 فنحن كل من تعامل مع المجتمع الدولي ومع من دمي الدولية لماذا لا نقترح حتى تكون محكمه دوليه خاصة بكل المساجين الذين قد المرحلة من أي منزل انتقال الى عادل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0212 is -9.01632 over 1532 frames.
+CLS_0213 ف أين ربما جميعا بالباتين حياة عبر الزمن عن بأن تثبت سبعين تمطر على سداد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0213 is -8.83015 over 921 frames.
+CLS_0214 ف مكانته عمود وتمت على توقيع و كنت أنا و تلبس بدلة ولا تزال تنظم الى الحرية و الآن عد و لم يصل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0214 is -9.13043 over 1039 frames.
+CLS_0215 فلا يمكن الخروج من ذلك إلى أدلة على السرية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0215 is -8.83076 over 527 frames.
+CLS_0216 ف ونصف عراك كثيرا و سبب مقابلة يعرفون ذلك جيدا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0216 is -8.92704 over 595 frames.
+CLS_0217 فأنت أعلم ما الذي جعل اتفاق بانه لايمكن ملاحقة أي من الطرفين 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0217 is -8.75017 over 774 frames.
+CLS_0218 في يوم حتى الجنائي أنت مثل أخي لا بد أن تبعث خلال من اجل بي أم الكلام للوصول إلى قسيس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0218 is -9.04376 over 1000 frames.
+WARNING (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:309) Outputting partial output for utterance CLS_0219 since no final-state reached
+
+CLS_0219 ف لا يمكنك قبول ذلك من لدي تحمل مثل هذه الأرواح من بلدي تحمل مسؤولية لدي أدنى 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0219 is -8.79662 over 823 frames.
+CLS_0220 <UNK> من لدية فمن سرية يتم العمل وتكرارا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0220 is -8.98 over 464 frames.
+CLS_0221 من لدية تحمل مثل تجمد ومديح 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0221 is -8.99329 over 402 frames.
+CLS_0222 <UNK> بحالة من اللازم سوف خمسة أربعة تس تتم حد كبير بين محبة بي أنا و بين سبع ساعات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0222 is -8.7848 over 1131 frames.
+CLS_0223 ف منذ تسعة لمدة ألف سنة قد أكون سبب أي مسؤول من سبب مسؤول موجود بدون لي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0223 is -9.21117 over 891 frames.
+CLS_0224 <UNK> ومن هو موجود خارج دولار بيل يجب وهو يريد للطلاق الدولية يجب على أحد أن تصدق يعمل معنا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0224 is -9.13759 over 915 frames.
+CLS_0225 في الواقع كنت وما هو موقفي تولي أمر مقيت و الإتحاد الأمريكي ومواقيت بريطانيا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0225 is -9.27058 over 824 frames.
+CLS_0226 ف نحت احرف تتبعين الغابة و محاطة بالعديد من مكان العمل ضد في مطاردة من مكان آخر 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0226 is -9.1826 over 767 frames.
+CLS_0227 ف و لكن اسمح لي بأن يقوم مسيره صعبه لم يحب الطعام ولم يحدث جيري ولم نجد وحدة القدم الواحدة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0227 is -9.23948 over 996 frames.
+CLS_0228 فأنت لدينا حكومة وحدات الرصاص على جدا وكان على نمط محدد على الصيد عازب أليس كذلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0228 is -8.94938 over 905 frames.
+CLS_0229 ف و لكن ثلاثة مليارات بمليار وتبين لي ذات مرة ولكن ما بعد و من الناس عن عدم اتصال آمن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0229 is -8.73329 over 954 frames.
+CLS_0230 ف من الناس على نسخة من الأموات بعد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0230 is -9.28277 over 359 frames.
+CLS_0231 ف م عدم مقابلة العسكريين لدية طوال الليلة تنسب الغاز 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0231 is -9.06762 over 513 frames.
+CLS_0232 ف واثق من أنها مصنوعة من البلوط أنت تطلب ماكنة بطل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0232 is -9.10191 over 517 frames.
+CLS_0233 ف و ن انا لم اكن موجود رجل كان موجود البيت كان وزير الدفاع 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0233 is -9.28641 over 584 frames.
+CLS_0234 فعلت صورة وزير الداخلية صراحة كان لدى المخابرات جيدة صعبة و بالإستخبارات العسكرية أكل من مطعم تتطابق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0234 is -9.17518 over 1001 frames.
+CLS_0235 ف لمدى محاولة العالم تتوقعين بأن ما يسمى بعمل كنت آمل أنه بعد الآن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0235 is -9.03952 over 795 frames.
+CLS_0236 ف نعم يجدها و نعم يجب متطرفون كم كان عدد المدنيون لا لم يعالج إذا كانت عملية ولماذا لم يقدر على مدى كنت على الأقل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0236 is -8.90592 over 1213 frames.
+CLS_0237 إد آل دولي و على ويندي ليس بمكان 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0237 is -8.45475 over 618 frames.
+CLS_0238 ف إننا لا نترك القصة لمن يزايد ليس الآن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0238 is -8.80601 over 481 frames.
+CLS_0239 ف و احرص على طقس حصص ومكان و مع مصاصي الدماء ومن ثم غيرها لكي يشعر السيد من وطأة من محل والي مهارته دون عقاب و دون حس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0239 is -9.0368 over 1348 frames.
+CLS_0240 يجب أن ترى جميعا أن الحل بيده بين 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0240 is -8.62229 over 382 frames.
+CLS_0241 أن بلير نخب إيجابية كل أحد صادقة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0241 is -8.78551 over 429 frames.
+CLS_0242 فقد وجدت بجدية كنت محاصرة المبنى و لو وجدت إيجابية حول البلاد لديك من دون منذ البداية وتحققت بعد من محل الألعاب النارية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0242 is -8.9668 over 1304 frames.
+CLS_0243 فهناك أخي في وسط المجتمع المدني 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0243 is -8.60098 over 429 frames.
+CLS_0244 نصف المجتمع المدني و منظمة مجتمع مدني ومازالت العيان و مزلزلة كما ومؤمنة الوفاة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0244 is -9.07284 over 864 frames.
+CLS_0245 أنا قدمت عدة الشيء كله سياسية وأخي ومعظم أفراد لأحد بأن وينك أقام علاقة مع أن الموجودة على مساكن داخل الوطن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0245 is -9.0038 over 1184 frames.
+CLS_0246 فأنا أقوم بواجبي عنك ويعمل لأجل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0246 is -8.63073 over 442 frames.
+CLS_0247 ولا يوجد معتاد عليه بأن من انا متفق سياسيا ولا حتى نكون في و 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0247 is -8.27835 over 1114 frames.
+CLS_0248 من أول فريق الحوار محترم مكان في كل الأحوال إما وصلتم الوطني يعمل في مجلس النواب و نقطة التمسك تكون عند بلدك الأصلي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0248 is -8.8667 over 1291 frames.
+CLS_0249 نحن العبيد كان في مزاج سيء عصيب لكم وطن لم ننحدر أن يتلصص في العيد ومن ثم نعود من في مكان وطنك لكي يكون عضوا في مجلس الرئاسة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0249 is -9.1324 over 1242 frames.
+CLS_0250 ف ربما محترم في صف أنت تبكي في توبته ولكن عادة ما يختار من بين كل خطايانا بدل من أحد أعمدة كنت قد عملت فوق أوهايو مثل كل مرة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0250 is -9.05374 over 1272 frames.
+CLS_0251 ف و عندما نقول يمكنكم الوطن لا يمكن سحبة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0251 is -9.02044 over 445 frames.
+CLS_0252 لأننا نحن نملك لقب و به أقسم اليمين نحن في قضية مقابل فعل أن يجب أن يكون من الصعب بجميع 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0252 is -9.02773 over 983 frames.
+CLS_0253 أي واحد منا يمكن السبل بجبل وكذلك يقع على عاتق السبب أعضاء مجلس النواب إما أن تحمل علامات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0253 is -8.87844 over 915 frames.
+CLS_0254 مفاجأة خلال أن بعض أعضاء مجلس النواب إما أن أتكلم ستولد الأشخاص يتغيبون عن مجلس النواب لمدة سنة و نصف و أقول من مقاتلين من المقاتلين 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0254 is -8.75277 over 1425 frames.
+CLS_0255 ألن يكون إلى قبول باكرا كنت مجلس النواب واجب وقتك المعدن وجعل حياة طبيعية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0255 is -9.14307 over 832 frames.
+CLS_0256 في من كل قس من العدم ربما لدي جلسة مجلس النواب و لدي سنبدل ببعض من عقد مصنوع من العقاب صحيح أو على عقد وقت 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0256 is -9.2554 over 1184 frames.
+CLS_0257 <UNK> ولكن عندما يصل الأمر ألطف سياسي و شركة أحد مثلي وإلا تم القيام بعدة الأمم المتحدة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0257 is -9.07014 over 1251 frames.
+CLS_0258 في حين أن وأذهب إلى طبقة واقية من بعثة لويس و يبارك ذلك سيد قبل أن وبعد كل ليلة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0258 is -9.04065 over 858 frames.
+CLS_0259 ف إلى سبب قانوني لدينا يسمعونني و جنون عقد ومتخصص الحكومة حددت لي و ثقل سري لكن علي الذهاب 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0259 is -8.94539 over 1181 frames.
+CLS_0260 يخرج من إنسان متخصص بنباتات أي أحد تقل الدستور مثل علاقة دولية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0260 is -9.03929 over 783 frames.
+CLS_0261 فهو يقول ما يرام الآن صنيعته بالتكلم المتحدة و فبركة للوصول الإطلاق 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0261 is -9.12501 over 753 frames.
+CLS_0262 ف ولعب السيدة كل دائما بأن الأطراف أود أن أقترح ربحنا أو عدد ألسنا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0262 is -9.15832 over 754 frames.
+CLS_0263 أنا أقدم جلست على لوم بصمات وصلت التي تدين به 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0263 is -9.37034 over 492 frames.
+CLS_0264 في خراج بعد لعبة فظيعة ويقولان على اتصال بين بعد أربعة أيام دون أتيت وبقية أن تسدد لطيفة لطيفة لا يمكن أن تفوت عدد الأصابع اليد الواحدة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0264 is -9.21601 over 1429 frames.
+CLS_0265 اتعلم آملت على موافقة على مجال العمل الحكومة تنفق أموالك على ماجستير إدارة وافق على مجلس الدولة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0265 is -9.3554 over 864 frames.
+CLS_0266 فقط الجميع موافق على مجلس الدولة و على أن نتيجتها أفضل مدى تأثير 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0266 is -9.09589 over 733 frames.
+CLS_0267 لا من التفكير في وضع الترتيبات لي بدخول المطعم لو رأى ودان دائما أن يكون مقر تطابق أنت بطل أفلام 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0267 is -9.02756 over 1221 frames.
+CLS_0268 كان يمكن أن تجد قطع قطع لقد الترتيبات الأمنية من السحر 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0268 is -9.0855 over 571 frames.
+CLS_0269 لماذا لم العالم طلب مجلس النواب و مجلس النواب عين سيد حتى قد عملت بجد و ممثل عسكرية والرتب نعم لكنك مثل كل تحت السور 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0269 is -8.99578 over 1217 frames.
+CLS_0270 أمة عباس التي حمت السعادة مع دعمكم الوطن وصل من الأحزاب وصل لمنعطف لدينا يدعوه إنه منزل بي وتحت حماية الزنزانات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0270 is -8.96388 over 1308 frames.
+CLS_0271 <UNK> ونصف كل ما لدي أدوية بعيد عن وبكل تبجح أن تسرق ملابسنا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0271 is -8.98353 over 946 frames.
+CLS_0272 و عندما قدم لك الناس الذين وضعوا اسمي وثقب في مطار عديدة و سيد لست كل أنواع صمامات وسيبك مدخرات سيد تجريبية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0272 is -9.2101 over 1214 frames.
+CLS_0273 ف و أنا أحب الفتيات الأمر يا صاح سيد و سيدة كما يدخله الطلبة تم يدخل لدية دين دين دين 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0273 is -9.18991 over 918 frames.
+CLS_0274 بل بأن أكون من أحد يدعي بأن ليس هناك بدل ان ابعد القطة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0274 is -9.05619 over 643 frames.
+CLS_0275 في قصر كل يوم أمس كانت عباس أنك كنت الإتيان لخطف من مدرس موقوف عن العمل طلبت من عدد أزياء نصل لمليون ونصف 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0275 is -9.09074 over 1173 frames.
+CLS_0276 فإن عدد الذين يحتاجون إلى مع بداية مليون عدد السكان بأن ستة مليون 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0276 is -8.97485 over 612 frames.
+CLS_0277 في يوم من الأيام عندما كنت في مكان ما من صدمة خارجية تصدق أو لا أصدق بداخل الموت من يقول أن عدد الناس أن لديك أناس مليون تمنيت أن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0277 is -9.00782 over 1274 frames.
+CLS_0278 في طاولة تسلية وطنية من قصة وليس لداخل جانب ذلك الصباح وبعد ليس لأن شخص ما زلت تملك من أين لك بالمعلومات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0278 is -9.04816 over 1182 frames.
+CLS_0279 ف ولكن والدتك يظهرون بالأرقام لكي النار على مكافأة مزايا وحاولت ودعم بدون وتحصل على خلال تحصل على مدى وتحصل على تلبية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0279 is -9.08711 over 1267 frames.
+CLS_0280 في الطبخ فعل أمور وتدخلي على صوت و الأدوات أطلق اللصوص 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0280 is -9.50156 over 536 frames.
+CLS_0281 ف لى دائما كبش الفداء لي الطبيب من عدم يدعى الآن السمن بعد وصولك هنا من لي دائما ما لدي الآن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0281 is -8.97973 over 1084 frames.
+CLS_0282 في محطة ما حدث بعد من خزنة أس أي أس ويقول أن عدد أبطال دخلت في ثلاث مئة ألف نسمة في الخمسين ألف سنة ثم تأتي فقط من خارج المعهد العالى 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0282 is -9.13636 over 1388 frames.
+CLS_0283 ف و يعرج على بالك بمرة يتم طرد خارجية ولد صالح ولديه به 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0283 is -8.97811 over 633 frames.
+CLS_0284 وكان تنسى أن تعرف أنا ليس على قبل مشكلة دخلت إلى بدراسة لي و في أحد خطبك يقول بنفس لا تنس خاصة لا بأس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0284 is -9.08293 over 1171 frames.
+CLS_0285 وكل ما تم قد عليه في تعبث مع دم أو في منزل ثلاث مدن مختلفة دخل يفسد لا تنسى انا فقط وبعدها سياتل أخرى 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0285 is -9.08187 over 1077 frames.
+CLS_0286 ف و لم يقدر على أي بداخل كل واحد يقول من بدأ أحد الأزيز لم النيل مني و المخدرات و استخباراتية كنت أنتظر من ذلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0286 is -9.32589 over 1035 frames.
+CLS_0287 وطلب مني متأكد أن يقدم لنا دليلا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0287 is -9.11287 over 407 frames.
+CLS_0288 ف طلبت منهم أن يزورون مسؤول الأمن أرسل لنا أو في داخلي أريد إخبارك أثمة خبر من يقوم بذلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0288 is -8.74313 over 1201 frames.
+CLS_0289 يجب ان احد افراد اليوم لا أريد أن أؤكد العالم أجل وهذا ليس من بالمزايدة والخوف ف 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0289 is -8.50531 over 4222 frames.
+CLS_0290 اننا لا نحصل على كل حال تعال مطعم بداية كل أسبوع 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0290 is -8.06925 over 1111 frames.
+CLS_0291 ونصعد المجتمع المدني المدينة عزباء بينت 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0291 is -8.30359 over 680 frames.
+CLS_0292 بأمانة بأنك لم يكن بلوتو الوطن من قبل أي شيء يمشي شيء سميرة وصية بطل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0292 is -8.51375 over 1136 frames.
+CLS_0293 لابأس بأن الملاحظة التي تمسك لدية المقدرة على كل ذلك هو أسوأ من قبول الاتفاق غير محددة واضحة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0293 is -8.62795 over 1422 frames.
+CLS_0294 ويتم الآخرين لما آلت الأمور إلى ما وصلت إليه الآن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0294 is -8.34169 over 587 frames.
+CLS_0295 ملاحظة انها ليست مثل أمس حين بلى الحب ثيابنا و السريعة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0295 is -8.46996 over 837 frames.
+CLS_0296 ولكن أنا فعلا أن ندع بالإستقرار 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0296 is -8.54904 over 400 frames.
+CLS_0297 لو كنا نبحث المؤتمر الوطني عند المصب لقب مباشرة الذهاب إلى مجلس الدولة يتم تمديد من لمدة سنة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0297 is -8.72494 over 1161 frames.
+CLS_0298 ونحن مرارا وتكرارا انه من الواجب علينا أن أعمل لديه و خيار الأوحد أسرته 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0298 is -8.52687 over 1065 frames.
+CLS_0299 وكذلك من الواجب علينا تسألي عن عدم قبول أي مخرج مفقودة أمها ربة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0299 is -8.58849 over 960 frames.
+CLS_0300 بل كانت منزعجة بسبب عدم موافقة على مدخل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0300 is -8.86804 over 441 frames.
+CLS_0301 جميع بيانات جميع بيانات ببطولة العالم وقعت يتخذ بخصوص وفي جميع لقاءات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0301 is -8.69502 over 1019 frames.
+CLS_0302 أبي من تعاونا مع باتت المتحدة في مرحلة رئاسة الموت صعب أولاد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0302 is -8.51459 over 934 frames.
+CLS_0303 والد إوزة أمسك أن بالا تدع لي أي معلومات لها من الفن وليس 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0303 is -8.53857 over 960 frames.
+CLS_0304 و تيس للقاء المطاف المتحولة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0304 is -8.4271 over 427 frames.
+CLS_0305 الأدلة ونعتقد بأن أي حال للوصول الحكومة توافقية تعبر عن ألعاب كله بين الخروج من المنزل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0305 is -8.56394 over 1225 frames.
+CLS_0306 سواء كانت تجمع إيجابية من خلال هو تحت رعاية أحد أجاب يتمتع طالب شرف لوالدي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0306 is -8.98233 over 889 frames.
+CLS_0307 ف ولد كم عدد من البداية ولم تكن العقل من جانب وجود الذي تبادل من بنات مصدر مجتمع مدني 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0307 is -9.07482 over 892 frames.
+CLS_0308 و مجس لعلامة كما وعدت شعب وكافة خير لمن ولن نعلم بأن تكون تصل إلى حل عزيزي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0308 is -8.88928 over 1058 frames.
+CLS_0309 ولا أم تحب أن يكون بون بون على الدفاع يمد أي وقت الآن 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0309 is -8.76151 over 797 frames.
+CLS_0310 لكن تقيد المطلق العفو الدولية قطع تحت سيادة القانون أحكم على عقد وعدم السماح لي تدخل أجلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0310 is -8.69914 over 1220 frames.
+CLS_0311 إذا نجم واحد لا يملك أحد عصا سحرية في يدك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0311 is -8.5018 over 682 frames.
+CLS_0312 نحن نتفهم لا حاجة يمكن أن العيش التنين ونحن أن تمنع مستعجلة وضح لأجل نزيف من الداخل والخارج 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0312 is -8.65156 over 1212 frames.
+CLS_0313 نحن نتمنى أن أكون أخرجت المسدس يصل قابيل الى الوطن الأن أن نتحقق من أود أن يصل بنا إلى حال 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0313 is -8.88152 over 1242 frames.
+CLS_0314 من أجل أن نصل إلى جميعا إلى رأسك الهواتف السياسي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0314 is -8.77684 over 719 frames.
+CLS_0315 مدينة بولاية على لترجمة إعادة و عن الشرف لي الطفل مؤسسة الأمنية و العسكرية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0315 is -8.77445 over 957 frames.
+CLS_0316 و للانطلاق إلى بناء دولة الحديد و بمكافحة الأرهاب وبوله التطرف بكافة أنواعها و سالي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0316 is -8.93205 over 1004 frames.
+CLS_0317 فقط التركيز على السرية ا تشيب آسفة لا والأنفاق لا تعتقدين بعد دولة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0317 is -8.90632 over 777 frames.
+CLS_0318 ف التسلية في تحرير أن أقول أن أنتي و محاسبة كل من ساهم في يخص البيئة دولار واحد أدين واحد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0318 is -8.85247 over 1045 frames.
+CLS_0319 ف ليست من العائلة بعد بعد بسبب ما تعرضت له أقول و من قائمتي 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0319 is -8.93507 over 728 frames.
+CLS_0320 يريد واكر لا بأننا عندما نقول دون رؤية قدم في ذلك طبية الوطن و دفاعا عن عمد 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0320 is -8.69179 over 954 frames.
+CLS_0321 ف و لا سلكية ولاسلكية كبيرة شخص نحن مواطن عادي الجاني لمطاردة المهمة وسنرجع الى اي نبيذ سبحانه وتعالى 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0321 is -8.83551 over 1127 frames.
+CLS_0322 فيكي نخب بطل في موقع أقل احترام لأجيال قادمة و هذا يعود مع قطعناها على أنفسنا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0322 is -8.63528 over 1114 frames.
+CLS_0323 ف و أطرح من على الشعب ان العب على وعاء تحية ليس حانة كل مكان 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0323 is -8.77188 over 767 frames.
+LOG (apply-cmvn[5.5.732~1-67db3]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 327 utterances, errors on 0
+CLS_0324 واصل التحرك علي أن يجمع الجبل ثم لدينا جميعا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0324 is -8.89389 over 549 frames.
+CLS_0325 فربما لا تعرفين أن تينا أقوم 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0325 is -8.6652 over 376 frames.
+CLS_0326 فربما ولا تحمل على ليس كمحام تعلم لدينا من قبل أن ربيع وتحمل مرة تقاتلنا بها وضعنا نفسنا من ولحم 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0326 is -8.95384 over 1117 frames.
+CLS_0327 فأنت مني أن أرسم على أمك في حين أن أسلم على كل حال تركت 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance CLS_0327 is -8.7557 over 658 frames.
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:176) Time taken 1885.66s: real-time factor assuming 100 frames/sec is 0.636416
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:179) Done 327 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -8.68411 over 296294 frames.
+# Accounting: time=1888 threads=1
+# Ended (code 0) at Fri Jul  3 13:18:24 UTC 2020, elapsed time 1888 seconds

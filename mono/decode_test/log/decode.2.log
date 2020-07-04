@@ -1,0 +1,66 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/2/utt2spk scp:data/test/split4/2/cmvn.scp scp:data/test/split4/2/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono/decode_test/lat.2.gz" 
+# Started at Fri Jul  3 12:46:56 UTC 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split4/2/utt2spk scp:data/test/split4/2/cmvn.scp scp:data/test/split4/2/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono/decode_test/lat.2.gz' 
+apply-cmvn --utt2spk=ark:data/test/split4/2/utt2spk scp:data/test/split4/2/cmvn.scp scp:data/test/split4/2/feats.scp ark:- 
+add-deltas ark:- ark:- 
+LFI_001 <UNK> الله الرحمن الرحيم لدي هدية من أجل السلام 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_001 is -8.51862 over 501 frames.
+LFI_002 نحن ليس لدينا دائما بسلام وعلى وسام الاجتماعي من أجل بناء دولة الديمقراطية 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_002 is -8.7822 over 796 frames.
+LFI_003 لا بأس هذه فرصتي في الجوار الوطني 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_003 is -8.73979 over 430 frames.
+LFI_004 <UNK> لتوجيه قام بعملية والدي والعالم أجمع إلى لجعل لي كبار الملاذ الأخير للخروج بلوط من الأزمة وصولي إلى سلاح 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_004 is -8.80655 over 1083 frames.
+LFI_005 وتشعر من الخطر الذي يهدد وحدة بلاك و أن نعطيها موعدا ثروته 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_005 is -8.63777 over 688 frames.
+LFI_006 و أمامنا الدور الذي لعبته النساء لدية دور صبرت صبر الرؤساء مبادئه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_006 is -8.73115 over 750 frames.
+LFI_007 التأكيد على أن نزاع مسلح إنه أكبر أتعلم ليس تشيب ونزولا وترى جياع وعراة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_007 is -8.83515 over 858 frames.
+LFI_008 <UNK> وتلقي اللوم دائما أن الشرطة النساء بلورة مسيرة سلام و بناء دولة الديمقراطية دولة المؤسسات القانونية والتر عن حقوق الإنسان 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_008 is -8.83971 over 1171 frames.
+LFI_009 عليه من هذه الورطة لقد وضع البيئة أولا وقف إطلاق النار دفن بجوار السهم عملية سلام و تحسين الوضع الإنسان 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_009 is -8.57001 over 1180 frames.
+LFI_010 أني وجدت لقطة مختلفة الاحترام قواعد القانون الدولي الإنسان يخفف المعاناة وحماية بحياة نزاع مسلح و قصة نساء وأطفال 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_010 is -8.72044 over 1260 frames.
+LFI_011 آلة المساهمات السياسية جينا لاسي تدابير تقلدت توصلت إلى الجولة الأولى ليسوا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_011 is -8.56017 over 972 frames.
+LFI_012 وعل أية اللازم و برامج تدريبي على كافة المستويات 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_012 is -8.724 over 561 frames.
+LFI_013 رابعا إلتزام الأطراف المشاركة إشراك الأطفال و ليس للمزاح و إعادة بناء الفتى أنت أعلى و بعدها 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_013 is -8.71748 over 1031 frames.
+LFI_014 و بين أعضاء مجلس الأمن و أشخاص شين مباشره شين وا الشمالية مني المؤسسة من الصعب عزيزي أقل سلاسة أي أحد عشر اثنا عشر 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_014 is -8.67846 over 1456 frames.
+LFI_015 <UNK> والقاضي بدلة النساء في جميع مستويات القلعة و إدارة حل النزاعات و حماية هنا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_015 is -8.75183 over 828 frames.
+LFI_016 <UNK> وتنقية أي نشاطات المجتمع المدني لمعرض التفاوض وبالسلام التمييز بين العديد من إطلاق المتفق عليه 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_016 is -8.664 over 1149 frames.
+LFI_017 خامسا تسهيل عودة جميع المراجعات و المهاجرين تخرج و النزيف ومزيد الداخل 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_017 is -8.53249 over 906 frames.
+LFI_018 <UNK> وفاة أصل المعتقلات والمتقلب شكل أي شيء واحد من التدابير اللازمة لضمان ذلك 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_018 is -8.75185 over 834 frames.
+LFI_019 <UNK> سادة السباق على اتخاذ التدابير اللازمة لبدء عملية العدالة لقاتل إليا 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_019 is -8.68842 over 757 frames.
+LFI_020 لتعزيز المصالحة وإحلال السلام الاجتماع والحفاظ على بعض من المشاركة الكاملة للنساء 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_020 is -8.89262 over 753 frames.
+LFI_021 سأرى إن أبلغك أحد أعلام و دين المعتادين نظام مشاركة النساء وعدم دفع ديون المصالح 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_021 is -8.66837 over 967 frames.
+LFI_022 والدتك لن أتسامح و الوحدة الوطنية واحد فقط وتعزيز بالقضاء على الأنف قبالة و دورها فى خلال السلة و أشلي هذا هو 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_022 is -8.88352 over 1225 frames.
+LFI_023 آمل أن تجد الجميع العربية لا أقصد شهود أعضاء ملازم وفعل لدعم الكتور الوطني لدي والد عن مشاركة النساء بي في كل مرة الجوع 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_023 is -8.7101 over 1300 frames.
+LFI_024 <UNK> بناء دولة وإحلال السلام وتعزيز قدرتهن وجودي هنا لدعم ومشط قصة رائعة و العدالة الانتقالي و المصالح 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_024 is -8.87476 over 1063 frames.
+LOG (apply-cmvn[5.5.732~1-67db3]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 27 utterances, errors on 0
+LFI_025 راسل و طالبت مجلس السلام والامل الاتحاد الافريقي بوسعنا لاعادة بناء تأسيس السلام في وضع مجموعة 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_025 is -8.66291 over 1062 frames.
+LFI_026 عشر مكالمة بشأن المال بعد أن تعمل طوال صلاتي يا إلهي علاقة المبادئ بعض السلام بول الملعب العرب 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_026 is -8.68062 over 1005 frames.
+LFI_027 <UNK> تدل على بيع الزهور يات سين بأي شيء يا رفاق مساء 
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance LFI_027 is -8.8014 over 586 frames.
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:176) Time taken 269.556s: real-time factor assuming 100 frames/sec is 1.07086
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:179) Done 27 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.732~1-67db3]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -8.72092 over 25172 frames.
+# Accounting: time=271 threads=1
+# Ended (code 0) at Fri Jul  3 12:51:27 UTC 2020, elapsed time 271 seconds
